@@ -1,0 +1,309 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+A	get_ros_images_live2_z2_color_TX1.py	/^A = 0$/;"	v
+A	get_ros_images_live2_z2_color_TX1_14April2017.py	/^	A = 0$/;"	v
+A	get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	A = 0$/;"	v
+A	get_ros_images_live2_z2_color_TX1_bkp.py	/^	A = 0$/;"	v
+A	get_ros_images_live2_z2_color_TX1_temp.py	/^	A = 0$/;"	v
+B	get_ros_images_live2_z2_color_TX1.py	/^B = 0$/;"	v
+B	get_ros_images_live2_z2_color_TX1_14April2017.py	/^	B = 0$/;"	v
+B	get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	B = 0$/;"	v
+B	get_ros_images_live2_z2_color_TX1_bkp.py	/^	B = 0$/;"	v
+B	get_ros_images_live2_z2_color_TX1_temp.py	/^	B = 0$/;"	v
+Caf	get_ros_images_live2_z2_color_TX1.py	/^Caf = 0.0$/;"	v
+Direct	get_ros_images_live2_z2_color_TX1.py	/^Direct = 1.$/;"	v
+Follow	get_ros_images_live2_z2_color_TX1.py	/^Follow = 0.$/;"	v
+Furtive	get_ros_images_live2_z2_color_TX1.py	/^Furtive = 0.$/;"	v
+GPS2_lat	get_ros_images_live2_z2_color_TX1.py	/^GPS2_lat = -999.99$/;"	v
+GPS2_lat	get_ros_images_live2_z2_color_TX1_14April2017.py	/^	GPS2_lat = -999.99$/;"	v
+GPS2_lat	get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	GPS2_lat = -999.99$/;"	v
+GPS2_lat	get_ros_images_live2_z2_color_TX1_bkp.py	/^	GPS2_lat = -999.99$/;"	v
+GPS2_lat	get_ros_images_live2_z2_color_TX1_temp.py	/^	GPS2_lat = -999.99$/;"	v
+GPS2_lat_callback	get_ros_images_live2_z2_color_TX1.py	/^def GPS2_lat_callback(msg):$/;"	f
+GPS2_lat_callback	get_ros_images_live2_z2_color_TX1_14April2017.py	/^	def GPS2_lat_callback(msg):$/;"	f
+GPS2_lat_callback	get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	def GPS2_lat_callback(msg):$/;"	f
+GPS2_lat_callback	get_ros_images_live2_z2_color_TX1_bkp.py	/^	def GPS2_lat_callback(msg):$/;"	f
+GPS2_lat_callback	get_ros_images_live2_z2_color_TX1_temp.py	/^	def GPS2_lat_callback(msg):$/;"	f
+GPS2_lat_orig	get_ros_images_live2_z2_color_TX1.py	/^GPS2_lat_orig = -999.99$/;"	v
+GPS2_lat_orig	get_ros_images_live2_z2_color_TX1_14April2017.py	/^	GPS2_lat_orig = -999.99$/;"	v
+GPS2_lat_orig	get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	GPS2_lat_orig = -999.99$/;"	v
+GPS2_lat_orig	get_ros_images_live2_z2_color_TX1_bkp.py	/^	GPS2_lat_orig = -999.99$/;"	v
+GPS2_lat_orig	get_ros_images_live2_z2_color_TX1_temp.py	/^	GPS2_lat_orig = -999.99$/;"	v
+GPS2_long	get_ros_images_live2_z2_color_TX1.py	/^GPS2_long = -999.99$/;"	v
+GPS2_long	get_ros_images_live2_z2_color_TX1_14April2017.py	/^	GPS2_long = -999.99$/;"	v
+GPS2_long	get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	GPS2_long = -999.99$/;"	v
+GPS2_long	get_ros_images_live2_z2_color_TX1_bkp.py	/^	GPS2_long = -999.99$/;"	v
+GPS2_long	get_ros_images_live2_z2_color_TX1_temp.py	/^	GPS2_long = -999.99$/;"	v
+GPS2_long_callback	get_ros_images_live2_z2_color_TX1.py	/^def GPS2_long_callback(msg):$/;"	f
+GPS2_long_callback	get_ros_images_live2_z2_color_TX1_14April2017.py	/^	def GPS2_long_callback(msg):$/;"	f
+GPS2_long_callback	get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	def GPS2_long_callback(msg):$/;"	f
+GPS2_long_callback	get_ros_images_live2_z2_color_TX1_bkp.py	/^	def GPS2_long_callback(msg):$/;"	f
+GPS2_long_callback	get_ros_images_live2_z2_color_TX1_temp.py	/^	def GPS2_long_callback(msg):$/;"	f
+GPS2_long_orig	get_ros_images_live2_z2_color_TX1.py	/^GPS2_long_orig = -999.99$/;"	v
+GPS2_long_orig	get_ros_images_live2_z2_color_TX1_14April2017.py	/^	GPS2_long_orig = -999.99$/;"	v
+GPS2_long_orig	get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	GPS2_long_orig = -999.99$/;"	v
+GPS2_long_orig	get_ros_images_live2_z2_color_TX1_bkp.py	/^	GPS2_long_orig = -999.99$/;"	v
+GPS2_long_orig	get_ros_images_live2_z2_color_TX1_temp.py	/^	GPS2_long_orig = -999.99$/;"	v
+Play	get_ros_images_live2_z2_color_TX1.py	/^Play = 0.$/;"	v
+Racing	get_ros_images_live2_z2_color_TX1.py	/^Racing = 0.0$/;"	v
+Z2Color	z2color.py	/^class Z2Color(nn.Module):$/;"	c
+__init__	z2color.py	/^    def __init__(self):$/;"	m	class:Z2Color
+acc_callback	get_ros_images_live2_z2_color_TX1.py	/^def acc_callback(msg):$/;"	f
+acc_callback	get_ros_images_live2_z2_color_TX1_14April2017.py	/^	def acc_callback(msg):$/;"	f
+acc_callback	get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	def acc_callback(msg):$/;"	f
+ard	arduino_node.py	/^    ard = Arduino()$/;"	v
+bag_mv_folder	rosbag_node.py	/^    bag_mv_folder = opj(bag_mv_folder,foldername)$/;"	v
+bag_mv_folder	rosbag_node.py	/^    bag_mv_folder = sys.argv[2] # '\/media\/nvidia\/3131-3031\/rosbags'$/;"	v
+bag_mv_folder	rosbag_node_mod.py	/^    bag_mv_folder = opj(bag_mv_folder,foldername)$/;"	v
+bag_mv_folder	rosbag_node_mod.py	/^    bag_mv_folder = sys.argv[2] # '\/media\/ubuntu\/3131-3031\/rosbags'$/;"	v
+bag_rec_folder	rosbag_node.py	/^    bag_rec_folder = sys.argv[1] # '\/home\/nvidia\/catkin_ws\/src\/bair_car\/rosbags'$/;"	v
+bag_rec_folder	rosbag_node_mod.py	/^    bag_rec_folder = sys.argv[1] # '\/home\/ubuntu\/catkin_ws\/src\/bair_car\/rosbags'$/;"	v
+bridge	get_ros_images_live2_z2_color_TX1.py	/^bridge = CvBridge()$/;"	v
+bridge	get_ros_images_live2_z2_color_TX1_14April2017.py	/^	bridge = CvBridge()$/;"	v
+bridge	get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	bridge = CvBridge()$/;"	v
+bridge	get_ros_images_live2_z2_color_TX1_bkp.py	/^	bridge = CvBridge()$/;"	v
+bridge	get_ros_images_live2_z2_color_TX1_temp.py	/^	bridge = CvBridge()$/;"	v
+caf_motor	get_ros_images_live2_z2_color_TX1_14April2017.py	/^							caf_motor = 0$/;"	v
+caf_motor	get_ros_images_live2_z2_color_TX1_14April2017.py	/^							caf_motor = 49$/;"	v
+caf_motor	get_ros_images_live2_z2_color_TX1_14April2017.py	/^							caf_motor = 99$/;"	v
+caf_motor	get_ros_images_live2_z2_color_TX1_14April2017.py	/^						caf_motor = 100*solver.net.blobs['ip2'].data[0,19]$/;"	v
+caf_motor	get_ros_images_live2_z2_color_TX1_14April2017.py	/^						caf_motor = int((caf_motor+caf_motor_previous)\/2.0)$/;"	v
+caf_motor	get_ros_images_live2_z2_color_TX1_14April2017.py	/^						caf_motor = int((caf_motor-49.) * motor_gain + 49)$/;"	v
+caf_motor	get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^						caf_motor = 0$/;"	v
+caf_motor	get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^						caf_motor = 49$/;"	v
+caf_motor	get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^						caf_motor = 99$/;"	v
+caf_motor	get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^					caf_motor = 100*solver.net.blobs['ip2'].data[0,19]$/;"	v
+caf_motor	get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^					caf_motor = int((caf_motor+caf_motor_previous)\/2.0)$/;"	v
+caf_motor	get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^					caf_motor = int((caf_motor-49.) * motor_gain + 49)$/;"	v
+caf_motor	get_ros_images_live2_z2_color_TX1_bkp.py	/^						caf_motor = 0$/;"	v
+caf_motor	get_ros_images_live2_z2_color_TX1_bkp.py	/^						caf_motor = 99$/;"	v
+caf_motor	get_ros_images_live2_z2_color_TX1_bkp.py	/^					caf_motor = 100*solver.net.blobs['ip2'].data[0,19]$/;"	v
+caf_motor	get_ros_images_live2_z2_color_TX1_bkp.py	/^					caf_motor = int((caf_motor+caf_motor_previous)\/2.0)$/;"	v
+caf_motor	get_ros_images_live2_z2_color_TX1_bkp.py	/^					caf_motor = int((caf_motor-49.) * motor_gain + 49)$/;"	v
+caf_motor	get_ros_images_live2_z2_color_TX1_temp.py	/^						caf_motor = 0$/;"	v
+caf_motor	get_ros_images_live2_z2_color_TX1_temp.py	/^						caf_motor = 99$/;"	v
+caf_motor	get_ros_images_live2_z2_color_TX1_temp.py	/^					caf_motor = 100*solver.net.blobs['ip2'].data[0,19]$/;"	v
+caf_motor	get_ros_images_live2_z2_color_TX1_temp.py	/^					caf_motor = int((caf_motor-49.) * motor_gain + 49)$/;"	v
+caf_motor_previous	get_ros_images_live2_z2_color_TX1_14April2017.py	/^						caf_motor_previous = caf_motor$/;"	v
+caf_motor_previous	get_ros_images_live2_z2_color_TX1_14April2017.py	/^	caf_motor_previous = 49$/;"	v
+caf_motor_previous	get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^					caf_motor_previous = caf_motor$/;"	v
+caf_motor_previous	get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	caf_motor_previous = 49$/;"	v
+caf_motor_previous	get_ros_images_live2_z2_color_TX1_bkp.py	/^					caf_motor_previous = caf_motor$/;"	v
+caf_motor_previous	get_ros_images_live2_z2_color_TX1_bkp.py	/^	caf_motor_previous = 49$/;"	v
+caf_steer	get_ros_images_live2_z2_color_TX1_14April2017.py	/^							caf_steer = 0$/;"	v
+caf_steer	get_ros_images_live2_z2_color_TX1_14April2017.py	/^							caf_steer = 49$/;"	v
+caf_steer	get_ros_images_live2_z2_color_TX1_14April2017.py	/^							caf_steer = 99$/;"	v
+caf_steer	get_ros_images_live2_z2_color_TX1_14April2017.py	/^						caf_steer = 100*solver.net.blobs['ip2'].data[0,9]$/;"	v
+caf_steer	get_ros_images_live2_z2_color_TX1_14April2017.py	/^						caf_steer = int((caf_steer+caf_steer_previous)\/2.0)$/;"	v
+caf_steer	get_ros_images_live2_z2_color_TX1_14April2017.py	/^						caf_steer = int((caf_steer-49.) * steer_gain + 49)$/;"	v
+caf_steer	get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^						caf_steer = 0$/;"	v
+caf_steer	get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^						caf_steer = 49$/;"	v
+caf_steer	get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^						caf_steer = 99$/;"	v
+caf_steer	get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^					caf_steer = 100*solver.net.blobs['ip2'].data[0,9]$/;"	v
+caf_steer	get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^					caf_steer = int((caf_steer+caf_steer_previous)\/2.0)$/;"	v
+caf_steer	get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^					caf_steer = int((caf_steer-49.) * steer_gain + 49)$/;"	v
+caf_steer	get_ros_images_live2_z2_color_TX1_bkp.py	/^						caf_steer = 0$/;"	v
+caf_steer	get_ros_images_live2_z2_color_TX1_bkp.py	/^						caf_steer = 99$/;"	v
+caf_steer	get_ros_images_live2_z2_color_TX1_bkp.py	/^					caf_steer = 100*solver.net.blobs['ip2'].data[0,9]$/;"	v
+caf_steer	get_ros_images_live2_z2_color_TX1_bkp.py	/^					caf_steer = int((caf_steer+caf_steer_previous)\/2.0)$/;"	v
+caf_steer	get_ros_images_live2_z2_color_TX1_bkp.py	/^					caf_steer = int((caf_steer-49.) * steer_gain + 49)$/;"	v
+caf_steer	get_ros_images_live2_z2_color_TX1_temp.py	/^						caf_steer = 0$/;"	v
+caf_steer	get_ros_images_live2_z2_color_TX1_temp.py	/^						caf_steer = 99$/;"	v
+caf_steer	get_ros_images_live2_z2_color_TX1_temp.py	/^					caf_steer = 100*solver.net.blobs['ip2'].data[0,9]$/;"	v
+caf_steer	get_ros_images_live2_z2_color_TX1_temp.py	/^					caf_steer = int((caf_steer-49.) * steer_gain + 49)$/;"	v
+caf_steer_previous	get_ros_images_live2_z2_color_TX1_14April2017.py	/^						caf_steer_previous = caf_steer$/;"	v
+caf_steer_previous	get_ros_images_live2_z2_color_TX1_14April2017.py	/^	caf_steer_previous = 49$/;"	v
+caf_steer_previous	get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^					caf_steer_previous = caf_steer$/;"	v
+caf_steer_previous	get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	caf_steer_previous = 49$/;"	v
+caf_steer_previous	get_ros_images_live2_z2_color_TX1_bkp.py	/^					caf_steer_previous = caf_steer$/;"	v
+caf_steer_previous	get_ros_images_live2_z2_color_TX1_bkp.py	/^	caf_steer_previous = 49$/;"	v
+caffe_enter_timer	get_ros_images_live2_z2_color_TX1.py	/^caffe_enter_timer = Timer(1)$/;"	v
+caffe_enter_timer	get_ros_images_live2_z2_color_TX1_14April2017.py	/^	caffe_enter_timer = Timer(2)$/;"	v
+caffe_enter_timer	get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	caffe_enter_timer = Timer(2)$/;"	v
+caffe_enter_timer	get_ros_images_live2_z2_color_TX1_bkp.py	/^	caffe_enter_timer = Timer(2)$/;"	v
+caffe_enter_timer	get_ros_images_live2_z2_color_TX1_temp.py	/^	caffe_enter_timer = Timer(2)$/;"	v
+camera_data	get_ros_images_live2_z2_color_TX1.py	/^				camera_data = format_camera_data(l0, l1, r0, r1)$/;"	v
+camera_heading	get_ros_images_live2_z2_color_TX1.py	/^camera_heading = 49.0$/;"	v
+camera_heading	get_ros_images_live2_z2_color_TX1_14April2017.py	/^	camera_heading = 49.0$/;"	v
+camera_heading	get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	camera_heading = 49.0$/;"	v
+camera_heading	get_ros_images_live2_z2_color_TX1_bkp.py	/^	camera_heading = 49.0$/;"	v
+camera_heading	get_ros_images_live2_z2_color_TX1_temp.py	/^	camera_heading = 49.0$/;"	v
+camera_heading_callback	get_ros_images_live2_z2_color_TX1.py	/^def camera_heading_callback(msg):$/;"	f
+camera_heading_callback	get_ros_images_live2_z2_color_TX1_14April2017.py	/^	def camera_heading_callback(msg):$/;"	f
+camera_heading_callback	get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	def camera_heading_callback(msg):$/;"	f
+camera_heading_callback	get_ros_images_live2_z2_color_TX1_bkp.py	/^	def camera_heading_callback(msg):$/;"	f
+camera_heading_callback	get_ros_images_live2_z2_color_TX1_temp.py	/^	def camera_heading_callback(msg):$/;"	f
+ctr	get_ros_images_live2_z2_color_TX1.py	/^ctr = 0$/;"	v
+ctr	get_ros_images_live2_z2_color_TX1_14April2017.py	/^	ctr = 0$/;"	v
+ctr	get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	ctr = 0$/;"	v
+ctr	get_ros_images_live2_z2_color_TX1_bkp.py	/^	ctr = 0$/;"	v
+ctr	get_ros_images_live2_z2_color_TX1_temp.py	/^	ctr = 0$/;"	v
+decorate	get_ros_images_live2_z2_color_TX1.py	/^    def decorate(func):$/;"	f	function:static_vars
+elapsed	rosbag_node.py	/^            elapsed = time.time() - start$/;"	v
+elapsed	rosbag_node_mod.py	/^            elapsed = time.time() - start$/;"	v
+encoder_callback	get_ros_images_live2_z2_color_TX1.py	/^def encoder_callback(msg):$/;"	f
+encoder_callback	get_ros_images_live2_z2_color_TX1_14April2017.py	/^	def encoder_callback(msg):$/;"	f
+encoder_callback	get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	def encoder_callback(msg):$/;"	f
+encoder_list	get_ros_images_live2_z2_color_TX1.py	/^encoder_list = []$/;"	v
+encoder_list	get_ros_images_live2_z2_color_TX1_14April2017.py	/^	encoder_list = []$/;"	v
+encoder_list	get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	encoder_list = []$/;"	v
+f_mv	rosbag_node.py	/^            f_mv = os.path.join(bag_mv_folder, f)$/;"	v
+f_mv	rosbag_node_mod.py	/^            f_mv = os.path.join(bag_mv_folder, f)$/;"	v
+f_rec	rosbag_node.py	/^            f_rec = os.path.join(bag_rec_folder, f)$/;"	v
+f_rec	rosbag_node_mod.py	/^            f_rec = os.path.join(bag_rec_folder, f)$/;"	v
+fl	rosbag_node.py	/^    fl = gg('\/home\/nvidia\/catkin_ws\/src\/bair_car\/rosbags\/*')$/;"	v
+fl	rosbag_node_mod.py	/^    fl = gg('\/home\/ubuntu\/catkin_ws\/src\/bair_car\/rosbags\/*')$/;"	v
+folder_display_timer	get_ros_images_live2_z2_color_TX1.py	/^folder_display_timer = Timer(30)$/;"	v
+folder_display_timer	get_ros_images_live2_z2_color_TX1_14April2017.py	/^	folder_display_timer = Timer(30)$/;"	v
+folder_display_timer	get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	folder_display_timer = Timer(30)$/;"	v
+folder_display_timer	get_ros_images_live2_z2_color_TX1_bkp.py	/^	folder_display_timer = Timer(30)$/;"	v
+folder_display_timer	get_ros_images_live2_z2_color_TX1_temp.py	/^	folder_display_timer = Timer(30)$/;"	v
+format_camera_data	get_ros_images_live2_z2_color_TX1.py	/^def format_camera_data(l0, l1, r0, r1):$/;"	f
+format_metadata	get_ros_images_live2_z2_color_TX1.py	/^def format_metadata(raw_metadata):$/;"	f
+forward	z2color.py	/^    def forward(self, x, metadata):$/;"	m	class:Z2Color
+freeze	get_ros_images_live2_z2_color_TX1.py	/^			freeze = False$/;"	v
+freeze	get_ros_images_live2_z2_color_TX1.py	/^freeze = False$/;"	v
+freeze	get_ros_images_live2_z2_color_TX1_14April2017.py	/^							freeze = True$/;"	v
+freeze	get_ros_images_live2_z2_color_TX1_14April2017.py	/^				freeze = False$/;"	v
+freeze	get_ros_images_live2_z2_color_TX1_14April2017.py	/^	freeze = False$/;"	v
+freeze	get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^						freeze = True$/;"	v
+freeze	get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^			freeze = False$/;"	v
+freeze	get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	freeze = False$/;"	v
+freeze_cmd_pub	get_ros_images_live2_z2_color_TX1.py	/^freeze_cmd_pub = rospy.Publisher('cmd\/freeze', std_msgs.msg.Int32, queue_size=100)$/;"	v
+git_pull_timer	get_ros_images_live2_z2_color_TX1.py	/^git_pull_timer = Timer(60)$/;"	v
+git_pull_timer	get_ros_images_live2_z2_color_TX1_14April2017.py	/^	git_pull_timer = Timer(60)$/;"	v
+git_pull_timer	get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	git_pull_timer = Timer(60)$/;"	v
+git_pull_timer	get_ros_images_live2_z2_color_TX1_bkp.py	/^	git_pull_timer = Timer(60)$/;"	v
+gyro_callback	get_ros_images_live2_z2_color_TX1.py	/^def gyro_callback(msg):$/;"	f
+gyro_callback	get_ros_images_live2_z2_color_TX1_14April2017.py	/^	def gyro_callback(msg):$/;"	f
+gyro_callback	get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	def gyro_callback(msg):$/;"	f
+init_model	get_ros_images_live2_z2_color_TX1.py	/^def init_model():$/;"	f
+l0	get_ros_images_live2_z2_color_TX1.py	/^				l0 = left_list[-2]$/;"	v
+l0	get_ros_images_live2_z2_color_TX1_14April2017.py	/^						l0 = left_list[-2]$/;"	v
+l0	get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^					l0 = left_list[-2]$/;"	v
+l0	get_ros_images_live2_z2_color_TX1_bkp.py	/^					l0 = left_list[-2]$/;"	v
+l0	get_ros_images_live2_z2_color_TX1_temp.py	/^					l0 = left_list[-2]$/;"	v
+l1	get_ros_images_live2_z2_color_TX1.py	/^				l1 = left_list[-1]$/;"	v
+l1	get_ros_images_live2_z2_color_TX1_14April2017.py	/^						l1 = left_list[-1]$/;"	v
+l1	get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^					l1 = left_list[-1]$/;"	v
+l1	get_ros_images_live2_z2_color_TX1_bkp.py	/^					l1 = left_list[-1]$/;"	v
+l1	get_ros_images_live2_z2_color_TX1_temp.py	/^					l1 = left_list[-1]$/;"	v
+left_callback	get_ros_images_live2_z2_color_TX1.py	/^def left_callback(data):$/;"	f
+left_callback	get_ros_images_live2_z2_color_TX1_14April2017.py	/^	def left_callback(data):$/;"	f
+left_callback	get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	def left_callback(data):$/;"	f
+left_callback	get_ros_images_live2_z2_color_TX1_bkp.py	/^	def left_callback(data):$/;"	f
+left_callback	get_ros_images_live2_z2_color_TX1_temp.py	/^	def left_callback(data):$/;"	f
+left_list	get_ros_images_live2_z2_color_TX1.py	/^left_list = []$/;"	v
+left_list	get_ros_images_live2_z2_color_TX1_14April2017.py	/^	left_list = []$/;"	v
+left_list	get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	left_list = []$/;"	v
+left_list	get_ros_images_live2_z2_color_TX1_bkp.py	/^	left_list = []$/;"	v
+left_list	get_ros_images_live2_z2_color_TX1_temp.py	/^	left_list = []$/;"	v
+metadata	get_ros_images_live2_z2_color_TX1.py	/^				metadata = format_metadata((Racing, 0, Follow, Direct, Play, Furtive))$/;"	v
+model_name_pub	get_ros_images_live2_z2_color_TX1.py	/^model_name_pub = rospy.Publisher('\/bair_car\/model_name', std_msgs.msg.String, queue_size=10)$/;"	v
+model_name_pub	get_ros_images_live2_z2_color_TX1_14April2017.py	/^	model_name_pub = rospy.Publisher('\/bair_car\/model_name', std_msgs.msg.String, queue_size=10)$/;"	v
+model_name_pub	get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	model_name_pub = rospy.Publisher('\/bair_car\/model_name', std_msgs.msg.String, queue_size=10)$/;"	v
+model_name_pub	get_ros_images_live2_z2_color_TX1_bkp.py	/^	model_name_pub = rospy.Publisher('\/bair_car\/model_name', std_msgs.msg.String, queue_size=10)$/;"	v
+motor_cmd_pub	get_ros_images_live2_z2_color_TX1.py	/^motor_cmd_pub = rospy.Publisher('cmd\/motor', std_msgs.msg.Int32, queue_size=100)$/;"	v
+motor_cmd_pub	get_ros_images_live2_z2_color_TX1_14April2017.py	/^	motor_cmd_pub = rospy.Publisher('cmd\/motor', std_msgs.msg.Int32, queue_size=100)$/;"	v
+motor_cmd_pub	get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	motor_cmd_pub = rospy.Publisher('cmd\/motor', std_msgs.msg.Int32, queue_size=100)$/;"	v
+motor_cmd_pub	get_ros_images_live2_z2_color_TX1_bkp.py	/^	motor_cmd_pub = rospy.Publisher('cmd\/motor', std_msgs.msg.Int32, queue_size=100)$/;"	v
+motor_cmd_pub	get_ros_images_live2_z2_color_TX1_temp.py	/^	motor_cmd_pub = rospy.Publisher('cmd\/motor', std_msgs.msg.Int32, queue_size=100)$/;"	v
+motor_gain	get_ros_images_live2_z2_color_TX1.py	/^motor_gain = 1.0$/;"	v
+previous_state	get_ros_images_live2_z2_color_TX1.py	/^			previous_state = state$/;"	v
+previous_state	get_ros_images_live2_z2_color_TX1.py	/^previous_state = 0$/;"	v
+previous_state	get_ros_images_live2_z2_color_TX1_14April2017.py	/^				previous_state = state$/;"	v
+previous_state	get_ros_images_live2_z2_color_TX1_14April2017.py	/^	previous_state = 0$/;"	v
+previous_state	get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^				previous_state = state$/;"	v
+previous_state	get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	previous_state = 0$/;"	v
+previous_state	get_ros_images_live2_z2_color_TX1_bkp.py	/^				previous_state = state$/;"	v
+previous_state	get_ros_images_live2_z2_color_TX1_bkp.py	/^	previous_state = 0$/;"	v
+previous_state	get_ros_images_live2_z2_color_TX1_temp.py	/^				previous_state = state$/;"	v
+previous_state	get_ros_images_live2_z2_color_TX1_temp.py	/^	previous_state = 0$/;"	v
+r0	get_ros_images_live2_z2_color_TX1.py	/^				r0 = right_list[-2]$/;"	v
+r0	get_ros_images_live2_z2_color_TX1_14April2017.py	/^						r0 = right_list[-2]$/;"	v
+r0	get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^					r0 = right_list[-2]$/;"	v
+r0	get_ros_images_live2_z2_color_TX1_bkp.py	/^					r0 = right_list[-2]$/;"	v
+r0	get_ros_images_live2_z2_color_TX1_temp.py	/^					r0 = right_list[-2]$/;"	v
+r1	get_ros_images_live2_z2_color_TX1.py	/^				r1 = right_list[-1]$/;"	v
+r1	get_ros_images_live2_z2_color_TX1_14April2017.py	/^						r1 = right_list[-1]$/;"	v
+r1	get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^					r1 = right_list[-1]$/;"	v
+r1	get_ros_images_live2_z2_color_TX1_bkp.py	/^					r1 = right_list[-1]$/;"	v
+r1	get_ros_images_live2_z2_color_TX1_temp.py	/^					r1 = right_list[-1]$/;"	v
+rate	rosbag_node.py	/^    rate = rospy.Rate(2.0)$/;"	v
+rate	rosbag_node_mod.py	/^    rate = rospy.Rate(2.0)$/;"	v
+reload_timer	get_ros_images_live2_z2_color_TX1.py	/^reload_timer = Timer(10)$/;"	v
+reload_timer	get_ros_images_live2_z2_color_TX1_14April2017.py	/^	reload_timer = Timer(10)$/;"	v
+reload_timer	get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	reload_timer = Timer(10)$/;"	v
+reload_timer	get_ros_images_live2_z2_color_TX1_bkp.py	/^	reload_timer = Timer(10)$/;"	v
+reload_timer	get_ros_images_live2_z2_color_TX1_temp.py	/^	reload_timer = Timer(5)$/;"	v
+right_callback	get_ros_images_live2_z2_color_TX1.py	/^def right_callback(data):$/;"	f
+right_callback	get_ros_images_live2_z2_color_TX1_14April2017.py	/^	def right_callback(data):$/;"	f
+right_callback	get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	def right_callback(data):$/;"	f
+right_callback	get_ros_images_live2_z2_color_TX1_bkp.py	/^	def right_callback(data):$/;"	f
+right_callback	get_ros_images_live2_z2_color_TX1_temp.py	/^	def right_callback(data):$/;"	f
+right_list	get_ros_images_live2_z2_color_TX1.py	/^right_list = []$/;"	v
+right_list	get_ros_images_live2_z2_color_TX1_14April2017.py	/^	right_list = []$/;"	v
+right_list	get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	right_list = []$/;"	v
+right_list	get_ros_images_live2_z2_color_TX1_bkp.py	/^	right_list = []$/;"	v
+right_list	get_ros_images_live2_z2_color_TX1_temp.py	/^	right_list = []$/;"	v
+run_model	get_ros_images_live2_z2_color_TX1.py	/^def run_model(input, metadata):$/;"	f
+save_pub	rosbag_node.py	/^    save_pub = rospy.Publisher('signals', std_msgs.msg.Int32, queue_size=100)$/;"	v
+save_pub	rosbag_node_mod.py	/^    save_pub = rospy.Publisher('signals', std_msgs.msg.Int32, queue_size=100)$/;"	v
+setup_solver	get_ros_images_live2_z2_color_TX1_14April2017.py	/^	def setup_solver():$/;"	f
+setup_solver	get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	def setup_solver():$/;"	f
+setup_solver	get_ros_images_live2_z2_color_TX1_bkp.py	/^	def setup_solver():$/;"	f
+setup_solver	get_ros_images_live2_z2_color_TX1_temp.py	/^	def setup_solver():$/;"	f
+solver	get_ros_images_live2_z2_color_TX1_14April2017.py	/^	solver = setup_solver()$/;"	v
+solver	get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	solver = setup_solver()$/;"	v
+solver	get_ros_images_live2_z2_color_TX1_bkp.py	/^	solver = setup_solver()$/;"	v
+solver	get_ros_images_live2_z2_color_TX1_temp.py	/^	solver = setup_solver()$/;"	v
+start	rosbag_node.py	/^            start = time.time()$/;"	v
+start	rosbag_node_mod.py	/^            start = time.time()$/;"	v
+state	get_ros_images_live2_z2_color_TX1.py	/^state = 0$/;"	v
+state	get_ros_images_live2_z2_color_TX1_14April2017.py	/^	state = 0$/;"	v
+state	get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	state = 0$/;"	v
+state	get_ros_images_live2_z2_color_TX1_bkp.py	/^	state = 0$/;"	v
+state	get_ros_images_live2_z2_color_TX1_temp.py	/^	state = 0$/;"	v
+state_callback	get_ros_images_live2_z2_color_TX1.py	/^def state_callback(data):$/;"	f
+state_callback	get_ros_images_live2_z2_color_TX1_14April2017.py	/^	def state_callback(data):$/;"	f
+state_callback	get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	def state_callback(data):$/;"	f
+state_callback	get_ros_images_live2_z2_color_TX1_bkp.py	/^	def state_callback(data):$/;"	f
+state_callback	get_ros_images_live2_z2_color_TX1_temp.py	/^	def state_callback(data):$/;"	f
+state_transition_time_s	get_ros_images_live2_z2_color_TX1.py	/^state_transition_time_s = 0$/;"	v
+state_transition_time_s	get_ros_images_live2_z2_color_TX1_14April2017.py	/^	state_transition_time_s = 0$/;"	v
+state_transition_time_s	get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	state_transition_time_s = 0$/;"	v
+state_transition_time_s	get_ros_images_live2_z2_color_TX1_bkp.py	/^	state_transition_time_s = 0$/;"	v
+state_transition_time_s	get_ros_images_live2_z2_color_TX1_temp.py	/^	state_transition_time_s = 0$/;"	v
+state_transition_time_s_callback	get_ros_images_live2_z2_color_TX1.py	/^def state_transition_time_s_callback(data):$/;"	f
+state_transition_time_s_callback	get_ros_images_live2_z2_color_TX1_14April2017.py	/^	def state_transition_time_s_callback(data):$/;"	f
+state_transition_time_s_callback	get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	def state_transition_time_s_callback(data):$/;"	f
+state_transition_time_s_callback	get_ros_images_live2_z2_color_TX1_bkp.py	/^	def state_transition_time_s_callback(data):$/;"	f
+state_transition_time_s_callback	get_ros_images_live2_z2_color_TX1_temp.py	/^	def state_transition_time_s_callback(data):$/;"	f
+static_vars	get_ros_images_live2_z2_color_TX1.py	/^def static_vars(**kwargs):$/;"	f
+steer_cmd_pub	get_ros_images_live2_z2_color_TX1.py	/^steer_cmd_pub = rospy.Publisher('cmd\/steer', std_msgs.msg.Int32, queue_size=100)$/;"	v
+steer_cmd_pub	get_ros_images_live2_z2_color_TX1_14April2017.py	/^	steer_cmd_pub = rospy.Publisher('cmd\/steer', std_msgs.msg.Int32, queue_size=100)$/;"	v
+steer_cmd_pub	get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	steer_cmd_pub = rospy.Publisher('cmd\/steer', std_msgs.msg.Int32, queue_size=100)$/;"	v
+steer_cmd_pub	get_ros_images_live2_z2_color_TX1_bkp.py	/^	steer_cmd_pub = rospy.Publisher('cmd\/steer', std_msgs.msg.Int32, queue_size=100)$/;"	v
+steer_cmd_pub	get_ros_images_live2_z2_color_TX1_temp.py	/^	steer_cmd_pub = rospy.Publisher('cmd\/steer', std_msgs.msg.Int32, queue_size=100)$/;"	v
+steer_gain	get_ros_images_live2_z2_color_TX1.py	/^steer_gain = 1.0$/;"	v
+t0	get_ros_images_live2_z2_color_TX1.py	/^t0 = time.time()$/;"	v
+t0	get_ros_images_live2_z2_color_TX1_14April2017.py	/^	t0 = time.time()$/;"	v
+t0	get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	t0 = time.time()$/;"	v
+t0	get_ros_images_live2_z2_color_TX1_bkp.py	/^	t0 = time.time()$/;"	v
+t0	get_ros_images_live2_z2_color_TX1_temp.py	/^	t0 = time.time()$/;"	v
+time_step	get_ros_images_live2_z2_color_TX1.py	/^time_step = Timer(1)$/;"	v
+time_step	get_ros_images_live2_z2_color_TX1_14April2017.py	/^	time_step = Timer(1)$/;"	v
+time_step	get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	time_step = Timer(1)$/;"	v
+time_step	get_ros_images_live2_z2_color_TX1_bkp.py	/^	time_step = Timer(1)$/;"	v
+time_step	get_ros_images_live2_z2_color_TX1_temp.py	/^	time_step = Timer(1)$/;"	v
+torch_motor	get_ros_images_live2_z2_color_TX1.py	/^					torch_motor = 49$/;"	v
+torch_motor_previous	get_ros_images_live2_z2_color_TX1.py	/^torch_motor_previous = 49$/;"	v
+torch_steer	get_ros_images_live2_z2_color_TX1.py	/^					torch_steer = 49$/;"	v
+torch_steer_previous	get_ros_images_live2_z2_color_TX1.py	/^torch_steer_previous = 49$/;"	v
+unit_test	z2color.py	/^def unit_test():$/;"	f
+verbose	get_ros_images_live2_z2_color_TX1.py	/^verbose = True$/;"	v
+weight_file_path	get_ros_images_live2_z2_color_TX1.py	/^weight_file_path = '\/home\/nvidia\/catkin_ws\/src\/bair_car\/nodes\/weights'$/;"	v

@@ -1,0 +1,1436 @@
+!_TAG_FILE_FORMAT	2	/extended format; --format=1 will not append ;" to lines/
+!_TAG_FILE_SORTED	1	/0=unsorted, 1=sorted, 2=foldcase/
+!_TAG_PROGRAM_AUTHOR	Darren Hiebert	/dhiebert@users.sourceforge.net/
+!_TAG_PROGRAM_NAME	Exuberant Ctags	//
+!_TAG_PROGRAM_URL	http://ctags.sourceforge.net	/official site/
+!_TAG_PROGRAM_VERSION	5.9~svn20110310	//
+A	nodes/get_ros_images_live2_z2_color_TX1.py	/^A = 0$/;"	v
+A	nodes/get_ros_images_live2_z2_color_TX1_14April2017.py	/^	A = 0$/;"	v
+A	nodes/get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	A = 0$/;"	v
+A	nodes/get_ros_images_live2_z2_color_TX1_bkp.py	/^	A = 0$/;"	v
+A	nodes/get_ros_images_live2_z2_color_TX1_temp.py	/^	A = 0$/;"	v
+ALLLED_OFF_H	arduino/libraries/Adafruit_PWM_Servo_Driver_Library/Adafruit_PWMServoDriver.h	43;"	d
+ALLLED_OFF_L	arduino/libraries/Adafruit_PWM_Servo_Driver_Library/Adafruit_PWMServoDriver.h	42;"	d
+ALLLED_ON_H	arduino/libraries/Adafruit_PWM_Servo_Driver_Library/Adafruit_PWMServoDriver.h	41;"	d
+ALLLED_ON_L	arduino/libraries/Adafruit_PWM_Servo_Driver_Library/Adafruit_PWMServoDriver.h	40;"	d
+Adafruit_GPS	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.cpp	/^Adafruit_GPS::Adafruit_GPS(HardwareSerial *ser) {$/;"	f	class:Adafruit_GPS
+Adafruit_GPS	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.cpp	/^Adafruit_GPS::Adafruit_GPS(SoftwareSerial *ser)$/;"	f	class:Adafruit_GPS
+Adafruit_GPS	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.h	/^class Adafruit_GPS {$/;"	c
+Adafruit_MMA8451	arduino/libraries/Adafruit_MMA8451/Adafruit_MMA8451.cpp	/^Adafruit_MMA8451::Adafruit_MMA8451(int32_t sensorID) {$/;"	f	class:Adafruit_MMA8451
+Adafruit_MMA8451	arduino/libraries/Adafruit_MMA8451/Adafruit_MMA8451.h	/^class Adafruit_MMA8451$/;"	c
+Adafruit_PWMServoDriver	arduino/libraries/Adafruit_PWM_Servo_Driver_Library/Adafruit_PWMServoDriver.cpp	/^Adafruit_PWMServoDriver::Adafruit_PWMServoDriver(uint8_t addr) {$/;"	f	class:Adafruit_PWMServoDriver
+Adafruit_PWMServoDriver	arduino/libraries/Adafruit_PWM_Servo_Driver_Library/Adafruit_PWMServoDriver.h	/^class Adafruit_PWMServoDriver {$/;"	c
+Adafruit_Sensor	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	/^  Adafruit_Sensor() {}$/;"	f	class:Adafruit_Sensor
+Adafruit_Sensor	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	/^class Adafruit_Sensor {$/;"	c
+Arduino	src/bair_car/arduino.py	/^class Arduino:$/;"	c
+B	nodes/get_ros_images_live2_z2_color_TX1.py	/^B = 0$/;"	v
+B	nodes/get_ros_images_live2_z2_color_TX1_14April2017.py	/^	B = 0$/;"	v
+B	nodes/get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	B = 0$/;"	v
+B	nodes/get_ros_images_live2_z2_color_TX1_bkp.py	/^	B = 0$/;"	v
+B	nodes/get_ros_images_live2_z2_color_TX1_temp.py	/^	B = 0$/;"	v
+BUTTON_A	arduino/constants.h	41;"	d
+BUTTON_A	arduino/core.cpp	343;"	d	file:
+BUTTON_B	arduino/constants.h	42;"	d
+BUTTON_B	arduino/core.cpp	344;"	d	file:
+BUTTON_C	arduino/constants.h	43;"	d
+BUTTON_C	arduino/core.cpp	345;"	d	file:
+BUTTON_D	arduino/constants.h	44;"	d
+BUTTON_D	arduino/core.cpp	346;"	d	file:
+BUTTON_DELTA	arduino/constants.h	45;"	d
+BUTTON_DELTA	arduino/core.cpp	347;"	d	file:
+BUTTON_MAX	arduino/constants.h	29;"	d
+BUTTON_MAX	arduino/core.cpp	147;"	d	file:
+BUTTON_MIN	arduino/constants.h	32;"	d
+BUTTON_MIN	arduino/core.cpp	150;"	d	file:
+CONTROL_STATES	src/bair_car/arduino.py	/^    CONTROL_STATES = (STATE_HUMAN_FULL_CONTROL,$/;"	v	class:Arduino
+CTRL_REG1	arduino/core.cpp	563;"	d	file:
+CTRL_REG1	arduino/sensors_uno.cpp	128;"	d	file:
+CTRL_REG2	arduino/core.cpp	564;"	d	file:
+CTRL_REG2	arduino/sensors_uno.cpp	129;"	d	file:
+CTRL_REG3	arduino/core.cpp	565;"	d	file:
+CTRL_REG3	arduino/sensors_uno.cpp	130;"	d	file:
+CTRL_REG4	arduino/core.cpp	566;"	d	file:
+CTRL_REG4	arduino/sensors_uno.cpp	131;"	d	file:
+CTRL_REG5	arduino/core.cpp	567;"	d	file:
+CTRL_REG5	arduino/sensors_uno.cpp	132;"	d	file:
+CTRL_REG6	arduino/core.cpp	568;"	d	file:
+CTRL_REG6	arduino/sensors_uno.cpp	133;"	d	file:
+Caf	nodes/get_ros_images_live2_z2_color_TX1.py	/^Caf = 0.0$/;"	v
+Car	src/bair_car/car.py	/^class Car:$/;"	c
+Direct	nodes/get_ros_images_live2_z2_color_TX1.py	/^Direct = 1.$/;"	v
+ECHO_TIMER_FREQ	arduino/libraries/NewPing/NewPing.h	148;"	d
+ENABLE_DEBUG_OUTPUT	arduino/libraries/Adafruit_PWM_Servo_Driver_Library/Adafruit_PWMServoDriver.cpp	29;"	d	file:
+EXTERNAL_NUM_PINCHANGEINTERRUPT	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	459;"	d
+EXTERNAL_NUM_USED_PINCHANGEINTERRUPT	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	712;"	d
+Follow	nodes/get_ros_images_live2_z2_color_TX1.py	/^Follow = 0.$/;"	v
+Furtive	nodes/get_ros_images_live2_z2_color_TX1.py	/^Furtive = 0.$/;"	v
+GPS2_lat	nodes/get_ros_images_live2_z2_color_TX1.py	/^GPS2_lat = -999.99$/;"	v
+GPS2_lat	nodes/get_ros_images_live2_z2_color_TX1_14April2017.py	/^	GPS2_lat = -999.99$/;"	v
+GPS2_lat	nodes/get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	GPS2_lat = -999.99$/;"	v
+GPS2_lat	nodes/get_ros_images_live2_z2_color_TX1_bkp.py	/^	GPS2_lat = -999.99$/;"	v
+GPS2_lat	nodes/get_ros_images_live2_z2_color_TX1_temp.py	/^	GPS2_lat = -999.99$/;"	v
+GPS2_lat_callback	nodes/get_ros_images_live2_z2_color_TX1.py	/^def GPS2_lat_callback(msg):$/;"	f
+GPS2_lat_callback	nodes/get_ros_images_live2_z2_color_TX1_14April2017.py	/^	def GPS2_lat_callback(msg):$/;"	f
+GPS2_lat_callback	nodes/get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	def GPS2_lat_callback(msg):$/;"	f
+GPS2_lat_callback	nodes/get_ros_images_live2_z2_color_TX1_bkp.py	/^	def GPS2_lat_callback(msg):$/;"	f
+GPS2_lat_callback	nodes/get_ros_images_live2_z2_color_TX1_temp.py	/^	def GPS2_lat_callback(msg):$/;"	f
+GPS2_lat_orig	nodes/get_ros_images_live2_z2_color_TX1.py	/^GPS2_lat_orig = -999.99$/;"	v
+GPS2_lat_orig	nodes/get_ros_images_live2_z2_color_TX1_14April2017.py	/^	GPS2_lat_orig = -999.99$/;"	v
+GPS2_lat_orig	nodes/get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	GPS2_lat_orig = -999.99$/;"	v
+GPS2_lat_orig	nodes/get_ros_images_live2_z2_color_TX1_bkp.py	/^	GPS2_lat_orig = -999.99$/;"	v
+GPS2_lat_orig	nodes/get_ros_images_live2_z2_color_TX1_temp.py	/^	GPS2_lat_orig = -999.99$/;"	v
+GPS2_long	nodes/get_ros_images_live2_z2_color_TX1.py	/^GPS2_long = -999.99$/;"	v
+GPS2_long	nodes/get_ros_images_live2_z2_color_TX1_14April2017.py	/^	GPS2_long = -999.99$/;"	v
+GPS2_long	nodes/get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	GPS2_long = -999.99$/;"	v
+GPS2_long	nodes/get_ros_images_live2_z2_color_TX1_bkp.py	/^	GPS2_long = -999.99$/;"	v
+GPS2_long	nodes/get_ros_images_live2_z2_color_TX1_temp.py	/^	GPS2_long = -999.99$/;"	v
+GPS2_long_callback	nodes/get_ros_images_live2_z2_color_TX1.py	/^def GPS2_long_callback(msg):$/;"	f
+GPS2_long_callback	nodes/get_ros_images_live2_z2_color_TX1_14April2017.py	/^	def GPS2_long_callback(msg):$/;"	f
+GPS2_long_callback	nodes/get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	def GPS2_long_callback(msg):$/;"	f
+GPS2_long_callback	nodes/get_ros_images_live2_z2_color_TX1_bkp.py	/^	def GPS2_long_callback(msg):$/;"	f
+GPS2_long_callback	nodes/get_ros_images_live2_z2_color_TX1_temp.py	/^	def GPS2_long_callback(msg):$/;"	f
+GPS2_long_orig	nodes/get_ros_images_live2_z2_color_TX1.py	/^GPS2_long_orig = -999.99$/;"	v
+GPS2_long_orig	nodes/get_ros_images_live2_z2_color_TX1_14April2017.py	/^	GPS2_long_orig = -999.99$/;"	v
+GPS2_long_orig	nodes/get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	GPS2_long_orig = -999.99$/;"	v
+GPS2_long_orig	nodes/get_ros_images_live2_z2_color_TX1_bkp.py	/^	GPS2_long_orig = -999.99$/;"	v
+GPS2_long_orig	nodes/get_ros_images_live2_z2_color_TX1_temp.py	/^	GPS2_long_orig = -999.99$/;"	v
+GPSECHO	arduino/core.cpp	44;"	d	file:
+GPSECHO	arduino/sensors_uno.cpp	44;"	d	file:
+GPS_loop	arduino/core.cpp	/^void GPS_loop()                     \/\/ run over and over again$/;"	f
+GPS_loop	arduino/sensors_uno.cpp	/^void GPS_loop()                     \/\/ run over and over again$/;"	f
+GPS_setup	arduino/core.cpp	/^void GPS_setup()  $/;"	f
+GPS_setup	arduino/sensors_uno.cpp	/^void GPS_setup()  $/;"	f
+GYRO_SIGMA_MULTIPLE	arduino/core.cpp	576;"	d	file:
+GYRO_SIGMA_MULTIPLE	arduino/sensors_uno.cpp	141;"	d	file:
+HDOP	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.h	/^  float speed, angle, magvariation, HDOP;$/;"	m	class:Adafruit_GPS
+ISR	arduino/libraries/NewPing/NewPing.cpp	/^ISR(TIMER2_COMPA_vect) {$/;"	f
+ISR	arduino/libraries/NewPing/NewPing.cpp	/^ISR(TIMER2_COMP_vect) {$/;"	f
+ISR	arduino/libraries/NewPing/NewPing.cpp	/^ISR(TIMER4_OVF_vect) {$/;"	f
+ISR	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt0.cpp	/^ISR(PCINT0_vect) {$/;"	f
+ISR	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt1.cpp	/^ISR(PCINT1_vect) {$/;"	f
+ISR	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt2.cpp	/^ISR(PCINT2_vect) {$/;"	f
+ISR	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt3.cpp	/^ISR(PCINT3_vect) {$/;"	f
+ISR	arduino/libraries/TimerOne/TimerOne.cpp	/^ISR(TIMER1_OVF_vect)$/;"	f
+ImageROSListener	src/bair_car/ros_utils.py	/^class ImageROSListener:$/;"	c
+LED0_OFF_H	arduino/libraries/Adafruit_PWM_Servo_Driver_Library/Adafruit_PWMServoDriver.h	38;"	d
+LED0_OFF_L	arduino/libraries/Adafruit_PWM_Servo_Driver_Library/Adafruit_PWMServoDriver.h	37;"	d
+LED0_ON_H	arduino/libraries/Adafruit_PWM_Servo_Driver_Library/Adafruit_PWMServoDriver.h	36;"	d
+LED0_ON_L	arduino/libraries/Adafruit_PWM_Servo_Driver_Library/Adafruit_PWMServoDriver.h	35;"	d
+LOCUS_FULLSTOP	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.h	69;"	d
+LOCUS_OVERLAP	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.h	68;"	d
+LOCUS_ReadStatus	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.cpp	/^boolean Adafruit_GPS::LOCUS_ReadStatus(void) {$/;"	f	class:Adafruit_GPS
+LOCUS_StartLogger	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.cpp	/^boolean Adafruit_GPS::LOCUS_StartLogger(void) {$/;"	f	class:Adafruit_GPS
+LOCUS_StopLogger	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.cpp	/^boolean Adafruit_GPS::LOCUS_StopLogger(void) {$/;"	f	class:Adafruit_GPS
+LOCUS_config	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.h	/^  uint8_t LOCUS_type, LOCUS_mode, LOCUS_config, LOCUS_interval, LOCUS_distance, LOCUS_speed, LOCUS_status, LOCUS_percent;$/;"	m	class:Adafruit_GPS
+LOCUS_distance	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.h	/^  uint8_t LOCUS_type, LOCUS_mode, LOCUS_config, LOCUS_interval, LOCUS_distance, LOCUS_speed, LOCUS_status, LOCUS_percent;$/;"	m	class:Adafruit_GPS
+LOCUS_interval	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.h	/^  uint8_t LOCUS_type, LOCUS_mode, LOCUS_config, LOCUS_interval, LOCUS_distance, LOCUS_speed, LOCUS_status, LOCUS_percent;$/;"	m	class:Adafruit_GPS
+LOCUS_mode	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.h	/^  uint8_t LOCUS_type, LOCUS_mode, LOCUS_config, LOCUS_interval, LOCUS_distance, LOCUS_speed, LOCUS_status, LOCUS_percent;$/;"	m	class:Adafruit_GPS
+LOCUS_percent	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.h	/^  uint8_t LOCUS_type, LOCUS_mode, LOCUS_config, LOCUS_interval, LOCUS_distance, LOCUS_speed, LOCUS_status, LOCUS_percent;$/;"	m	class:Adafruit_GPS
+LOCUS_records	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.h	/^  uint16_t LOCUS_serial, LOCUS_records;$/;"	m	class:Adafruit_GPS
+LOCUS_serial	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.h	/^  uint16_t LOCUS_serial, LOCUS_records;$/;"	m	class:Adafruit_GPS
+LOCUS_speed	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.h	/^  uint8_t LOCUS_type, LOCUS_mode, LOCUS_config, LOCUS_interval, LOCUS_distance, LOCUS_speed, LOCUS_status, LOCUS_percent;$/;"	m	class:Adafruit_GPS
+LOCUS_status	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.h	/^  uint8_t LOCUS_type, LOCUS_mode, LOCUS_config, LOCUS_interval, LOCUS_distance, LOCUS_speed, LOCUS_status, LOCUS_percent;$/;"	m	class:Adafruit_GPS
+LOCUS_type	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.h	/^  uint8_t LOCUS_type, LOCUS_mode, LOCUS_config, LOCUS_interval, LOCUS_distance, LOCUS_speed, LOCUS_status, LOCUS_percent;$/;"	m	class:Adafruit_GPS
+MAXLINELENGTH	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.cpp	19;"	d	file:
+MAXWAITSENTENCE	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.h	87;"	d
+MAX_SENSOR_DELAY	arduino/libraries/NewPing/NewPing.h	147;"	d
+MAX_SENSOR_DISTANCE	arduino/libraries/NewPing/NewPing.h	137;"	d
+MMA8451_DATARATE_100_HZ	arduino/libraries/Adafruit_MMA8451/Adafruit_MMA8451.h	/^  MMA8451_DATARATE_100_HZ     = 0b011, \/\/  100Hz$/;"	e	enum:__anon13
+MMA8451_DATARATE_12_5_HZ	arduino/libraries/Adafruit_MMA8451/Adafruit_MMA8451.h	/^  MMA8451_DATARATE_12_5_HZ    = 0b101, \/\/ 12.5Hz$/;"	e	enum:__anon13
+MMA8451_DATARATE_1_56_HZ	arduino/libraries/Adafruit_MMA8451/Adafruit_MMA8451.h	/^  MMA8451_DATARATE_1_56_HZ    = 0b111, \/\/ 1.56Hz$/;"	e	enum:__anon13
+MMA8451_DATARATE_200_HZ	arduino/libraries/Adafruit_MMA8451/Adafruit_MMA8451.h	/^  MMA8451_DATARATE_200_HZ     = 0b010, \/\/  200Hz$/;"	e	enum:__anon13
+MMA8451_DATARATE_400_HZ	arduino/libraries/Adafruit_MMA8451/Adafruit_MMA8451.h	/^  MMA8451_DATARATE_400_HZ     = 0b001, \/\/  400Hz$/;"	e	enum:__anon13
+MMA8451_DATARATE_50_HZ	arduino/libraries/Adafruit_MMA8451/Adafruit_MMA8451.h	/^  MMA8451_DATARATE_50_HZ      = 0b100, \/\/   50Hz$/;"	e	enum:__anon13
+MMA8451_DATARATE_6_25HZ	arduino/libraries/Adafruit_MMA8451/Adafruit_MMA8451.h	/^  MMA8451_DATARATE_6_25HZ     = 0b110, \/\/ 6.25Hz$/;"	e	enum:__anon13
+MMA8451_DATARATE_800_HZ	arduino/libraries/Adafruit_MMA8451/Adafruit_MMA8451.h	/^  MMA8451_DATARATE_800_HZ     = 0b000, \/\/  800Hz$/;"	e	enum:__anon13
+MMA8451_DATARATE_MASK	arduino/libraries/Adafruit_MMA8451/Adafruit_MMA8451.h	/^  MMA8451_DATARATE_MASK       = 0b111$/;"	e	enum:__anon13
+MMA8451_DEFAULT_ADDRESS	arduino/libraries/Adafruit_MMA8451/Adafruit_MMA8451.h	39;"	d
+MMA8451_PL_LLB	arduino/libraries/Adafruit_MMA8451/Adafruit_MMA8451.h	62;"	d
+MMA8451_PL_LLF	arduino/libraries/Adafruit_MMA8451/Adafruit_MMA8451.h	61;"	d
+MMA8451_PL_LRB	arduino/libraries/Adafruit_MMA8451/Adafruit_MMA8451.h	60;"	d
+MMA8451_PL_LRF	arduino/libraries/Adafruit_MMA8451/Adafruit_MMA8451.h	59;"	d
+MMA8451_PL_PDB	arduino/libraries/Adafruit_MMA8451/Adafruit_MMA8451.h	58;"	d
+MMA8451_PL_PDF	arduino/libraries/Adafruit_MMA8451/Adafruit_MMA8451.h	57;"	d
+MMA8451_PL_PUB	arduino/libraries/Adafruit_MMA8451/Adafruit_MMA8451.h	56;"	d
+MMA8451_PL_PUF	arduino/libraries/Adafruit_MMA8451/Adafruit_MMA8451.h	55;"	d
+MMA8451_RANGE_2_G	arduino/libraries/Adafruit_MMA8451/Adafruit_MMA8451.h	/^  MMA8451_RANGE_2_G           = 0b00    \/\/ +\/- 2g (default value)$/;"	e	enum:__anon12
+MMA8451_RANGE_4_G	arduino/libraries/Adafruit_MMA8451/Adafruit_MMA8451.h	/^  MMA8451_RANGE_4_G           = 0b01,   \/\/ +\/- 4g$/;"	e	enum:__anon12
+MMA8451_RANGE_8_G	arduino/libraries/Adafruit_MMA8451/Adafruit_MMA8451.h	/^  MMA8451_RANGE_8_G           = 0b10,   \/\/ +\/- 8g$/;"	e	enum:__anon12
+MMA8451_REG_CTRL_REG1	arduino/libraries/Adafruit_MMA8451/Adafruit_MMA8451.h	48;"	d
+MMA8451_REG_CTRL_REG2	arduino/libraries/Adafruit_MMA8451/Adafruit_MMA8451.h	49;"	d
+MMA8451_REG_CTRL_REG4	arduino/libraries/Adafruit_MMA8451/Adafruit_MMA8451.h	50;"	d
+MMA8451_REG_CTRL_REG5	arduino/libraries/Adafruit_MMA8451/Adafruit_MMA8451.h	51;"	d
+MMA8451_REG_OUT_X_MSB	arduino/libraries/Adafruit_MMA8451/Adafruit_MMA8451.h	42;"	d
+MMA8451_REG_PL_CFG	arduino/libraries/Adafruit_MMA8451/Adafruit_MMA8451.h	47;"	d
+MMA8451_REG_PL_STATUS	arduino/libraries/Adafruit_MMA8451/Adafruit_MMA8451.h	46;"	d
+MMA8451_REG_SYSMOD	arduino/libraries/Adafruit_MMA8451/Adafruit_MMA8451.h	43;"	d
+MMA8451_REG_WHOAMI	arduino/libraries/Adafruit_MMA8451/Adafruit_MMA8451.h	44;"	d
+MMA8451_REG_XYZ_DATA_CFG	arduino/libraries/Adafruit_MMA8451/Adafruit_MMA8451.h	45;"	d
+MOTOR_MAX	arduino/constants.h	28;"	d
+MOTOR_MAX	arduino/core.cpp	146;"	d	file:
+MOTOR_MIN	arduino/constants.h	31;"	d
+MOTOR_MIN	arduino/core.cpp	149;"	d	file:
+NOT_AN_INTERRUPT	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt.h	76;"	d
+NO_ECHO	arduino/libraries/NewPing/NewPing.h	146;"	d
+NUM_GYRO_SAMPLES	arduino/core.cpp	575;"	d	file:
+NUM_GYRO_SAMPLES	arduino/sensors_uno.cpp	140;"	d	file:
+NewPing	arduino/libraries/NewPing/NewPing.cpp	/^NewPing::NewPing(uint8_t trigger_pin, uint8_t echo_pin, unsigned int max_cm_distance) {$/;"	f	class:NewPing
+NewPing	arduino/libraries/NewPing/NewPing.h	/^class NewPing {$/;"	c
+NewPingConvert	arduino/libraries/NewPing/NewPing.h	160;"	d
+NewPing_h	arduino/libraries/NewPing/NewPing.h	122;"	d
+OCIE2A	arduino/libraries/NewPing/NewPing.h	187;"	d
+OCR2A	arduino/libraries/NewPing/NewPing.h	185;"	d
+ONE_PIN_ENABLED	arduino/libraries/NewPing/NewPing.h	140;"	d
+PCA9685_MODE1	arduino/libraries/Adafruit_PWM_Servo_Driver_Library/Adafruit_PWMServoDriver.h	32;"	d
+PCA9685_PRESCALE	arduino/libraries/Adafruit_PWM_Servo_Driver_Library/Adafruit_PWMServoDriver.h	33;"	d
+PCA9685_SUBADR1	arduino/libraries/Adafruit_PWM_Servo_Driver_Library/Adafruit_PWMServoDriver.h	28;"	d
+PCA9685_SUBADR2	arduino/libraries/Adafruit_PWM_Servo_Driver_Library/Adafruit_PWMServoDriver.h	29;"	d
+PCA9685_SUBADR3	arduino/libraries/Adafruit_PWM_Servo_Driver_Library/Adafruit_PWMServoDriver.h	30;"	d
+PCINTEvent	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt.h	84;"	d
+PCINT_ALINKAGE	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptSettings.h	85;"	d
+PCINT_API	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptSettings.h	81;"	d
+PCINT_CALLBACK	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt.h	65;"	d
+PCINT_CALLBACK_PORT0	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptSettings.h	145;"	d
+PCINT_CALLBACK_PORT0	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptSettings.h	163;"	d
+PCINT_CALLBACK_PORT0	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptSettings.h	200;"	d
+PCINT_CALLBACK_PORT2	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptSettings.h	104;"	d
+PCINT_COMPILE_ENABLED_ISR	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt.h	54;"	d
+PCINT_ENABLE_PCINT0	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	86;"	d
+PCINT_ENABLE_PCINT0	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptSettings.h	176;"	d
+PCINT_ENABLE_PCINT0	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptSettings.h	190;"	d
+PCINT_ENABLE_PCINT0	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptSettings.h	47;"	d
+PCINT_ENABLE_PCINT1	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	89;"	d
+PCINT_ENABLE_PCINT1	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptSettings.h	221;"	d
+PCINT_ENABLE_PCINT1	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptSettings.h	48;"	d
+PCINT_ENABLE_PCINT10	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	119;"	d
+PCINT_ENABLE_PCINT10	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptSettings.h	57;"	d
+PCINT_ENABLE_PCINT11	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	122;"	d
+PCINT_ENABLE_PCINT11	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptSettings.h	58;"	d
+PCINT_ENABLE_PCINT12	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	125;"	d
+PCINT_ENABLE_PCINT12	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptSettings.h	59;"	d
+PCINT_ENABLE_PCINT13	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	128;"	d
+PCINT_ENABLE_PCINT13	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptSettings.h	60;"	d
+PCINT_ENABLE_PCINT14	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	131;"	d
+PCINT_ENABLE_PCINT14	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptSettings.h	123;"	d
+PCINT_ENABLE_PCINT14	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptSettings.h	61;"	d
+PCINT_ENABLE_PCINT15	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	134;"	d
+PCINT_ENABLE_PCINT15	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptSettings.h	62;"	d
+PCINT_ENABLE_PCINT16	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	140;"	d
+PCINT_ENABLE_PCINT16	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptSettings.h	63;"	d
+PCINT_ENABLE_PCINT17	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	143;"	d
+PCINT_ENABLE_PCINT17	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptSettings.h	64;"	d
+PCINT_ENABLE_PCINT18	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	146;"	d
+PCINT_ENABLE_PCINT18	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptSettings.h	65;"	d
+PCINT_ENABLE_PCINT19	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	149;"	d
+PCINT_ENABLE_PCINT19	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptSettings.h	66;"	d
+PCINT_ENABLE_PCINT2	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	92;"	d
+PCINT_ENABLE_PCINT2	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptSettings.h	49;"	d
+PCINT_ENABLE_PCINT20	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	152;"	d
+PCINT_ENABLE_PCINT20	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptSettings.h	67;"	d
+PCINT_ENABLE_PCINT21	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	155;"	d
+PCINT_ENABLE_PCINT21	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptSettings.h	68;"	d
+PCINT_ENABLE_PCINT22	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	158;"	d
+PCINT_ENABLE_PCINT22	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptSettings.h	69;"	d
+PCINT_ENABLE_PCINT23	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	161;"	d
+PCINT_ENABLE_PCINT23	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptSettings.h	70;"	d
+PCINT_ENABLE_PCINT24	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	167;"	d
+PCINT_ENABLE_PCINT24	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptSettings.h	71;"	d
+PCINT_ENABLE_PCINT25	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	170;"	d
+PCINT_ENABLE_PCINT25	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptSettings.h	72;"	d
+PCINT_ENABLE_PCINT26	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	173;"	d
+PCINT_ENABLE_PCINT26	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptSettings.h	73;"	d
+PCINT_ENABLE_PCINT27	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	176;"	d
+PCINT_ENABLE_PCINT27	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptSettings.h	74;"	d
+PCINT_ENABLE_PCINT28	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	179;"	d
+PCINT_ENABLE_PCINT28	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptSettings.h	75;"	d
+PCINT_ENABLE_PCINT29	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	182;"	d
+PCINT_ENABLE_PCINT29	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptSettings.h	76;"	d
+PCINT_ENABLE_PCINT3	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	95;"	d
+PCINT_ENABLE_PCINT3	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptSettings.h	50;"	d
+PCINT_ENABLE_PCINT30	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	185;"	d
+PCINT_ENABLE_PCINT30	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptSettings.h	77;"	d
+PCINT_ENABLE_PCINT31	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	188;"	d
+PCINT_ENABLE_PCINT31	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptSettings.h	78;"	d
+PCINT_ENABLE_PCINT4	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	98;"	d
+PCINT_ENABLE_PCINT4	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptSettings.h	51;"	d
+PCINT_ENABLE_PCINT5	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	101;"	d
+PCINT_ENABLE_PCINT5	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptSettings.h	52;"	d
+PCINT_ENABLE_PCINT6	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	104;"	d
+PCINT_ENABLE_PCINT6	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptSettings.h	117;"	d
+PCINT_ENABLE_PCINT6	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptSettings.h	53;"	d
+PCINT_ENABLE_PCINT7	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	107;"	d
+PCINT_ENABLE_PCINT7	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptSettings.h	120;"	d
+PCINT_ENABLE_PCINT7	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptSettings.h	54;"	d
+PCINT_ENABLE_PCINT8	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	113;"	d
+PCINT_ENABLE_PCINT8	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptSettings.h	55;"	d
+PCINT_ENABLE_PCINT9	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	116;"	d
+PCINT_ENABLE_PCINT9	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptSettings.h	56;"	d
+PCINT_ENABLE_PORT0	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptSettings.h	42;"	d
+PCINT_ENABLE_PORT1	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptSettings.h	135;"	d
+PCINT_ENABLE_PORT1	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptSettings.h	185;"	d
+PCINT_ENABLE_PORT1	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptSettings.h	43;"	d
+PCINT_ENABLE_PORT2	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptSettings.h	44;"	d
+PCINT_ENABLE_PORT3	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptSettings.h	45;"	d
+PCINT_HAS_PCINT0	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	240;"	d
+PCINT_HAS_PCINT0	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	242;"	d
+PCINT_HAS_PCINT1	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	245;"	d
+PCINT_HAS_PCINT1	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	247;"	d
+PCINT_HAS_PCINT10	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	290;"	d
+PCINT_HAS_PCINT10	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	292;"	d
+PCINT_HAS_PCINT11	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	295;"	d
+PCINT_HAS_PCINT11	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	297;"	d
+PCINT_HAS_PCINT12	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	300;"	d
+PCINT_HAS_PCINT12	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	302;"	d
+PCINT_HAS_PCINT13	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	305;"	d
+PCINT_HAS_PCINT13	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	307;"	d
+PCINT_HAS_PCINT14	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	310;"	d
+PCINT_HAS_PCINT14	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	312;"	d
+PCINT_HAS_PCINT15	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	315;"	d
+PCINT_HAS_PCINT15	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	317;"	d
+PCINT_HAS_PCINT16	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	320;"	d
+PCINT_HAS_PCINT16	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	322;"	d
+PCINT_HAS_PCINT17	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	325;"	d
+PCINT_HAS_PCINT17	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	327;"	d
+PCINT_HAS_PCINT18	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	330;"	d
+PCINT_HAS_PCINT18	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	332;"	d
+PCINT_HAS_PCINT19	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	335;"	d
+PCINT_HAS_PCINT19	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	337;"	d
+PCINT_HAS_PCINT2	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	250;"	d
+PCINT_HAS_PCINT2	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	252;"	d
+PCINT_HAS_PCINT20	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	340;"	d
+PCINT_HAS_PCINT20	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	342;"	d
+PCINT_HAS_PCINT21	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	345;"	d
+PCINT_HAS_PCINT21	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	347;"	d
+PCINT_HAS_PCINT22	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	350;"	d
+PCINT_HAS_PCINT22	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	352;"	d
+PCINT_HAS_PCINT23	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	355;"	d
+PCINT_HAS_PCINT23	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	357;"	d
+PCINT_HAS_PCINT24	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	360;"	d
+PCINT_HAS_PCINT24	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	362;"	d
+PCINT_HAS_PCINT25	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	365;"	d
+PCINT_HAS_PCINT25	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	367;"	d
+PCINT_HAS_PCINT26	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	370;"	d
+PCINT_HAS_PCINT26	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	372;"	d
+PCINT_HAS_PCINT27	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	375;"	d
+PCINT_HAS_PCINT27	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	377;"	d
+PCINT_HAS_PCINT28	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	380;"	d
+PCINT_HAS_PCINT28	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	382;"	d
+PCINT_HAS_PCINT29	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	385;"	d
+PCINT_HAS_PCINT29	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	387;"	d
+PCINT_HAS_PCINT3	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	255;"	d
+PCINT_HAS_PCINT3	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	257;"	d
+PCINT_HAS_PCINT30	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	390;"	d
+PCINT_HAS_PCINT30	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	392;"	d
+PCINT_HAS_PCINT31	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	395;"	d
+PCINT_HAS_PCINT31	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	397;"	d
+PCINT_HAS_PCINT4	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	260;"	d
+PCINT_HAS_PCINT4	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	262;"	d
+PCINT_HAS_PCINT5	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	265;"	d
+PCINT_HAS_PCINT5	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	267;"	d
+PCINT_HAS_PCINT6	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	270;"	d
+PCINT_HAS_PCINT6	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	272;"	d
+PCINT_HAS_PCINT7	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	275;"	d
+PCINT_HAS_PCINT7	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	277;"	d
+PCINT_HAS_PCINT8	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	280;"	d
+PCINT_HAS_PCINT8	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	282;"	d
+PCINT_HAS_PCINT9	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	285;"	d
+PCINT_HAS_PCINT9	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	287;"	d
+PCINT_HAS_PORT0	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	198;"	d
+PCINT_HAS_PORT0	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	200;"	d
+PCINT_HAS_PORT1	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	203;"	d
+PCINT_HAS_PORT1	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	205;"	d
+PCINT_HAS_PORT2	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	208;"	d
+PCINT_HAS_PORT2	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	210;"	d
+PCINT_HAS_PORT3	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	213;"	d
+PCINT_HAS_PORT3	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	215;"	d
+PCINT_INCLUDE_FROM_CPP	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt.cpp	29;"	d	file:
+PCINT_INPUT_PORT0	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptBoards.h	106;"	d
+PCINT_INPUT_PORT0	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptBoards.h	35;"	d
+PCINT_INPUT_PORT0	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptBoards.h	41;"	d
+PCINT_INPUT_PORT0	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptBoards.h	65;"	d
+PCINT_INPUT_PORT0	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptBoards.h	70;"	d
+PCINT_INPUT_PORT0	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptBoards.h	75;"	d
+PCINT_INPUT_PORT0	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptBoards.h	79;"	d
+PCINT_INPUT_PORT0	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptBoards.h	86;"	d
+PCINT_INPUT_PORT0	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptBoards.h	91;"	d
+PCINT_INPUT_PORT0_USED	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptBoards.h	108;"	d
+PCINT_INPUT_PORT1	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptBoards.h	111;"	d
+PCINT_INPUT_PORT1	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptBoards.h	36;"	d
+PCINT_INPUT_PORT1	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptBoards.h	51;"	d
+PCINT_INPUT_PORT1	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptBoards.h	54;"	d
+PCINT_INPUT_PORT1	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptBoards.h	60;"	d
+PCINT_INPUT_PORT1	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptBoards.h	71;"	d
+PCINT_INPUT_PORT1	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptBoards.h	87;"	d
+PCINT_INPUT_PORT1	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptBoards.h	92;"	d
+PCINT_INPUT_PORT1_USED	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptBoards.h	113;"	d
+PCINT_INPUT_PORT2	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptBoards.h	116;"	d
+PCINT_INPUT_PORT2	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptBoards.h	37;"	d
+PCINT_INPUT_PORT2	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptBoards.h	42;"	d
+PCINT_INPUT_PORT2	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptBoards.h	93;"	d
+PCINT_INPUT_PORT2_USED	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptBoards.h	118;"	d
+PCINT_INPUT_PORT3	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptBoards.h	121;"	d
+PCINT_INPUT_PORT3	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptBoards.h	94;"	d
+PCINT_INPUT_PORT3_USED	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptBoards.h	123;"	d
+PCINT_MACRO_BRACKETS	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt.h	63;"	d
+PCINT_MACRO_TRUE	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt.h	64;"	d
+PCINT_NUM_PINS_PORT0	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	417;"	d
+PCINT_NUM_PINS_PORT1	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	427;"	d
+PCINT_NUM_PINS_PORT2	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	437;"	d
+PCINT_NUM_PINS_PORT3	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	447;"	d
+PCINT_NUM_PORTS	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	219;"	d
+PCINT_NUM_USED_PINS_PORT0	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	670;"	d
+PCINT_NUM_USED_PINS_PORT1	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	680;"	d
+PCINT_NUM_USED_PINS_PORT2	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	690;"	d
+PCINT_NUM_USED_PINS_PORT3	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	700;"	d
+PCINT_NUM_USED_PORTS	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	745;"	d
+PCINT_USE_PCINT0	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	489;"	d
+PCINT_USE_PCINT0	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	491;"	d
+PCINT_USE_PCINT1	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	494;"	d
+PCINT_USE_PCINT1	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	496;"	d
+PCINT_USE_PCINT10	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	539;"	d
+PCINT_USE_PCINT10	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	541;"	d
+PCINT_USE_PCINT11	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	544;"	d
+PCINT_USE_PCINT11	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	546;"	d
+PCINT_USE_PCINT12	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	549;"	d
+PCINT_USE_PCINT12	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	551;"	d
+PCINT_USE_PCINT13	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	554;"	d
+PCINT_USE_PCINT13	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	556;"	d
+PCINT_USE_PCINT14	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	559;"	d
+PCINT_USE_PCINT14	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	561;"	d
+PCINT_USE_PCINT15	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	564;"	d
+PCINT_USE_PCINT15	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	566;"	d
+PCINT_USE_PCINT16	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	569;"	d
+PCINT_USE_PCINT16	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	571;"	d
+PCINT_USE_PCINT17	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	574;"	d
+PCINT_USE_PCINT17	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	576;"	d
+PCINT_USE_PCINT18	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	579;"	d
+PCINT_USE_PCINT18	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	581;"	d
+PCINT_USE_PCINT19	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	584;"	d
+PCINT_USE_PCINT19	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	586;"	d
+PCINT_USE_PCINT2	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	499;"	d
+PCINT_USE_PCINT2	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	501;"	d
+PCINT_USE_PCINT20	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	589;"	d
+PCINT_USE_PCINT20	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	591;"	d
+PCINT_USE_PCINT21	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	594;"	d
+PCINT_USE_PCINT21	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	596;"	d
+PCINT_USE_PCINT22	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	599;"	d
+PCINT_USE_PCINT22	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	601;"	d
+PCINT_USE_PCINT23	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	604;"	d
+PCINT_USE_PCINT23	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	606;"	d
+PCINT_USE_PCINT24	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	609;"	d
+PCINT_USE_PCINT24	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	611;"	d
+PCINT_USE_PCINT25	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	614;"	d
+PCINT_USE_PCINT25	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	616;"	d
+PCINT_USE_PCINT26	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	619;"	d
+PCINT_USE_PCINT26	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	621;"	d
+PCINT_USE_PCINT27	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	624;"	d
+PCINT_USE_PCINT27	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	626;"	d
+PCINT_USE_PCINT28	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	629;"	d
+PCINT_USE_PCINT28	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	631;"	d
+PCINT_USE_PCINT29	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	634;"	d
+PCINT_USE_PCINT29	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	636;"	d
+PCINT_USE_PCINT3	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	504;"	d
+PCINT_USE_PCINT3	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	506;"	d
+PCINT_USE_PCINT30	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	639;"	d
+PCINT_USE_PCINT30	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	641;"	d
+PCINT_USE_PCINT31	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	644;"	d
+PCINT_USE_PCINT31	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	646;"	d
+PCINT_USE_PCINT4	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	509;"	d
+PCINT_USE_PCINT4	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	511;"	d
+PCINT_USE_PCINT5	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	514;"	d
+PCINT_USE_PCINT5	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	516;"	d
+PCINT_USE_PCINT6	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	519;"	d
+PCINT_USE_PCINT6	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	521;"	d
+PCINT_USE_PCINT7	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	524;"	d
+PCINT_USE_PCINT7	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	526;"	d
+PCINT_USE_PCINT8	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	529;"	d
+PCINT_USE_PCINT8	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	531;"	d
+PCINT_USE_PCINT9	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	534;"	d
+PCINT_USE_PCINT9	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	536;"	d
+PCINT_USE_PORT0	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	724;"	d
+PCINT_USE_PORT0	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	726;"	d
+PCINT_USE_PORT1	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	729;"	d
+PCINT_USE_PORT1	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	731;"	d
+PCINT_USE_PORT2	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	734;"	d
+PCINT_USE_PORT2	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	736;"	d
+PCINT_USE_PORT3	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	739;"	d
+PCINT_USE_PORT3	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptPins.h	741;"	d
+PCINT_VERSION	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt.h	28;"	d
+PGCMD_ANTENNA	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.h	83;"	d
+PGCMD_NOANTENNA	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.h	84;"	d
+PING_MEDIAN_DELAY	arduino/libraries/NewPing/NewPing.h	149;"	d
+PING_OVERHEAD	arduino/libraries/NewPing/NewPing.h	150;"	d
+PING_OVERHEAD	arduino/libraries/NewPing/NewPing.h	164;"	d
+PING_OVERHEAD	arduino/libraries/NewPing/NewPing.h	165;"	d
+PING_OVERHEAD	arduino/libraries/NewPing/NewPing.h	169;"	d
+PING_OVERHEAD	arduino/libraries/NewPing/NewPing.h	170;"	d
+PING_TIMER_OVERHEAD	arduino/libraries/NewPing/NewPing.h	151;"	d
+PING_TIMER_OVERHEAD	arduino/libraries/NewPing/NewPing.h	166;"	d
+PING_TIMER_OVERHEAD	arduino/libraries/NewPing/NewPing.h	167;"	d
+PING_TIMER_OVERHEAD	arduino/libraries/NewPing/NewPing.h	171;"	d
+PING_TIMER_OVERHEAD	arduino/libraries/NewPing/NewPing.h	172;"	d
+PIN_BUTTON_IN	arduino/core.cpp	138;"	d	file:
+PIN_BUTTON_IN	arduino/motor_servo_uno.cpp	22;"	d	file:
+PIN_BUTTON_IN	arduino/old/motor_servo_micro_test.cpp	22;"	d	file:
+PIN_LED_OUT	arduino/core.cpp	143;"	d	file:
+PIN_LED_OUT	arduino/motor_servo_uno.cpp	29;"	d	file:
+PIN_LED_OUT	arduino/old/motor_servo_micro_test.cpp	29;"	d	file:
+PIN_MOTOR_IN	arduino/core.cpp	137;"	d	file:
+PIN_MOTOR_IN	arduino/motor_servo_uno.cpp	21;"	d	file:
+PIN_MOTOR_IN	arduino/old/motor_servo_micro_test.cpp	21;"	d	file:
+PIN_MOTOR_OUT	arduino/core.cpp	141;"	d	file:
+PIN_MOTOR_OUT	arduino/motor_servo_uno.cpp	26;"	d	file:
+PIN_MOTOR_OUT	arduino/old/motor_servo_micro_test.cpp	26;"	d	file:
+PIN_SERVO_IN	arduino/core.cpp	136;"	d	file:
+PIN_SERVO_IN	arduino/motor_servo_uno.cpp	20;"	d	file:
+PIN_SERVO_IN	arduino/old/motor_servo_micro_test.cpp	20;"	d	file:
+PIN_SERVO_OUT	arduino/core.cpp	140;"	d	file:
+PIN_SERVO_OUT	arduino/motor_servo_uno.cpp	25;"	d	file:
+PIN_SERVO_OUT	arduino/old/motor_servo_micro_test.cpp	25;"	d	file:
+PMTK_API_SET_FIX_CTL_100_MILLIHERTZ	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.h	41;"	d
+PMTK_API_SET_FIX_CTL_1HZ	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.h	43;"	d
+PMTK_API_SET_FIX_CTL_200_MILLIHERTZ	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.h	42;"	d
+PMTK_API_SET_FIX_CTL_5HZ	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.h	44;"	d
+PMTK_AWAKE	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.h	77;"	d
+PMTK_ENABLE_SBAS	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.h	71;"	d
+PMTK_ENABLE_WAAS	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.h	72;"	d
+PMTK_LOCUS_ERASE_FLASH	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.h	67;"	d
+PMTK_LOCUS_QUERY_STATUS	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.h	66;"	d
+PMTK_LOCUS_STARTLOG	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.h	63;"	d
+PMTK_LOCUS_STARTSTOPACK	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.h	65;"	d
+PMTK_LOCUS_STOPLOG	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.h	64;"	d
+PMTK_Q_RELEASE	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.h	80;"	d
+PMTK_SET_BAUD_57600	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.h	48;"	d
+PMTK_SET_BAUD_9600	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.h	49;"	d
+PMTK_SET_NMEA_OUTPUT_ALLDATA	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.h	56;"	d
+PMTK_SET_NMEA_OUTPUT_OFF	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.h	58;"	d
+PMTK_SET_NMEA_OUTPUT_RMCGGA	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.h	54;"	d
+PMTK_SET_NMEA_OUTPUT_RMCONLY	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.h	52;"	d
+PMTK_SET_NMEA_UPDATE_100_MILLIHERTZ	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.h	35;"	d
+PMTK_SET_NMEA_UPDATE_10HZ	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.h	39;"	d
+PMTK_SET_NMEA_UPDATE_1HZ	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.h	37;"	d
+PMTK_SET_NMEA_UPDATE_200_MILLIHERTZ	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.h	36;"	d
+PMTK_SET_NMEA_UPDATE_5HZ	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.h	38;"	d
+PMTK_STANDBY	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.h	75;"	d
+PMTK_STANDBY_SUCCESS	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.h	76;"	d
+PastA	arduino/core.cpp	/^volatile boolean PastA = 0;$/;"	v
+PastA	arduino/motor_servo_uno.cpp	/^volatile boolean PastA = 0;$/;"	v
+PastA	arduino/sensors_uno.cpp	/^volatile boolean PastA = 0;$/;"	v
+PastB	arduino/core.cpp	/^volatile boolean PastB = 0;$/;"	v
+PastB	arduino/motor_servo_uno.cpp	/^volatile boolean PastB = 0;$/;"	v
+PastB	arduino/sensors_uno.cpp	/^volatile boolean PastB = 0;$/;"	v
+PinChangeInterruptEvent	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt.h	72;"	d
+PinChangeInterruptEventPCINT0	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt0.cpp	/^void PinChangeInterruptEventPCINT0(void) {$/;"	f
+PinChangeInterruptEventPCINT1	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt0.cpp	/^void PinChangeInterruptEventPCINT1(void) {$/;"	f
+PinChangeInterruptEventPCINT10	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt1.cpp	/^void PinChangeInterruptEventPCINT10(void) {$/;"	f
+PinChangeInterruptEventPCINT11	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt1.cpp	/^void PinChangeInterruptEventPCINT11(void) {$/;"	f
+PinChangeInterruptEventPCINT12	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt1.cpp	/^void PinChangeInterruptEventPCINT12(void) {$/;"	f
+PinChangeInterruptEventPCINT13	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt1.cpp	/^void PinChangeInterruptEventPCINT13(void) {$/;"	f
+PinChangeInterruptEventPCINT14	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt1.cpp	/^void PinChangeInterruptEventPCINT14(void) {$/;"	f
+PinChangeInterruptEventPCINT15	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt1.cpp	/^void PinChangeInterruptEventPCINT15(void) {$/;"	f
+PinChangeInterruptEventPCINT16	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt2.cpp	/^void PinChangeInterruptEventPCINT16(void) {$/;"	f
+PinChangeInterruptEventPCINT17	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt2.cpp	/^void PinChangeInterruptEventPCINT17(void) {$/;"	f
+PinChangeInterruptEventPCINT18	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt2.cpp	/^void PinChangeInterruptEventPCINT18(void) {$/;"	f
+PinChangeInterruptEventPCINT19	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt2.cpp	/^void PinChangeInterruptEventPCINT19(void) {$/;"	f
+PinChangeInterruptEventPCINT2	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt0.cpp	/^void PinChangeInterruptEventPCINT2(void) {$/;"	f
+PinChangeInterruptEventPCINT20	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt2.cpp	/^void PinChangeInterruptEventPCINT20(void) {$/;"	f
+PinChangeInterruptEventPCINT21	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt2.cpp	/^void PinChangeInterruptEventPCINT21(void) {$/;"	f
+PinChangeInterruptEventPCINT22	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt2.cpp	/^void PinChangeInterruptEventPCINT22(void) {$/;"	f
+PinChangeInterruptEventPCINT23	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt2.cpp	/^void PinChangeInterruptEventPCINT23(void) {$/;"	f
+PinChangeInterruptEventPCINT24	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt3.cpp	/^void PinChangeInterruptEventPCINT24(void) {$/;"	f
+PinChangeInterruptEventPCINT25	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt3.cpp	/^void PinChangeInterruptEventPCINT25(void) {$/;"	f
+PinChangeInterruptEventPCINT26	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt3.cpp	/^void PinChangeInterruptEventPCINT26(void) {$/;"	f
+PinChangeInterruptEventPCINT27	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt3.cpp	/^void PinChangeInterruptEventPCINT27(void) {$/;"	f
+PinChangeInterruptEventPCINT28	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt3.cpp	/^void PinChangeInterruptEventPCINT28(void) {$/;"	f
+PinChangeInterruptEventPCINT29	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt3.cpp	/^void PinChangeInterruptEventPCINT29(void) {$/;"	f
+PinChangeInterruptEventPCINT3	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt0.cpp	/^void PinChangeInterruptEventPCINT3(void) {$/;"	f
+PinChangeInterruptEventPCINT30	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt3.cpp	/^void PinChangeInterruptEventPCINT30(void) {$/;"	f
+PinChangeInterruptEventPCINT31	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt3.cpp	/^void PinChangeInterruptEventPCINT31(void) {$/;"	f
+PinChangeInterruptEventPCINT4	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt0.cpp	/^void PinChangeInterruptEventPCINT4(void) {$/;"	f
+PinChangeInterruptEventPCINT5	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt0.cpp	/^void PinChangeInterruptEventPCINT5(void) {$/;"	f
+PinChangeInterruptEventPCINT6	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt0.cpp	/^void PinChangeInterruptEventPCINT6(void) {$/;"	f
+PinChangeInterruptEventPCINT7	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt0.cpp	/^void PinChangeInterruptEventPCINT7(void) {$/;"	f
+PinChangeInterruptEventPCINT8	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt1.cpp	/^void PinChangeInterruptEventPCINT8(void) {$/;"	f
+PinChangeInterruptEventPCINT9	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt1.cpp	/^void PinChangeInterruptEventPCINT9(void) {$/;"	f
+PinChangeInterruptEvent_Wrapper	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt.h	71;"	d
+Play	nodes/get_ros_images_live2_z2_color_TX1.py	/^Play = 0.$/;"	v
+ROSListener	src/bair_car/ros_utils.py	/^class ROSListener:$/;"	c
+ROUNDING_ENABLED	arduino/libraries/NewPing/NewPing.h	141;"	d
+Racing	nodes/get_ros_images_live2_z2_color_TX1.py	/^Racing = 0.0$/;"	v
+SENSORS_DPS_TO_RADS	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	41;"	d
+SENSORS_GAUSS_TO_MICROTESLA	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	42;"	d
+SENSORS_GRAVITY_EARTH	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	34;"	d
+SENSORS_GRAVITY_MOON	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	35;"	d
+SENSORS_GRAVITY_STANDARD	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	37;"	d
+SENSORS_GRAVITY_SUN	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	36;"	d
+SENSORS_MAGFIELD_EARTH_MAX	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	38;"	d
+SENSORS_MAGFIELD_EARTH_MIN	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	39;"	d
+SENSORS_PRESSURE_SEALEVELHPA	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	40;"	d
+SENSOR_STATES	src/bair_car/arduino.py	/^    SENSOR_STATES = (STATE_GYRO,$/;"	v	class:Arduino
+SENSOR_TYPE_ACCELEROMETER	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	/^  SENSOR_TYPE_ACCELEROMETER         = (1),   \/**< Gravity + linear acceleration *\/$/;"	e	enum:__anon1
+SENSOR_TYPE_AMBIENT_TEMPERATURE	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	/^  SENSOR_TYPE_AMBIENT_TEMPERATURE   = (13),$/;"	e	enum:__anon1
+SENSOR_TYPE_COLOR	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	/^  SENSOR_TYPE_COLOR                 = (17)$/;"	e	enum:__anon1
+SENSOR_TYPE_CURRENT	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	/^  SENSOR_TYPE_CURRENT               = (16),$/;"	e	enum:__anon1
+SENSOR_TYPE_GRAVITY	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	/^  SENSOR_TYPE_GRAVITY               = (9),$/;"	e	enum:__anon1
+SENSOR_TYPE_GYROSCOPE	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	/^  SENSOR_TYPE_GYROSCOPE             = (4),$/;"	e	enum:__anon1
+SENSOR_TYPE_LIGHT	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	/^  SENSOR_TYPE_LIGHT                 = (5),$/;"	e	enum:__anon1
+SENSOR_TYPE_LINEAR_ACCELERATION	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	/^  SENSOR_TYPE_LINEAR_ACCELERATION   = (10),  \/**< Acceleration not including gravity *\/$/;"	e	enum:__anon1
+SENSOR_TYPE_MAGNETIC_FIELD	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	/^  SENSOR_TYPE_MAGNETIC_FIELD        = (2),$/;"	e	enum:__anon1
+SENSOR_TYPE_ORIENTATION	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	/^  SENSOR_TYPE_ORIENTATION           = (3),$/;"	e	enum:__anon1
+SENSOR_TYPE_PRESSURE	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	/^  SENSOR_TYPE_PRESSURE              = (6),$/;"	e	enum:__anon1
+SENSOR_TYPE_PROXIMITY	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	/^  SENSOR_TYPE_PROXIMITY             = (8),$/;"	e	enum:__anon1
+SENSOR_TYPE_RELATIVE_HUMIDITY	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	/^  SENSOR_TYPE_RELATIVE_HUMIDITY     = (12),$/;"	e	enum:__anon1
+SENSOR_TYPE_ROTATION_VECTOR	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	/^  SENSOR_TYPE_ROTATION_VECTOR       = (11),$/;"	e	enum:__anon1
+SENSOR_TYPE_VOLTAGE	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	/^  SENSOR_TYPE_VOLTAGE               = (15),$/;"	e	enum:__anon1
+SERVO_MAX	arduino/constants.h	27;"	d
+SERVO_MAX	arduino/core.cpp	145;"	d	file:
+SERVO_MIN	arduino/constants.h	30;"	d
+SERVO_MIN	arduino/core.cpp	148;"	d	file:
+SIGNAL	arduino/core.cpp	/^SIGNAL(TIMER0_COMPA_vect) {$/;"	f
+SIGNAL	arduino/sensors_uno.cpp	/^SIGNAL(TIMER0_COMPA_vect) {$/;"	f
+SIGNALS	src/bair_car/arduino.py	/^    SIGNALS = (STATE_GPS)$/;"	v	class:Arduino
+STATE_ACC	src/bair_car/arduino.py	/^    STATE_ACC                           = "acc"$/;"	v	class:Arduino
+STATE_CAFFE_CAFFE_STEER_CAFFE_MOTOR	arduino/constants.h	10;"	d
+STATE_CAFFE_CAFFE_STEER_HUMAN_MOTOR	arduino/constants.h	8;"	d
+STATE_CAFFE_CAFFE_STEER_HUMAN_MOTOR	arduino/core.cpp	155;"	d	file:
+STATE_CAFFE_CAFFE_STEER_HUMAN_MOTOR	src/bair_car/arduino.py	/^    STATE_CAFFE_CAFFE_STEER_HUMAN_MOTOR = 3$/;"	v	class:Arduino
+STATE_CAFFE_HUMAN_STEER_CAFFE_MOTOR	arduino/constants.h	11;"	d
+STATE_CAFFE_HUMAN_STEER_HUMAN_MOTOR	arduino/constants.h	9;"	d
+STATE_CAFFE_HUMAN_STEER_HUMAN_MOTOR	arduino/core.cpp	156;"	d	file:
+STATE_CAFFE_HUMAN_STEER_HUMAN_MOTOR	src/bair_car/arduino.py	/^    STATE_CAFFE_HUMAN_STEER_HUMAN_MOTOR = 5$/;"	v	class:Arduino
+STATE_ENCODER	arduino/constants.h	18;"	d
+STATE_ERROR	arduino/constants.h	13;"	d
+STATE_ERROR	arduino/core.cpp	158;"	d	file:
+STATE_ERROR	src/bair_car/arduino.py	/^    STATE_ERROR                         = -1$/;"	v	class:Arduino
+STATE_GPS	arduino/constants.h	15;"	d
+STATE_GPS	src/bair_car/arduino.py	/^    STATE_GPS                           = "GPS2"$/;"	v	class:Arduino
+STATE_GYRO	arduino/constants.h	16;"	d
+STATE_GYRO	src/bair_car/arduino.py	/^    STATE_GYRO                          = "gyro"$/;"	v	class:Arduino
+STATE_GYRO_HEADING	src/bair_car/arduino.py	/^    STATE_GYRO_HEADING                  = "head"$/;"	v	class:Arduino
+STATE_HUMAN_FULL_CONTROL	arduino/constants.h	6;"	d
+STATE_HUMAN_FULL_CONTROL	arduino/core.cpp	153;"	d	file:
+STATE_HUMAN_FULL_CONTROL	src/bair_car/arduino.py	/^    STATE_HUMAN_FULL_CONTROL            = 1$/;"	v	class:Arduino
+STATE_LOCK	arduino/constants.h	7;"	d
+STATE_LOCK	arduino/core.cpp	154;"	d	file:
+STATE_LOCK	src/bair_car/arduino.py	/^    STATE_LOCK                          = 2$/;"	v	class:Arduino
+STATE_LOCK_CALIBRATE	arduino/constants.h	12;"	d
+STATE_LOCK_CALIBRATE	arduino/core.cpp	157;"	d	file:
+STATE_LOCK_CALIBRATE	src/bair_car/arduino.py	/^    STATE_LOCK_CALIBRATE                = 4$/;"	v	class:Arduino
+STATE_SONAR	arduino/constants.h	17;"	d
+TIMER1_A_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	103;"	d
+TIMER1_A_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	111;"	d
+TIMER1_A_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	120;"	d
+TIMER1_A_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	132;"	d
+TIMER1_A_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	14;"	d
+TIMER1_A_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	24;"	d
+TIMER1_A_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	38;"	d
+TIMER1_A_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	45;"	d
+TIMER1_A_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	55;"	d
+TIMER1_A_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	65;"	d
+TIMER1_A_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	7;"	d
+TIMER1_A_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	84;"	d
+TIMER1_A_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	95;"	d
+TIMER1_B_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	104;"	d
+TIMER1_B_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	112;"	d
+TIMER1_B_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	121;"	d
+TIMER1_B_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	133;"	d
+TIMER1_B_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	15;"	d
+TIMER1_B_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	25;"	d
+TIMER1_B_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	39;"	d
+TIMER1_B_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	46;"	d
+TIMER1_B_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	56;"	d
+TIMER1_B_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	66;"	d
+TIMER1_B_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	85;"	d
+TIMER1_B_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	8;"	d
+TIMER1_B_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	96;"	d
+TIMER1_CLK_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	106;"	d
+TIMER1_CLK_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	114;"	d
+TIMER1_CLK_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	123;"	d
+TIMER1_CLK_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	135;"	d
+TIMER1_CLK_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	18;"	d
+TIMER1_CLK_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	28;"	d
+TIMER1_CLK_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	88;"	d
+TIMER1_CLK_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	98;"	d
+TIMER1_C_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	16;"	d
+TIMER1_C_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	26;"	d
+TIMER1_C_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	67;"	d
+TIMER1_C_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	86;"	d
+TIMER1_ICP_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	105;"	d
+TIMER1_ICP_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	113;"	d
+TIMER1_ICP_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	122;"	d
+TIMER1_ICP_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	134;"	d
+TIMER1_ICP_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	17;"	d
+TIMER1_ICP_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	27;"	d
+TIMER1_ICP_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	40;"	d
+TIMER1_ICP_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	47;"	d
+TIMER1_ICP_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	57;"	d
+TIMER1_ICP_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	87;"	d
+TIMER1_ICP_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	97;"	d
+TIMER1_ICP_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	9;"	d
+TIMER1_RESOLUTION	arduino/libraries/TimerOne/TimerOne.h	28;"	d
+TIMER3_A_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	115;"	d
+TIMER3_A_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	124;"	d
+TIMER3_A_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	136;"	d
+TIMER3_A_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	19;"	d
+TIMER3_A_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	29;"	d
+TIMER3_A_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	48;"	d
+TIMER3_A_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	58;"	d
+TIMER3_A_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	68;"	d
+TIMER3_A_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	89;"	d
+TIMER3_B_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	116;"	d
+TIMER3_B_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	125;"	d
+TIMER3_B_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	137;"	d
+TIMER3_B_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	30;"	d
+TIMER3_B_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	49;"	d
+TIMER3_B_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	59;"	d
+TIMER3_B_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	69;"	d
+TIMER3_CLK_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	118;"	d
+TIMER3_CLK_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	127;"	d
+TIMER3_CLK_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	139;"	d
+TIMER3_CLK_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	33;"	d
+TIMER3_CLK_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	79;"	d
+TIMER3_C_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	31;"	d
+TIMER3_C_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	70;"	d
+TIMER3_ICP_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	117;"	d
+TIMER3_ICP_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	126;"	d
+TIMER3_ICP_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	138;"	d
+TIMER3_ICP_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	20;"	d
+TIMER3_ICP_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	32;"	d
+TIMER3_ICP_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	50;"	d
+TIMER3_ICP_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	60;"	d
+TIMER3_ICP_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	78;"	d
+TIMER3_ICP_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	90;"	d
+TIMER4_A_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	71;"	d
+TIMER4_B_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	72;"	d
+TIMER4_C_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	73;"	d
+TIMER4_ICP_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	74;"	d
+TIMER5_A_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	75;"	d
+TIMER5_B_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	76;"	d
+TIMER5_C_PIN	arduino/libraries/TimerOne/config/known_16bit_timers.h	77;"	d
+TIMER_ENABLED	arduino/libraries/NewPing/NewPing.h	143;"	d
+TIMER_ENABLED	arduino/libraries/NewPing/NewPing.h	173;"	d
+TIMER_ENABLED	arduino/libraries/NewPing/NewPing.h	174;"	d
+TIMER_ENABLED	arduino/libraries/NewPing/NewPing.h	179;"	d
+TIMER_ENABLED	arduino/libraries/NewPing/NewPing.h	180;"	d
+TIMSK2	arduino/libraries/NewPing/NewPing.h	186;"	d
+Timer1	arduino/libraries/TimerOne/TimerOne.cpp	/^TimerOne Timer1;              \/\/ preinstatiate$/;"	v
+TimerOne	arduino/libraries/TimerOne/TimerOne.h	/^class TimerOne$/;"	c
+TimerOne_h_	arduino/libraries/TimerOne/TimerOne.h	18;"	d
+URM37_ENABLED	arduino/libraries/NewPing/NewPing.h	142;"	d
+USE_SENSOR	arduino/libraries/Adafruit_MMA8451/Adafruit_MMA8451.h	31;"	d
+US_ROUNDTRIP_CM	arduino/libraries/NewPing/NewPing.h	138;"	d
+US_ROUNDTRIP_CM	arduino/libraries/NewPing/NewPing.h	153;"	d
+US_ROUNDTRIP_CM	arduino/libraries/NewPing/NewPing.h	155;"	d
+US_ROUNDTRIP_IN	arduino/libraries/NewPing/NewPing.h	139;"	d
+US_ROUNDTRIP_IN	arduino/libraries/NewPing/NewPing.h	154;"	d
+US_ROUNDTRIP_IN	arduino/libraries/NewPing/NewPing.h	156;"	d
+WIRE	arduino/libraries/Adafruit_PWM_Servo_Driver_Library/Adafruit_PWMServoDriver.cpp	21;"	d	file:
+WIRE	arduino/libraries/Adafruit_PWM_Servo_Driver_Library/Adafruit_PWMServoDriver.cpp	23;"	d	file:
+WIRE	arduino/libraries/Adafruit_PWM_Servo_Driver_Library/Adafruit_PWMServoDriver.cpp	25;"	d	file:
+Z2Color	nodes/z2color.py	/^class Z2Color(nn.Module):$/;"	c
+_ADAFRUIT_GPS_H	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.h	22;"	d
+_ADAFRUIT_MMA8451_H_	arduino/libraries/Adafruit_MMA8451/Adafruit_MMA8451.h	21;"	d
+_ADAFRUIT_PWMServoDriver_H	arduino/libraries/Adafruit_PWM_Servo_Driver_Library/Adafruit_PWMServoDriver.h	19;"	d
+_ADAFRUIT_SENSOR_H	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	21;"	d
+__init__	nodes/z2color.py	/^    def __init__(self):$/;"	m	class:Z2Color
+__init__	src/bair_car/arduino.py	/^    def __init__(self, baudrate=115200, timeout=0.25):$/;"	m	class:Arduino
+__init__	src/bair_car/car.py	/^    def __init__(self):$/;"	m	class:Car
+__init__	src/bair_car/ros_utils.py	/^    def __init__(self, topic, msg_type):$/;"	m	class:ROSListener
+__init__	src/bair_car/ros_utils.py	/^    def __init__(self, topic, msg_type=sensor_msgs.msg.Image):$/;"	m	class:ImageROSListener
+_autoRange	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	/^  bool _autoRange;$/;"	m	class:Adafruit_Sensor
+_callback	src/bair_car/ros_utils.py	/^    def _callback(self, msg):$/;"	m	class:ROSListener
+_cmd_motor_callback	src/bair_car/arduino.py	/^    def _cmd_motor_callback(self, msg):$/;"	m	class:Arduino
+_cmd_signal_callback	src/bair_car/arduino.py	/^    def _cmd_signal_callback(self, msg):$/;"	m	class:Arduino
+_cmd_steer_callback	src/bair_car/arduino.py	/^    def _cmd_steer_callback(self, msg):$/;"	m	class:Arduino
+_echoBit	arduino/libraries/NewPing/NewPing.h	/^		uint8_t _echoBit;$/;"	m	class:NewPing
+_echoInput	arduino/libraries/NewPing/NewPing.h	/^		volatile uint8_t *_echoInput;$/;"	m	class:NewPing
+_i2caddr	arduino/libraries/Adafruit_MMA8451/Adafruit_MMA8451.h	/^  int8_t  _i2caddr;$/;"	m	class:Adafruit_MMA8451
+_i2caddr	arduino/libraries/Adafruit_PWM_Servo_Driver_Library/Adafruit_PWMServoDriver.h	/^  uint8_t _i2caddr;$/;"	m	class:Adafruit_PWMServoDriver
+_maxEchoTime	arduino/libraries/NewPing/NewPing.h	/^		unsigned int _maxEchoTime;$/;"	m	class:NewPing
+_max_time	arduino/libraries/NewPing/NewPing.h	/^		unsigned long _max_time;$/;"	m	class:NewPing
+_ms_cnt	arduino/libraries/NewPing/NewPing.cpp	/^volatile unsigned long _ms_cnt;$/;"	v
+_ms_cnt_reset	arduino/libraries/NewPing/NewPing.cpp	/^unsigned long _ms_cnt_reset;$/;"	v
+_ros_sensors_thread	src/bair_car/arduino.py	/^    def _ros_sensors_thread(self):$/;"	m	class:Arduino
+_ros_servos_thread	src/bair_car/arduino.py	/^    def _ros_servos_thread(self):$/;"	m	class:Arduino
+_ros_signals_thread	src/bair_car/arduino.py	/^    def _ros_signals_thread(self):$/;"	m	class:Arduino
+_save_callback	src/bair_car/car.py	/^    def _save_callback(self, msg, args):$/;"	m	class:Car
+_sensorID	arduino/libraries/Adafruit_MMA8451/Adafruit_MMA8451.h	/^  int32_t _sensorID;$/;"	m	class:Adafruit_MMA8451
+_setup_serial	src/bair_car/arduino.py	/^    def _setup_serial(self, baudrate, timeout):$/;"	m	class:Arduino
+_triggerBit	arduino/libraries/NewPing/NewPing.h	/^		uint8_t _triggerBit;$/;"	m	class:NewPing
+_triggerMode	arduino/libraries/NewPing/NewPing.h	/^		volatile uint8_t *_triggerMode;$/;"	m	class:NewPing
+_triggerOutput	arduino/libraries/NewPing/NewPing.h	/^		volatile uint8_t *_triggerOutput;$/;"	m	class:NewPing
+a	arduino/core.cpp	/^volatile unsigned long int a = 0;$/;"	v
+a	arduino/motor_servo_uno.cpp	/^volatile unsigned long int a = 0;$/;"	v
+a	arduino/sensors_uno.cpp	/^volatile unsigned long int a = 0;$/;"	v
+acc_callback	nodes/get_ros_images_live2_z2_color_TX1.py	/^def acc_callback(msg):$/;"	f
+acc_callback	nodes/get_ros_images_live2_z2_color_TX1_14April2017.py	/^	def acc_callback(msg):$/;"	f
+acc_callback	nodes/get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	def acc_callback(msg):$/;"	f
+acceleration	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	/^        sensors_vec_t   acceleration;         \/**< acceleration values are in meter per second per second (m\/s^2) *\/$/;"	m	union:__anon9::__anon10
+altitude	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.h	/^  float geoidheight, altitude;$/;"	m	class:Adafruit_GPS
+angle	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.h	/^  float speed, angle, magvariation, HDOP;$/;"	m	class:Adafruit_GPS
+ard	nodes/arduino_node.py	/^    ard = Arduino()$/;"	v
+attachInterrupt	arduino/libraries/TimerOne/TimerOne.h	/^    void attachInterrupt(void (*isr)()) __attribute__((always_inline)) {$/;"	f	class:TimerOne
+attachInterrupt	arduino/libraries/TimerOne/TimerOne.h	/^    void attachInterrupt(void (*isr)(), unsigned long microseconds) __attribute__((always_inline)) {$/;"	f	class:TimerOne
+attachPCINT	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt.h	86;"	d
+attachPinChangeInterrupt	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt.h	/^void attachPinChangeInterrupt(const uint8_t pcintNum, void(*userFunc)(void), const uint8_t mode) {$/;"	f
+attachPinChangeInterrupt0	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt0.cpp	/^void attachPinChangeInterrupt0(void) {$/;"	f
+attachPinChangeInterrupt1	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt1.cpp	/^void attachPinChangeInterrupt1(void) {$/;"	f
+attachPinChangeInterrupt2	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt2.cpp	/^void attachPinChangeInterrupt2(void) {$/;"	f
+attachPinChangeInterrupt3	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt3.cpp	/^void attachPinChangeInterrupt3(void) {$/;"	f
+b	arduino/core.cpp	/^volatile unsigned long int b = 0;$/;"	v
+b	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	/^            float b;       \/**< Blue component *\/$/;"	m	struct:__anon6::__anon7::__anon8
+b	arduino/motor_servo_uno.cpp	/^volatile unsigned long int b = 0;$/;"	v
+b	arduino/sensors_uno.cpp	/^volatile unsigned long int b = 0;$/;"	v
+bag_mv_folder	nodes/rosbag_node.py	/^    bag_mv_folder = opj(bag_mv_folder,foldername)$/;"	v
+bag_mv_folder	nodes/rosbag_node.py	/^    bag_mv_folder = sys.argv[2] # '\/media\/nvidia\/3131-3031\/rosbags'$/;"	v
+bag_mv_folder	nodes/rosbag_node_mod.py	/^    bag_mv_folder = opj(bag_mv_folder,foldername)$/;"	v
+bag_mv_folder	nodes/rosbag_node_mod.py	/^    bag_mv_folder = sys.argv[2] # '\/media\/ubuntu\/3131-3031\/rosbags'$/;"	v
+bag_rec_folder	nodes/rosbag_node.py	/^    bag_rec_folder = sys.argv[1] # '\/home\/nvidia\/catkin_ws\/src\/bair_car\/rosbags'$/;"	v
+bag_rec_folder	nodes/rosbag_node_mod.py	/^    bag_rec_folder = sys.argv[1] # '\/home\/ubuntu\/catkin_ws\/src\/bair_car\/rosbags'$/;"	v
+begin	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.cpp	/^void Adafruit_GPS::begin(uint16_t baud)$/;"	f	class:Adafruit_GPS
+begin	arduino/libraries/Adafruit_MMA8451/Adafruit_MMA8451.cpp	/^bool Adafruit_MMA8451::begin(uint8_t i2caddr) {$/;"	f	class:Adafruit_MMA8451
+begin	arduino/libraries/Adafruit_PWM_Servo_Driver_Library/Adafruit_PWMServoDriver.cpp	/^void Adafruit_PWMServoDriver::begin(void) {$/;"	f	class:Adafruit_PWMServoDriver
+bridge	nodes/get_ros_images_live2_z2_color_TX1.py	/^bridge = CvBridge()$/;"	v
+bridge	nodes/get_ros_images_live2_z2_color_TX1_14April2017.py	/^	bridge = CvBridge()$/;"	v
+bridge	nodes/get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	bridge = CvBridge()$/;"	v
+bridge	nodes/get_ros_images_live2_z2_color_TX1_bkp.py	/^	bridge = CvBridge()$/;"	v
+bridge	nodes/get_ros_images_live2_z2_color_TX1_temp.py	/^	bridge = CvBridge()$/;"	v
+button_interrupt_service_routine	arduino/core.cpp	/^void button_interrupt_service_routine(void) {$/;"	f
+button_interrupt_service_routine	arduino/motor_servo_uno.cpp	/^void button_interrupt_service_routine(void) {$/;"	f
+button_interrupt_service_routine	arduino/old/motor_servo_micro_test.cpp	/^void button_interrupt_service_routine(void) {$/;"	f
+button_prev_interrupt_time	arduino/core.cpp	/^volatile long int button_prev_interrupt_time = 0;$/;"	v
+button_prev_interrupt_time	arduino/motor_servo_uno.cpp	/^volatile unsigned long int button_prev_interrupt_time = 0;$/;"	v
+button_pwm_value	arduino/core.cpp	/^volatile int button_pwm_value = 1210;$/;"	v
+button_pwm_value	arduino/motor_servo_uno.cpp	/^volatile int button_pwm_value = 1210;$/;"	v
+c	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	/^        float c[3];$/;"	m	union:__anon6::__anon7
+caf_motor	nodes/get_ros_images_live2_z2_color_TX1_14April2017.py	/^							caf_motor = 0$/;"	v
+caf_motor	nodes/get_ros_images_live2_z2_color_TX1_14April2017.py	/^							caf_motor = 49$/;"	v
+caf_motor	nodes/get_ros_images_live2_z2_color_TX1_14April2017.py	/^							caf_motor = 99$/;"	v
+caf_motor	nodes/get_ros_images_live2_z2_color_TX1_14April2017.py	/^						caf_motor = 100*solver.net.blobs['ip2'].data[0,19]$/;"	v
+caf_motor	nodes/get_ros_images_live2_z2_color_TX1_14April2017.py	/^						caf_motor = int((caf_motor+caf_motor_previous)\/2.0)$/;"	v
+caf_motor	nodes/get_ros_images_live2_z2_color_TX1_14April2017.py	/^						caf_motor = int((caf_motor-49.) * motor_gain + 49)$/;"	v
+caf_motor	nodes/get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^						caf_motor = 0$/;"	v
+caf_motor	nodes/get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^						caf_motor = 49$/;"	v
+caf_motor	nodes/get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^						caf_motor = 99$/;"	v
+caf_motor	nodes/get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^					caf_motor = 100*solver.net.blobs['ip2'].data[0,19]$/;"	v
+caf_motor	nodes/get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^					caf_motor = int((caf_motor+caf_motor_previous)\/2.0)$/;"	v
+caf_motor	nodes/get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^					caf_motor = int((caf_motor-49.) * motor_gain + 49)$/;"	v
+caf_motor	nodes/get_ros_images_live2_z2_color_TX1_bkp.py	/^						caf_motor = 0$/;"	v
+caf_motor	nodes/get_ros_images_live2_z2_color_TX1_bkp.py	/^						caf_motor = 99$/;"	v
+caf_motor	nodes/get_ros_images_live2_z2_color_TX1_bkp.py	/^					caf_motor = 100*solver.net.blobs['ip2'].data[0,19]$/;"	v
+caf_motor	nodes/get_ros_images_live2_z2_color_TX1_bkp.py	/^					caf_motor = int((caf_motor+caf_motor_previous)\/2.0)$/;"	v
+caf_motor	nodes/get_ros_images_live2_z2_color_TX1_bkp.py	/^					caf_motor = int((caf_motor-49.) * motor_gain + 49)$/;"	v
+caf_motor	nodes/get_ros_images_live2_z2_color_TX1_temp.py	/^						caf_motor = 0$/;"	v
+caf_motor	nodes/get_ros_images_live2_z2_color_TX1_temp.py	/^						caf_motor = 99$/;"	v
+caf_motor	nodes/get_ros_images_live2_z2_color_TX1_temp.py	/^					caf_motor = 100*solver.net.blobs['ip2'].data[0,19]$/;"	v
+caf_motor	nodes/get_ros_images_live2_z2_color_TX1_temp.py	/^					caf_motor = int((caf_motor-49.) * motor_gain + 49)$/;"	v
+caf_motor_previous	nodes/get_ros_images_live2_z2_color_TX1_14April2017.py	/^						caf_motor_previous = caf_motor$/;"	v
+caf_motor_previous	nodes/get_ros_images_live2_z2_color_TX1_14April2017.py	/^	caf_motor_previous = 49$/;"	v
+caf_motor_previous	nodes/get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^					caf_motor_previous = caf_motor$/;"	v
+caf_motor_previous	nodes/get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	caf_motor_previous = 49$/;"	v
+caf_motor_previous	nodes/get_ros_images_live2_z2_color_TX1_bkp.py	/^					caf_motor_previous = caf_motor$/;"	v
+caf_motor_previous	nodes/get_ros_images_live2_z2_color_TX1_bkp.py	/^	caf_motor_previous = 49$/;"	v
+caf_steer	nodes/get_ros_images_live2_z2_color_TX1_14April2017.py	/^							caf_steer = 0$/;"	v
+caf_steer	nodes/get_ros_images_live2_z2_color_TX1_14April2017.py	/^							caf_steer = 49$/;"	v
+caf_steer	nodes/get_ros_images_live2_z2_color_TX1_14April2017.py	/^							caf_steer = 99$/;"	v
+caf_steer	nodes/get_ros_images_live2_z2_color_TX1_14April2017.py	/^						caf_steer = 100*solver.net.blobs['ip2'].data[0,9]$/;"	v
+caf_steer	nodes/get_ros_images_live2_z2_color_TX1_14April2017.py	/^						caf_steer = int((caf_steer+caf_steer_previous)\/2.0)$/;"	v
+caf_steer	nodes/get_ros_images_live2_z2_color_TX1_14April2017.py	/^						caf_steer = int((caf_steer-49.) * steer_gain + 49)$/;"	v
+caf_steer	nodes/get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^						caf_steer = 0$/;"	v
+caf_steer	nodes/get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^						caf_steer = 49$/;"	v
+caf_steer	nodes/get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^						caf_steer = 99$/;"	v
+caf_steer	nodes/get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^					caf_steer = 100*solver.net.blobs['ip2'].data[0,9]$/;"	v
+caf_steer	nodes/get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^					caf_steer = int((caf_steer+caf_steer_previous)\/2.0)$/;"	v
+caf_steer	nodes/get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^					caf_steer = int((caf_steer-49.) * steer_gain + 49)$/;"	v
+caf_steer	nodes/get_ros_images_live2_z2_color_TX1_bkp.py	/^						caf_steer = 0$/;"	v
+caf_steer	nodes/get_ros_images_live2_z2_color_TX1_bkp.py	/^						caf_steer = 99$/;"	v
+caf_steer	nodes/get_ros_images_live2_z2_color_TX1_bkp.py	/^					caf_steer = 100*solver.net.blobs['ip2'].data[0,9]$/;"	v
+caf_steer	nodes/get_ros_images_live2_z2_color_TX1_bkp.py	/^					caf_steer = int((caf_steer+caf_steer_previous)\/2.0)$/;"	v
+caf_steer	nodes/get_ros_images_live2_z2_color_TX1_bkp.py	/^					caf_steer = int((caf_steer-49.) * steer_gain + 49)$/;"	v
+caf_steer	nodes/get_ros_images_live2_z2_color_TX1_temp.py	/^						caf_steer = 0$/;"	v
+caf_steer	nodes/get_ros_images_live2_z2_color_TX1_temp.py	/^						caf_steer = 99$/;"	v
+caf_steer	nodes/get_ros_images_live2_z2_color_TX1_temp.py	/^					caf_steer = 100*solver.net.blobs['ip2'].data[0,9]$/;"	v
+caf_steer	nodes/get_ros_images_live2_z2_color_TX1_temp.py	/^					caf_steer = int((caf_steer-49.) * steer_gain + 49)$/;"	v
+caf_steer_previous	nodes/get_ros_images_live2_z2_color_TX1_14April2017.py	/^						caf_steer_previous = caf_steer$/;"	v
+caf_steer_previous	nodes/get_ros_images_live2_z2_color_TX1_14April2017.py	/^	caf_steer_previous = 49$/;"	v
+caf_steer_previous	nodes/get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^					caf_steer_previous = caf_steer$/;"	v
+caf_steer_previous	nodes/get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	caf_steer_previous = 49$/;"	v
+caf_steer_previous	nodes/get_ros_images_live2_z2_color_TX1_bkp.py	/^					caf_steer_previous = caf_steer$/;"	v
+caf_steer_previous	nodes/get_ros_images_live2_z2_color_TX1_bkp.py	/^	caf_steer_previous = 49$/;"	v
+caffe_enter_timer	nodes/get_ros_images_live2_z2_color_TX1.py	/^caffe_enter_timer = Timer(1)$/;"	v
+caffe_enter_timer	nodes/get_ros_images_live2_z2_color_TX1_14April2017.py	/^	caffe_enter_timer = Timer(2)$/;"	v
+caffe_enter_timer	nodes/get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	caffe_enter_timer = Timer(2)$/;"	v
+caffe_enter_timer	nodes/get_ros_images_live2_z2_color_TX1_bkp.py	/^	caffe_enter_timer = Timer(2)$/;"	v
+caffe_enter_timer	nodes/get_ros_images_live2_z2_color_TX1_temp.py	/^	caffe_enter_timer = Timer(2)$/;"	v
+caffe_last_int_read_time	arduino/core.cpp	/^long int caffe_last_int_read_time;$/;"	v
+caffe_last_int_read_time	arduino/motor_servo_uno.cpp	/^unsigned long int caffe_last_int_read_time;$/;"	v
+caffe_last_written_motor_pwm_value	arduino/motor_servo_uno.cpp	/^int caffe_last_written_motor_pwm_value = motor_null_pwm_value;$/;"	v
+caffe_last_written_servo_pwm_value	arduino/motor_servo_uno.cpp	/^int caffe_last_written_servo_pwm_value = servo_null_pwm_value;$/;"	v
+caffe_mode	arduino/core.cpp	/^int caffe_mode = -3;$/;"	v
+caffe_mode	arduino/motor_servo_uno.cpp	/^int caffe_mode = -3;$/;"	v
+caffe_motor_percent	arduino/core.cpp	/^int caffe_motor_percent = 49;$/;"	v
+caffe_motor_percent	arduino/motor_servo_uno.cpp	/^int caffe_motor_percent = 49;$/;"	v
+caffe_motor_pwm_value	arduino/core.cpp	/^int caffe_motor_pwm_value = motor_null_pwm_value;$/;"	v
+caffe_motor_pwm_value	arduino/motor_servo_uno.cpp	/^int caffe_motor_pwm_value = motor_null_pwm_value;$/;"	v
+caffe_servo_percent	arduino/core.cpp	/^int caffe_servo_percent = 49;$/;"	v
+caffe_servo_percent	arduino/motor_servo_uno.cpp	/^int caffe_servo_percent = 49;$/;"	v
+caffe_servo_pwm_value	arduino/core.cpp	/^int caffe_servo_pwm_value = servo_null_pwm_value;$/;"	v
+caffe_servo_pwm_value	arduino/motor_servo_uno.cpp	/^int caffe_servo_pwm_value = servo_null_pwm_value;$/;"	v
+calibrateGyro	arduino/core.cpp	/^void calibrateGyro()$/;"	f
+calibrateGyro	arduino/sensors_uno.cpp	/^void calibrateGyro()$/;"	f
+callback	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt.h	/^typedef void(*callback)(void);$/;"	t
+callbackPCINT0	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt0.cpp	/^volatile callback callbackPCINT0 = pcint_null_callback;$/;"	v
+callbackPCINT1	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt0.cpp	/^volatile callback callbackPCINT1 = pcint_null_callback;$/;"	v
+callbackPCINT10	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt1.cpp	/^volatile callback callbackPCINT10 = pcint_null_callback;$/;"	v
+callbackPCINT11	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt1.cpp	/^volatile callback callbackPCINT11 = pcint_null_callback;$/;"	v
+callbackPCINT12	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt1.cpp	/^volatile callback callbackPCINT12 = pcint_null_callback;$/;"	v
+callbackPCINT13	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt1.cpp	/^volatile callback callbackPCINT13 = pcint_null_callback;$/;"	v
+callbackPCINT14	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt1.cpp	/^volatile callback callbackPCINT14 = pcint_null_callback;$/;"	v
+callbackPCINT15	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt1.cpp	/^volatile callback callbackPCINT15 = pcint_null_callback;$/;"	v
+callbackPCINT16	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt2.cpp	/^volatile callback callbackPCINT16 = pcint_null_callback;$/;"	v
+callbackPCINT17	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt2.cpp	/^volatile callback callbackPCINT17 = pcint_null_callback;$/;"	v
+callbackPCINT18	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt2.cpp	/^volatile callback callbackPCINT18 = pcint_null_callback;$/;"	v
+callbackPCINT19	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt2.cpp	/^volatile callback callbackPCINT19 = pcint_null_callback;$/;"	v
+callbackPCINT2	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt0.cpp	/^volatile callback callbackPCINT2 = pcint_null_callback;$/;"	v
+callbackPCINT20	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt2.cpp	/^volatile callback callbackPCINT20 = pcint_null_callback;$/;"	v
+callbackPCINT21	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt2.cpp	/^volatile callback callbackPCINT21 = pcint_null_callback;$/;"	v
+callbackPCINT22	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt2.cpp	/^volatile callback callbackPCINT22 = pcint_null_callback;$/;"	v
+callbackPCINT23	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt2.cpp	/^volatile callback callbackPCINT23 = pcint_null_callback;$/;"	v
+callbackPCINT24	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt3.cpp	/^volatile callback callbackPCINT24 = pcint_null_callback;$/;"	v
+callbackPCINT25	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt3.cpp	/^volatile callback callbackPCINT25 = pcint_null_callback;$/;"	v
+callbackPCINT26	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt3.cpp	/^volatile callback callbackPCINT26 = pcint_null_callback;$/;"	v
+callbackPCINT27	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt3.cpp	/^volatile callback callbackPCINT27 = pcint_null_callback;$/;"	v
+callbackPCINT28	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt3.cpp	/^volatile callback callbackPCINT28 = pcint_null_callback;$/;"	v
+callbackPCINT29	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt3.cpp	/^volatile callback callbackPCINT29 = pcint_null_callback;$/;"	v
+callbackPCINT3	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt0.cpp	/^volatile callback callbackPCINT3 = pcint_null_callback;$/;"	v
+callbackPCINT30	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt3.cpp	/^volatile callback callbackPCINT30 = pcint_null_callback;$/;"	v
+callbackPCINT31	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt3.cpp	/^volatile callback callbackPCINT31 = pcint_null_callback;$/;"	v
+callbackPCINT4	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt0.cpp	/^volatile callback callbackPCINT4 = pcint_null_callback;$/;"	v
+callbackPCINT5	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt0.cpp	/^volatile callback callbackPCINT5 = pcint_null_callback;$/;"	v
+callbackPCINT6	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt0.cpp	/^volatile callback callbackPCINT6 = pcint_null_callback;$/;"	v
+callbackPCINT7	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt0.cpp	/^volatile callback callbackPCINT7 = pcint_null_callback;$/;"	v
+callbackPCINT8	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt1.cpp	/^volatile callback callbackPCINT8 = pcint_null_callback;$/;"	v
+callbackPCINT9	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt1.cpp	/^volatile callback callbackPCINT9 = pcint_null_callback;$/;"	v
+camera	scripts/test_zed.py	/^    camera = ImageROSListener('\/bair_car\/zed\/right\/image_rect_color')$/;"	v
+camera_data	nodes/get_ros_images_live2_z2_color_TX1.py	/^				camera_data = format_camera_data(l0, l1, r0, r1)$/;"	v
+camera_heading	nodes/get_ros_images_live2_z2_color_TX1.py	/^camera_heading = 49.0$/;"	v
+camera_heading	nodes/get_ros_images_live2_z2_color_TX1_14April2017.py	/^	camera_heading = 49.0$/;"	v
+camera_heading	nodes/get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	camera_heading = 49.0$/;"	v
+camera_heading	nodes/get_ros_images_live2_z2_color_TX1_bkp.py	/^	camera_heading = 49.0$/;"	v
+camera_heading	nodes/get_ros_images_live2_z2_color_TX1_temp.py	/^	camera_heading = 49.0$/;"	v
+camera_heading_callback	nodes/get_ros_images_live2_z2_color_TX1.py	/^def camera_heading_callback(msg):$/;"	f
+camera_heading_callback	nodes/get_ros_images_live2_z2_color_TX1_14April2017.py	/^	def camera_heading_callback(msg):$/;"	f
+camera_heading_callback	nodes/get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	def camera_heading_callback(msg):$/;"	f
+camera_heading_callback	nodes/get_ros_images_live2_z2_color_TX1_bkp.py	/^	def camera_heading_callback(msg):$/;"	f
+camera_heading_callback	nodes/get_ros_images_live2_z2_color_TX1_temp.py	/^	def camera_heading_callback(msg):$/;"	f
+car	scripts/test_car.py	/^    car = Car()$/;"	v
+check_for_error_conditions	arduino/core.cpp	/^int check_for_error_conditions(void) {$/;"	f
+check_for_error_conditions	arduino/motor_servo_uno.cpp	/^int check_for_error_conditions(void) {$/;"	f
+check_for_error_conditions	arduino/old/motor_servo_micro_test.cpp	/^int check_for_error_conditions(void) {$/;"	f
+check_timer	arduino/libraries/NewPing/NewPing.cpp	/^boolean NewPing::check_timer() {$/;"	f	class:NewPing
+clockSelectBits	arduino/libraries/TimerOne/TimerOne.cpp	/^unsigned char TimerOne::clockSelectBits = 0;$/;"	m	class:TimerOne	file:
+clockSelectBits	arduino/libraries/TimerOne/TimerOne.h	/^    static unsigned char clockSelectBits;$/;"	m	class:TimerOne
+cm	arduino/core.cpp	/^long pulse, inches, cm;$/;"	v
+cm	arduino/sensors_uno.cpp	/^long pulse, inches, cm;$/;"	v
+color	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	/^        sensors_color_t color;                \/**< color in RGB component values *\/$/;"	m	union:__anon9::__anon10
+common_init	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.cpp	/^void Adafruit_GPS::common_init(void) {$/;"	f	class:Adafruit_GPS
+convert_cm	arduino/libraries/NewPing/NewPing.cpp	/^unsigned int NewPing::convert_cm(unsigned int echoTime) {$/;"	f	class:NewPing
+convert_in	arduino/libraries/NewPing/NewPing.cpp	/^unsigned int NewPing::convert_in(unsigned int echoTime) {$/;"	f	class:NewPing
+ctr	nodes/get_ros_images_live2_z2_color_TX1.py	/^ctr = 0$/;"	v
+ctr	nodes/get_ros_images_live2_z2_color_TX1_14April2017.py	/^	ctr = 0$/;"	v
+ctr	nodes/get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	ctr = 0$/;"	v
+ctr	nodes/get_ros_images_live2_z2_color_TX1_bkp.py	/^	ctr = 0$/;"	v
+ctr	nodes/get_ros_images_live2_z2_color_TX1_temp.py	/^	ctr = 0$/;"	v
+current	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	/^        float           current;              \/**< current in milliamps (mA) *\/$/;"	m	union:__anon9::__anon10
+currentline	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.cpp	/^volatile char *currentline;$/;"	v
+data	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	/^        float           data[4];$/;"	m	union:__anon9::__anon10
+day	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.h	/^  uint8_t hour, minute, seconds, year, month, day;$/;"	m	class:Adafruit_GPS
+decorate	nodes/get_ros_images_live2_z2_color_TX1.py	/^    def decorate(func):$/;"	f	function:static_vars
+detachInterrupt	arduino/libraries/TimerOne/TimerOne.h	/^    void detachInterrupt() __attribute__((always_inline)) {$/;"	f	class:TimerOne
+detachPCINT	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt.h	88;"	d
+detachPinChangeInterrupt	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt.h	/^void detachPinChangeInterrupt(const uint8_t pcintNum) {$/;"	f
+digitalPinToPCINT	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt.h	85;"	d
+digitalPinToPinChangeInterrupt	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt.h	81;"	d
+disablePCINT	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt.h	89;"	d
+disablePinChangeInterrupt	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt.h	/^void disablePinChangeInterrupt(const uint8_t pcintNum) {$/;"	f
+disablePinChangeInterruptHelper	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt.cpp	/^void disablePinChangeInterruptHelper(const uint8_t pcintPort, const uint8_t pcintMask) {$/;"	f
+disablePwm	arduino/libraries/TimerOne/TimerOne.h	/^    void disablePwm(char pin) __attribute__((always_inline)) {$/;"	f	class:TimerOne
+distance	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	/^        float           distance;             \/**< distance in centimeters *\/$/;"	m	union:__anon9::__anon10
+doEncoderA	arduino/core.cpp	/^void doEncoderA()$/;"	f
+doEncoderA	arduino/motor_servo_uno.cpp	/^void doEncoderA()$/;"	f
+doEncoderA	arduino/sensors_uno.cpp	/^void doEncoderA()$/;"	f
+doEncoderB	arduino/core.cpp	/^void doEncoderB()$/;"	f
+doEncoderB	arduino/motor_servo_uno.cpp	/^void doEncoderB()$/;"	f
+doEncoderB	arduino/sensors_uno.cpp	/^void doEncoderB()$/;"	f
+dpsPerDigit	arduino/core.cpp	/^float dpsPerDigit=.00875f;              \/\/ for conversion to degrees per second$/;"	v
+dpsPerDigit	arduino/sensors_uno.cpp	/^float dpsPerDigit=.00875f;              \/\/ for conversion to degrees per second$/;"	v
+dt	arduino/core.cpp	/^volatile unsigned long int dt = 0;$/;"	v
+dt	arduino/motor_servo_uno.cpp	/^volatile unsigned long int dt = 0;$/;"	v
+dt	arduino/sensors_uno.cpp	/^volatile unsigned long int dt = 0;$/;"	v
+elapsed	nodes/rosbag_node.py	/^            elapsed = time.time() - start$/;"	v
+elapsed	nodes/rosbag_node_mod.py	/^            elapsed = time.time() - start$/;"	v
+enableAutoRange	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	/^  virtual void enableAutoRange(bool enabled) {};$/;"	f	class:Adafruit_Sensor
+enablePCINT	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt.h	87;"	d
+enablePinChangeInterrupt	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt.h	/^void enablePinChangeInterrupt(const uint8_t pcintNum) {$/;"	f
+enablePinChangeInterruptHelper	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt.cpp	/^void enablePinChangeInterruptHelper(const uint8_t pcintPort, const uint8_t pcintMask, const uint8_t arrayPos){$/;"	f
+encoder0PinA	arduino/core.cpp	773;"	d	file:
+encoder0PinA	arduino/motor_servo_uno.cpp	83;"	d	file:
+encoder0PinA	arduino/sensors_uno.cpp	342;"	d	file:
+encoder0PinB	arduino/core.cpp	774;"	d	file:
+encoder0PinB	arduino/motor_servo_uno.cpp	84;"	d	file:
+encoder0PinB	arduino/sensors_uno.cpp	343;"	d	file:
+encoder0Pos	arduino/core.cpp	/^volatile int encoder0Pos = 0;$/;"	v
+encoder0Pos	arduino/motor_servo_uno.cpp	/^volatile int encoder0Pos = 0;$/;"	v
+encoder0Pos	arduino/sensors_uno.cpp	/^volatile int encoder0Pos = 0;$/;"	v
+encoder_callback	nodes/get_ros_images_live2_z2_color_TX1.py	/^def encoder_callback(msg):$/;"	f
+encoder_callback	nodes/get_ros_images_live2_z2_color_TX1_14April2017.py	/^	def encoder_callback(msg):$/;"	f
+encoder_callback	nodes/get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	def encoder_callback(msg):$/;"	f
+encoder_list	nodes/get_ros_images_live2_z2_color_TX1.py	/^encoder_list = []$/;"	v
+encoder_list	nodes/get_ros_images_live2_z2_color_TX1_14April2017.py	/^	encoder_list = []$/;"	v
+encoder_list	nodes/get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	encoder_list = []$/;"	v
+encoder_loop	arduino/core.cpp	/^void encoder_loop()$/;"	f
+encoder_loop	arduino/motor_servo_uno.cpp	/^void encoder_loop()$/;"	f
+encoder_loop	arduino/sensors_uno.cpp	/^void encoder_loop()$/;"	f
+encoder_setup	arduino/core.cpp	/^void encoder_setup() $/;"	f
+encoder_setup	arduino/motor_servo_uno.cpp	/^void encoder_setup() $/;"	f
+encoder_setup	arduino/sensors_uno.cpp	/^void encoder_setup() $/;"	f
+f_mv	nodes/rosbag_node.py	/^            f_mv = os.path.join(bag_mv_folder, f)$/;"	v
+f_mv	nodes/rosbag_node_mod.py	/^            f_mv = os.path.join(bag_mv_folder, f)$/;"	v
+f_rec	nodes/rosbag_node.py	/^            f_rec = os.path.join(bag_rec_folder, f)$/;"	v
+f_rec	nodes/rosbag_node_mod.py	/^            f_rec = os.path.join(bag_rec_folder, f)$/;"	v
+fallingPorts	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt.cpp	/^uint8_t fallingPorts[PCINT_NUM_USED_PORTS] = { 0 };$/;"	v
+fix	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.h	/^  boolean fix;$/;"	m	class:Adafruit_GPS
+fixquality	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.h	/^  uint8_t fixquality, satellites;$/;"	m	class:Adafruit_GPS
+fl	nodes/rosbag_node.py	/^    fl = gg('\/home\/nvidia\/catkin_ws\/src\/bair_car\/rosbags\/*')$/;"	v
+fl	nodes/rosbag_node_mod.py	/^    fl = gg('\/home\/ubuntu\/catkin_ws\/src\/bair_car\/rosbags\/*')$/;"	v
+folder_display_timer	nodes/get_ros_images_live2_z2_color_TX1.py	/^folder_display_timer = Timer(30)$/;"	v
+folder_display_timer	nodes/get_ros_images_live2_z2_color_TX1_14April2017.py	/^	folder_display_timer = Timer(30)$/;"	v
+folder_display_timer	nodes/get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	folder_display_timer = Timer(30)$/;"	v
+folder_display_timer	nodes/get_ros_images_live2_z2_color_TX1_bkp.py	/^	folder_display_timer = Timer(30)$/;"	v
+folder_display_timer	nodes/get_ros_images_live2_z2_color_TX1_temp.py	/^	folder_display_timer = Timer(30)$/;"	v
+format_camera_data	nodes/get_ros_images_live2_z2_color_TX1.py	/^def format_camera_data(l0, l1, r0, r1):$/;"	f
+format_metadata	nodes/get_ros_images_live2_z2_color_TX1.py	/^def format_metadata(raw_metadata):$/;"	f
+forward	nodes/z2color.py	/^    def forward(self, x, metadata):$/;"	m	class:Z2Color
+freeze	nodes/get_ros_images_live2_z2_color_TX1.py	/^			freeze = False$/;"	v
+freeze	nodes/get_ros_images_live2_z2_color_TX1.py	/^freeze = False$/;"	v
+freeze	nodes/get_ros_images_live2_z2_color_TX1_14April2017.py	/^							freeze = True$/;"	v
+freeze	nodes/get_ros_images_live2_z2_color_TX1_14April2017.py	/^				freeze = False$/;"	v
+freeze	nodes/get_ros_images_live2_z2_color_TX1_14April2017.py	/^	freeze = False$/;"	v
+freeze	nodes/get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^						freeze = True$/;"	v
+freeze	nodes/get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^			freeze = False$/;"	v
+freeze	nodes/get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	freeze = False$/;"	v
+freeze_cmd_pub	nodes/get_ros_images_live2_z2_color_TX1.py	/^freeze_cmd_pub = rospy.Publisher('cmd\/freeze', std_msgs.msg.Int32, queue_size=100)$/;"	v
+ftm1_isr	arduino/libraries/TimerOne/TimerOne.cpp	/^void ftm1_isr(void)$/;"	f
+g	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	/^            float g;       \/**< Green component *\/$/;"	m	struct:__anon6::__anon7::__anon8
+geoidheight	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.h	/^  float geoidheight, altitude;$/;"	m	class:Adafruit_GPS
+getArrayPosPCINT	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt.h	/^uint8_t getArrayPosPCINT(uint8_t pcintPort) {$/;"	f
+getDataRate	arduino/libraries/Adafruit_MMA8451/Adafruit_MMA8451.cpp	/^mma8451_dataRate_t Adafruit_MMA8451::getDataRate(void)$/;"	f	class:Adafruit_MMA8451
+getDeltaTMicros	arduino/core.cpp	/^unsigned long getDeltaTMicros()$/;"	f
+getDeltaTMicros	arduino/sensors_uno.cpp	/^unsigned long getDeltaTMicros()$/;"	f
+getEvent	arduino/libraries/Adafruit_MMA8451/Adafruit_MMA8451.cpp	/^bool Adafruit_MMA8451::getEvent(sensors_event_t *event) {$/;"	f	class:Adafruit_MMA8451
+getOrientation	arduino/libraries/Adafruit_MMA8451/Adafruit_MMA8451.cpp	/^uint8_t Adafruit_MMA8451::getOrientation(void) {$/;"	f	class:Adafruit_MMA8451
+getPCINTTrigger	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt.h	90;"	d
+getPinChangeInterruptTrigger	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt.h	/^uint8_t getPinChangeInterruptTrigger(const uint8_t pcintNum) {$/;"	f
+getRange	arduino/libraries/Adafruit_MMA8451/Adafruit_MMA8451.cpp	/^mma8451_range_t Adafruit_MMA8451::getRange(void)$/;"	f	class:Adafruit_MMA8451
+getSensor	arduino/libraries/Adafruit_MMA8451/Adafruit_MMA8451.cpp	/^void Adafruit_MMA8451::getSensor(sensor_t *sensor) {$/;"	f	class:Adafruit_MMA8451
+get_image	src/bair_car/ros_utils.py	/^    def get_image(self):$/;"	m	class:ImageROSListener
+get_motor	src/bair_car/car.py	/^    def get_motor(self):$/;"	m	class:Car
+get_msg	src/bair_car/ros_utils.py	/^    def get_msg(self):$/;"	m	class:ROSListener
+get_state	src/bair_car/car.py	/^    def get_state(self):$/;"	m	class:Car
+get_steer	src/bair_car/car.py	/^    def get_steer(self):$/;"	m	class:Car
+git_pull_timer	nodes/get_ros_images_live2_z2_color_TX1.py	/^git_pull_timer = Timer(60)$/;"	v
+git_pull_timer	nodes/get_ros_images_live2_z2_color_TX1_14April2017.py	/^	git_pull_timer = Timer(60)$/;"	v
+git_pull_timer	nodes/get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	git_pull_timer = Timer(60)$/;"	v
+git_pull_timer	nodes/get_ros_images_live2_z2_color_TX1_bkp.py	/^	git_pull_timer = Timer(60)$/;"	v
+gpsHwSerial	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.h	/^  HardwareSerial *gpsHwSerial;$/;"	m	class:Adafruit_GPS
+gpsSwSerial	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.h	/^    NewSoftSerial  *gpsSwSerial;$/;"	m	class:Adafruit_GPS
+gpsSwSerial	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.h	/^    SoftwareSerial *gpsSwSerial;$/;"	m	class:Adafruit_GPS
+gyro	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	/^        sensors_vec_t   gyro;                 \/**< gyroscope values are in rad\/s *\/$/;"	m	union:__anon9::__anon10
+gyroDPS	arduino/core.cpp	/^double gyroDPS[3];                      \/\/ gyro degrees per second, each axis$/;"	v
+gyroDPS	arduino/sensors_uno.cpp	/^double gyroDPS[3];                      \/\/ gyro degrees per second, each axis$/;"	v
+gyroI2CAddr	arduino/core.cpp	/^int gyroI2CAddr=105;$/;"	v
+gyroI2CAddr	arduino/sensors_uno.cpp	/^int gyroI2CAddr=105;$/;"	v
+gyroRaw	arduino/core.cpp	/^int gyroRaw[3];                         \/\/ raw sensor data, each axis, pretty useless really but here it is.$/;"	v
+gyroRaw	arduino/sensors_uno.cpp	/^int gyroRaw[3];                         \/\/ raw sensor data, each axis, pretty useless really but here it is.$/;"	v
+gyroReadI2C	arduino/core.cpp	/^int gyroReadI2C (byte regAddr) {$/;"	f
+gyroReadI2C	arduino/sensors_uno.cpp	/^int gyroReadI2C (byte regAddr) {$/;"	f
+gyroThreshold	arduino/core.cpp	/^int gyroThreshold[3];                   \/\/ Raw rate change data less than the statistically derived threshold is discarded.$/;"	v
+gyroThreshold	arduino/sensors_uno.cpp	/^int gyroThreshold[3];                   \/\/ Raw rate change data less than the statistically derived threshold is discarded.$/;"	v
+gyroWriteI2C	arduino/core.cpp	/^int gyroWriteI2C( byte regAddr, byte val){$/;"	f
+gyroWriteI2C	arduino/sensors_uno.cpp	/^int gyroWriteI2C( byte regAddr, byte val){$/;"	f
+gyroZeroRate	arduino/core.cpp	/^int gyroZeroRate[3];                    \/\/ Calibration data.  Needed because the sensor does center at zero, but rather always reports a small amount of rotation on each axis.$/;"	v
+gyroZeroRate	arduino/sensors_uno.cpp	/^int gyroZeroRate[3];                    \/\/ Calibration data.  Needed because the sensor does center at zero, but rather always reports a small amount of rotation on each axis.$/;"	v
+gyro_callback	nodes/get_ros_images_live2_z2_color_TX1.py	/^def gyro_callback(msg):$/;"	f
+gyro_callback	nodes/get_ros_images_live2_z2_color_TX1_14April2017.py	/^	def gyro_callback(msg):$/;"	f
+gyro_callback	nodes/get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	def gyro_callback(msg):$/;"	f
+gyro_loop	arduino/core.cpp	/^void gyro_loop() {$/;"	f
+gyro_loop	arduino/sensors_uno.cpp	/^void gyro_loop() {$/;"	f
+gyro_setup	arduino/core.cpp	/^void gyro_setup() {$/;"	f
+gyro_setup	arduino/sensors_uno.cpp	/^void gyro_setup() {$/;"	f
+heading	arduino/core.cpp	/^float heading[3]={0.0f};                \/\/ heading[x], heading[y], heading [z]$/;"	v
+heading	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	/^            float heading; \/**< Angle between the longitudinal axis (the plane body) and magnetic north, measured clockwise when viewing from the top of the device. 0-359° *\/$/;"	m	struct:__anon2::__anon3::__anon5
+heading	arduino/sensors_uno.cpp	/^float heading[3]={0.0f};                \/\/ heading[x], heading[y], heading [z]$/;"	v
+hour	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.h	/^  uint8_t hour, minute, seconds, year, month, day;$/;"	m	class:Adafruit_GPS
+i2cread	arduino/libraries/Adafruit_MMA8451/Adafruit_MMA8451.cpp	/^static inline uint8_t i2cread(void) {$/;"	f	file:
+i2cwrite	arduino/libraries/Adafruit_MMA8451/Adafruit_MMA8451.cpp	/^static inline void i2cwrite(uint8_t x) {$/;"	f	file:
+im	scripts/test_zed.py	/^    im = camera.get_image()$/;"	v
+inStandbyMode	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.cpp	/^volatile boolean inStandbyMode;$/;"	v
+inches	arduino/core.cpp	/^long pulse, inches, cm;$/;"	v
+inches	arduino/sensors_uno.cpp	/^long pulse, inches, cm;$/;"	v
+init_model	nodes/get_ros_images_live2_z2_color_TX1.py	/^def init_model():$/;"	f
+initialize	arduino/libraries/TimerOne/TimerOne.h	/^    void initialize(unsigned long microseconds=1000000) __attribute__((always_inline)) {$/;"	f	class:TimerOne
+intFunc	arduino/libraries/NewPing/NewPing.cpp	/^void (*intFunc)();$/;"	v
+intFunc2	arduino/libraries/NewPing/NewPing.cpp	/^void (*intFunc2)();$/;"	v
+isrCallback	arduino/libraries/TimerOne/TimerOne.cpp	/^void (*TimerOne::isrCallback)() = NULL;$/;"	v
+isrCallback	arduino/libraries/TimerOne/TimerOne.h	/^    static void (*isrCallback)();$/;"	m	class:TimerOne
+itimer	arduino/libraries/NewPing/NewPing.cpp	/^	IntervalTimer itimer;$/;"	v
+known_16bit_timers_header_	arduino/libraries/TimerOne/config/known_16bit_timers.h	2;"	d
+l0	nodes/get_ros_images_live2_z2_color_TX1.py	/^				l0 = left_list[-2]$/;"	v
+l0	nodes/get_ros_images_live2_z2_color_TX1_14April2017.py	/^						l0 = left_list[-2]$/;"	v
+l0	nodes/get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^					l0 = left_list[-2]$/;"	v
+l0	nodes/get_ros_images_live2_z2_color_TX1_bkp.py	/^					l0 = left_list[-2]$/;"	v
+l0	nodes/get_ros_images_live2_z2_color_TX1_temp.py	/^					l0 = left_list[-2]$/;"	v
+l1	nodes/get_ros_images_live2_z2_color_TX1.py	/^				l1 = left_list[-1]$/;"	v
+l1	nodes/get_ros_images_live2_z2_color_TX1_14April2017.py	/^						l1 = left_list[-1]$/;"	v
+l1	nodes/get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^					l1 = left_list[-1]$/;"	v
+l1	nodes/get_ros_images_live2_z2_color_TX1_bkp.py	/^					l1 = left_list[-1]$/;"	v
+l1	nodes/get_ros_images_live2_z2_color_TX1_temp.py	/^					l1 = left_list[-1]$/;"	v
+lastNMEA	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.cpp	/^char *Adafruit_GPS::lastNMEA(void) {$/;"	f	class:Adafruit_GPS
+lastline	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.cpp	/^volatile char *lastline;$/;"	v
+lat	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.h	/^  char lat, lon, mag;$/;"	m	class:Adafruit_GPS
+latitude	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.h	/^  float latitude, longitude;$/;"	m	class:Adafruit_GPS
+latitudeDegrees	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.h	/^  float latitudeDegrees, longitudeDegrees;$/;"	m	class:Adafruit_GPS
+latitude_fixed	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.h	/^  int32_t latitude_fixed, longitude_fixed;$/;"	m	class:Adafruit_GPS
+left_callback	nodes/get_ros_images_live2_z2_color_TX1.py	/^def left_callback(data):$/;"	f
+left_callback	nodes/get_ros_images_live2_z2_color_TX1_14April2017.py	/^	def left_callback(data):$/;"	f
+left_callback	nodes/get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	def left_callback(data):$/;"	f
+left_callback	nodes/get_ros_images_live2_z2_color_TX1_bkp.py	/^	def left_callback(data):$/;"	f
+left_callback	nodes/get_ros_images_live2_z2_color_TX1_temp.py	/^	def left_callback(data):$/;"	f
+left_list	nodes/get_ros_images_live2_z2_color_TX1.py	/^left_list = []$/;"	v
+left_list	nodes/get_ros_images_live2_z2_color_TX1_14April2017.py	/^	left_list = []$/;"	v
+left_list	nodes/get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	left_list = []$/;"	v
+left_list	nodes/get_ros_images_live2_z2_color_TX1_bkp.py	/^	left_list = []$/;"	v
+left_list	nodes/get_ros_images_live2_z2_color_TX1_temp.py	/^	left_list = []$/;"	v
+light	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	/^        float           light;                \/**< light in SI lux units *\/$/;"	m	union:__anon9::__anon10
+line1	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.cpp	/^volatile char line1[MAXLINELENGTH];$/;"	v
+line2	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.cpp	/^volatile char line2[MAXLINELENGTH];$/;"	v
+lineidx	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.cpp	/^volatile uint8_t lineidx=0;$/;"	v
+lon	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.h	/^  char lat, lon, mag;$/;"	m	class:Adafruit_GPS
+longitude	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.h	/^  float latitude, longitude;$/;"	m	class:Adafruit_GPS
+longitudeDegrees	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.h	/^  float latitudeDegrees, longitudeDegrees;$/;"	m	class:Adafruit_GPS
+longitude_fixed	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.h	/^  int32_t latitude_fixed, longitude_fixed;$/;"	m	class:Adafruit_GPS
+loop	arduino/core.cpp	/^void loop() {$/;"	f
+loop	arduino/motor_servo_uno.cpp	/^void loop() {$/;"	f
+loop	arduino/old/motor_servo_micro_test.cpp	/^void loop() {$/;"	f
+loop	arduino/sensors_uno.cpp	/^void loop() {$/;"	f
+mag	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.h	/^  char lat, lon, mag;$/;"	m	class:Adafruit_GPS
+magnetic	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	/^        sensors_vec_t   magnetic;             \/**< magnetic vector values are in micro-Tesla (uT) *\/$/;"	m	union:__anon9::__anon10
+magvariation	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.h	/^  float speed, angle, magvariation, HDOP;$/;"	m	class:Adafruit_GPS
+max_value	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	/^    float    max_value;                       \/**< maximum value of this sensor's value in SI units *\/$/;"	m	struct:__anon11
+metadata	nodes/get_ros_images_live2_z2_color_TX1.py	/^				metadata = format_metadata((Racing, 0, Follow, Direct, Play, Furtive))$/;"	v
+milliseconds	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.h	/^  uint16_t milliseconds;$/;"	m	class:Adafruit_GPS
+min_delay	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	/^    int32_t  min_delay;                       \/**< min delay in microseconds between events. zero = not a constant rate *\/$/;"	m	struct:__anon11
+min_value	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	/^    float    min_value;                       \/**< minimum value of this sensor's value in SI units *\/$/;"	m	struct:__anon11
+minute	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.h	/^  uint8_t hour, minute, seconds, year, month, day;$/;"	m	class:Adafruit_GPS
+mma8451_dataRate_t	arduino/libraries/Adafruit_MMA8451/Adafruit_MMA8451.h	/^} mma8451_dataRate_t;$/;"	t	typeref:enum:__anon13
+mma8451_range_t	arduino/libraries/Adafruit_MMA8451/Adafruit_MMA8451.h	/^} mma8451_range_t;$/;"	t	typeref:enum:__anon12
+model_name_pub	nodes/get_ros_images_live2_z2_color_TX1.py	/^model_name_pub = rospy.Publisher('\/bair_car\/model_name', std_msgs.msg.String, queue_size=10)$/;"	v
+model_name_pub	nodes/get_ros_images_live2_z2_color_TX1_14April2017.py	/^	model_name_pub = rospy.Publisher('\/bair_car\/model_name', std_msgs.msg.String, queue_size=10)$/;"	v
+model_name_pub	nodes/get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	model_name_pub = rospy.Publisher('\/bair_car\/model_name', std_msgs.msg.String, queue_size=10)$/;"	v
+model_name_pub	nodes/get_ros_images_live2_z2_color_TX1_bkp.py	/^	model_name_pub = rospy.Publisher('\/bair_car\/model_name', std_msgs.msg.String, queue_size=10)$/;"	v
+month	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.h	/^  uint8_t hour, minute, seconds, year, month, day;$/;"	m	class:Adafruit_GPS
+motor	arduino/core.cpp	/^Servo motor; $/;"	v
+motor	arduino/motor_servo_uno.cpp	/^Servo motor; $/;"	v
+motor	arduino/old/motor_servo_micro_test.cpp	/^Servo motor; $/;"	v
+motor_cmd_pub	nodes/get_ros_images_live2_z2_color_TX1.py	/^motor_cmd_pub = rospy.Publisher('cmd\/motor', std_msgs.msg.Int32, queue_size=100)$/;"	v
+motor_cmd_pub	nodes/get_ros_images_live2_z2_color_TX1_14April2017.py	/^	motor_cmd_pub = rospy.Publisher('cmd\/motor', std_msgs.msg.Int32, queue_size=100)$/;"	v
+motor_cmd_pub	nodes/get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	motor_cmd_pub = rospy.Publisher('cmd\/motor', std_msgs.msg.Int32, queue_size=100)$/;"	v
+motor_cmd_pub	nodes/get_ros_images_live2_z2_color_TX1_bkp.py	/^	motor_cmd_pub = rospy.Publisher('cmd\/motor', std_msgs.msg.Int32, queue_size=100)$/;"	v
+motor_cmd_pub	nodes/get_ros_images_live2_z2_color_TX1_temp.py	/^	motor_cmd_pub = rospy.Publisher('cmd\/motor', std_msgs.msg.Int32, queue_size=100)$/;"	v
+motor_gain	nodes/get_ros_images_live2_z2_color_TX1.py	/^motor_gain = 1.0$/;"	v
+motor_interrupt_service_routine	arduino/core.cpp	/^void motor_interrupt_service_routine(void) {$/;"	f
+motor_interrupt_service_routine	arduino/motor_servo_uno.cpp	/^void motor_interrupt_service_routine(void) {$/;"	f
+motor_interrupt_service_routine	arduino/old/motor_servo_micro_test.cpp	/^void motor_interrupt_service_routine(void) {$/;"	f
+motor_max_pwm_value	arduino/core.cpp	/^volatile int motor_max_pwm_value  = 1600;$/;"	v
+motor_max_pwm_value	arduino/motor_servo_uno.cpp	/^volatile int motor_max_pwm_value  = 1600;$/;"	v
+motor_min_pwm_value	arduino/core.cpp	/^volatile int motor_min_pwm_value  = 1400;$/;"	v
+motor_min_pwm_value	arduino/motor_servo_uno.cpp	/^volatile int motor_min_pwm_value  = 1400;$/;"	v
+motor_null_pwm_value	arduino/core.cpp	/^volatile int motor_null_pwm_value = 1528;$/;"	v
+motor_null_pwm_value	arduino/motor_servo_uno.cpp	/^volatile int motor_null_pwm_value = 1528;$/;"	v
+motor_percent	arduino/core.cpp	/^int motor_percent = 49;$/;"	v
+motor_percent	arduino/motor_servo_uno.cpp	/^int motor_percent = 49;$/;"	v
+motor_prev_interrupt_time	arduino/core.cpp	/^volatile long int motor_prev_interrupt_time  = 0;$/;"	v
+motor_prev_interrupt_time	arduino/motor_servo_uno.cpp	/^volatile unsigned long int motor_prev_interrupt_time  = 0;$/;"	v
+motor_pwm_value	arduino/core.cpp	/^volatile int motor_pwm_value = motor_null_pwm_value;$/;"	v
+motor_pwm_value	arduino/motor_servo_uno.cpp	/^volatile int motor_pwm_value = motor_null_pwm_value;$/;"	v
+motor_servo_loop	arduino/core.cpp	/^void motor_servo_loop() {$/;"	f
+motor_servo_setup	arduino/core.cpp	/^void motor_servo_setup()$/;"	f
+mySerial	arduino/core.cpp	/^Adafruit_GPS GPS(&mySerial);$/;"	v
+mySerial	arduino/sensors_uno.cpp	/^Adafruit_GPS GPS(&mySerial);$/;"	v
+name	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	/^    char     name[12];                        \/**< sensor name *\/$/;"	m	struct:__anon11
+newNMEAreceived	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.cpp	/^boolean Adafruit_GPS::newNMEAreceived(void) {$/;"	f	class:Adafruit_GPS
+oldPorts	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt.cpp	/^uint8_t oldPorts[PCINT_NUM_USED_PORTS] = { 0 };$/;"	v
+orientation	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	/^        sensors_vec_t   orientation;          \/**< orientation values are in degrees *\/$/;"	m	union:__anon9::__anon10
+package_dir	setup.py	/^    package_dir={'': 'src'})$/;"	v
+packages	setup.py	/^    packages=['bair_car'],$/;"	v
+parse	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.cpp	/^boolean Adafruit_GPS::parse(char *nmea) {$/;"	f	class:Adafruit_GPS
+parseHex	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.cpp	/^uint8_t Adafruit_GPS::parseHex(char c) {$/;"	f	class:Adafruit_GPS
+parse_rosbag	scripts/parse_rosbag.py	/^def parse_rosbag():$/;"	f
+pause	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.cpp	/^void Adafruit_GPS::pause(boolean p) {$/;"	f	class:Adafruit_GPS
+paused	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.h	/^  boolean paused;$/;"	m	class:Adafruit_GPS
+pcint_null_callback	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt.cpp	/^	void pcint_null_callback(void) {$/;"	f
+ping	arduino/libraries/NewPing/NewPing.cpp	/^unsigned int NewPing::ping() {$/;"	f	class:NewPing
+ping_cm	arduino/libraries/NewPing/NewPing.cpp	/^unsigned long NewPing::ping_cm() {$/;"	f	class:NewPing
+ping_in	arduino/libraries/NewPing/NewPing.cpp	/^unsigned long NewPing::ping_in() {$/;"	f	class:NewPing
+ping_median	arduino/libraries/NewPing/NewPing.cpp	/^unsigned long NewPing::ping_median(uint8_t it) {$/;"	f	class:NewPing
+ping_result	arduino/libraries/NewPing/NewPing.h	/^		unsigned long ping_result;$/;"	m	class:NewPing
+ping_timer	arduino/libraries/NewPing/NewPing.cpp	/^void NewPing::ping_timer(void (*userFunc)(void)) {$/;"	f	class:NewPing
+ping_trigger	arduino/libraries/NewPing/NewPing.cpp	/^boolean NewPing::ping_trigger() {$/;"	f	class:NewPing
+pitch	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	/^            float pitch;   \/**< Rotation around the lateral axis (the wing span, 'Y axis'). Pitch is positive and increasing when moving upwards. -180°<=pitch<=180°) *\/$/;"	m	struct:__anon2::__anon3::__anon5
+portInputRegister	arduino/libraries/PinChangeInterrupt/src/PinChangeInterruptBoards.h	81;"	d
+pressure	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	/^        float           pressure;             \/**< pressure in hectopascal (hPa) *\/$/;"	m	union:__anon9::__anon10
+previous_state	arduino/core.cpp	/^volatile int previous_state = 0;$/;"	v
+previous_state	arduino/motor_servo_uno.cpp	/^volatile int previous_state = 0;$/;"	v
+previous_state	nodes/get_ros_images_live2_z2_color_TX1.py	/^			previous_state = state$/;"	v
+previous_state	nodes/get_ros_images_live2_z2_color_TX1.py	/^previous_state = 0$/;"	v
+previous_state	nodes/get_ros_images_live2_z2_color_TX1_14April2017.py	/^				previous_state = state$/;"	v
+previous_state	nodes/get_ros_images_live2_z2_color_TX1_14April2017.py	/^	previous_state = 0$/;"	v
+previous_state	nodes/get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^				previous_state = state$/;"	v
+previous_state	nodes/get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	previous_state = 0$/;"	v
+previous_state	nodes/get_ros_images_live2_z2_color_TX1_bkp.py	/^				previous_state = state$/;"	v
+previous_state	nodes/get_ros_images_live2_z2_color_TX1_bkp.py	/^	previous_state = 0$/;"	v
+previous_state	nodes/get_ros_images_live2_z2_color_TX1_temp.py	/^				previous_state = state$/;"	v
+previous_state	nodes/get_ros_images_live2_z2_color_TX1_temp.py	/^	previous_state = 0$/;"	v
+printDPS	arduino/core.cpp	/^void printDPS()$/;"	f
+printDPS	arduino/sensors_uno.cpp	/^void printDPS()$/;"	f
+printHeadings	arduino/core.cpp	/^void printHeadings()$/;"	f
+printHeadings	arduino/sensors_uno.cpp	/^void printHeadings()$/;"	f
+pulse	arduino/core.cpp	/^long pulse, inches, cm;$/;"	v
+pulse	arduino/sensors_uno.cpp	/^long pulse, inches, cm;$/;"	v
+pwPin	arduino/core.cpp	/^const int pwPin = 7;$/;"	v
+pwPin	arduino/sensors_uno.cpp	/^const int pwPin = 7;$/;"	v
+pwm	arduino/libraries/TimerOne/TimerOne.h	/^    void pwm(char pin, unsigned int duty) __attribute__((always_inline)) {$/;"	f	class:TimerOne
+pwm	arduino/libraries/TimerOne/TimerOne.h	/^    void pwm(char pin, unsigned int duty, unsigned long microseconds) __attribute__((always_inline)) {$/;"	f	class:TimerOne
+pwmPeriod	arduino/libraries/TimerOne/TimerOne.cpp	/^unsigned short TimerOne::pwmPeriod = 0;$/;"	m	class:TimerOne	file:
+pwmPeriod	arduino/libraries/TimerOne/TimerOne.h	/^    static unsigned short pwmPeriod;$/;"	m	class:TimerOne
+r	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	/^            float r;       \/**< Red component *\/$/;"	m	struct:__anon6::__anon7::__anon8
+r0	nodes/get_ros_images_live2_z2_color_TX1.py	/^				r0 = right_list[-2]$/;"	v
+r0	nodes/get_ros_images_live2_z2_color_TX1_14April2017.py	/^						r0 = right_list[-2]$/;"	v
+r0	nodes/get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^					r0 = right_list[-2]$/;"	v
+r0	nodes/get_ros_images_live2_z2_color_TX1_bkp.py	/^					r0 = right_list[-2]$/;"	v
+r0	nodes/get_ros_images_live2_z2_color_TX1_temp.py	/^					r0 = right_list[-2]$/;"	v
+r1	nodes/get_ros_images_live2_z2_color_TX1.py	/^				r1 = right_list[-1]$/;"	v
+r1	nodes/get_ros_images_live2_z2_color_TX1_14April2017.py	/^						r1 = right_list[-1]$/;"	v
+r1	nodes/get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^					r1 = right_list[-1]$/;"	v
+r1	nodes/get_ros_images_live2_z2_color_TX1_bkp.py	/^					r1 = right_list[-1]$/;"	v
+r1	nodes/get_ros_images_live2_z2_color_TX1_temp.py	/^					r1 = right_list[-1]$/;"	v
+rate	nodes/rosbag_node.py	/^    rate = rospy.Rate(2.0)$/;"	v
+rate	nodes/rosbag_node_mod.py	/^    rate = rospy.Rate(2.0)$/;"	v
+rate_1	arduino/core.cpp	/^volatile float rate_1 = 0.0;$/;"	v
+rate_1	arduino/motor_servo_uno.cpp	/^volatile float rate_1 = 0.0;$/;"	v
+rate_1	arduino/sensors_uno.cpp	/^volatile float rate_1 = 0.0;$/;"	v
+read	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.cpp	/^char Adafruit_GPS::read(void) {$/;"	f	class:Adafruit_GPS
+read	arduino/libraries/Adafruit_MMA8451/Adafruit_MMA8451.cpp	/^void Adafruit_MMA8451::read(void) {$/;"	f	class:Adafruit_MMA8451
+read8	arduino/libraries/Adafruit_PWM_Servo_Driver_Library/Adafruit_PWMServoDriver.cpp	/^uint8_t Adafruit_PWMServoDriver::read8(uint8_t addr) {$/;"	f	class:Adafruit_PWMServoDriver
+readRegister8	arduino/libraries/Adafruit_MMA8451/Adafruit_MMA8451.cpp	/^uint8_t Adafruit_MMA8451::readRegister8(uint8_t reg) {$/;"	f	class:Adafruit_MMA8451
+recvdflag	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.cpp	/^volatile boolean recvdflag;$/;"	v
+relative_humidity	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	/^        float           relative_humidity;    \/**< relative humidity in percent *\/$/;"	m	union:__anon9::__anon10
+reload_timer	nodes/get_ros_images_live2_z2_color_TX1.py	/^reload_timer = Timer(10)$/;"	v
+reload_timer	nodes/get_ros_images_live2_z2_color_TX1_14April2017.py	/^	reload_timer = Timer(10)$/;"	v
+reload_timer	nodes/get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	reload_timer = Timer(10)$/;"	v
+reload_timer	nodes/get_ros_images_live2_z2_color_TX1_bkp.py	/^	reload_timer = Timer(10)$/;"	v
+reload_timer	nodes/get_ros_images_live2_z2_color_TX1_temp.py	/^	reload_timer = Timer(5)$/;"	v
+reserved	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	/^    uint8_t reserved[3];$/;"	m	struct:__anon2
+reserved0	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	/^    int32_t reserved0;                        \/**< reserved *\/$/;"	m	struct:__anon9
+reset	arduino/libraries/Adafruit_PWM_Servo_Driver_Library/Adafruit_PWMServoDriver.cpp	/^void Adafruit_PWMServoDriver::reset(void) {$/;"	f	class:Adafruit_PWMServoDriver
+resolution	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	/^    float    resolution;                      \/**< smallest difference between two values reported by this sensor *\/$/;"	m	struct:__anon11
+restart	arduino/libraries/TimerOne/TimerOne.h	/^    void restart() __attribute__((always_inline)) {$/;"	f	class:TimerOne
+resume	arduino/libraries/TimerOne/TimerOne.h	/^    void resume() __attribute__((always_inline)) {$/;"	f	class:TimerOne
+rgba	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	/^    uint32_t rgba;         \/**< 24-bit RGBA value *\/$/;"	m	struct:__anon6
+right_callback	nodes/get_ros_images_live2_z2_color_TX1.py	/^def right_callback(data):$/;"	f
+right_callback	nodes/get_ros_images_live2_z2_color_TX1_14April2017.py	/^	def right_callback(data):$/;"	f
+right_callback	nodes/get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	def right_callback(data):$/;"	f
+right_callback	nodes/get_ros_images_live2_z2_color_TX1_bkp.py	/^	def right_callback(data):$/;"	f
+right_callback	nodes/get_ros_images_live2_z2_color_TX1_temp.py	/^	def right_callback(data):$/;"	f
+right_list	nodes/get_ros_images_live2_z2_color_TX1.py	/^right_list = []$/;"	v
+right_list	nodes/get_ros_images_live2_z2_color_TX1_14April2017.py	/^	right_list = []$/;"	v
+right_list	nodes/get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	right_list = []$/;"	v
+right_list	nodes/get_ros_images_live2_z2_color_TX1_bkp.py	/^	right_list = []$/;"	v
+right_list	nodes/get_ros_images_live2_z2_color_TX1_temp.py	/^	right_list = []$/;"	v
+risingPorts	arduino/libraries/PinChangeInterrupt/src/PinChangeInterrupt.cpp	/^uint8_t risingPorts[PCINT_NUM_USED_PORTS] = { 0 };$/;"	v
+roll	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	/^            float roll;    \/**< Rotation around the longitudinal axis (the plane body, 'X axis'). Roll is positive and increasing when moving downward. -90°<=roll<=90° *\/$/;"	m	struct:__anon2::__anon3::__anon5
+rospack	scripts/parse_rosbag.py	/^rospack = rospkg.RosPack()$/;"	v
+run_model	nodes/get_ros_images_live2_z2_color_TX1.py	/^def run_model(input, metadata):$/;"	f
+safe_percent_range	arduino/core.cpp	/^int safe_percent_range(int p) {$/;"	f
+safe_percent_range	arduino/motor_servo_uno.cpp	/^int safe_percent_range(int p) {$/;"	f
+safe_percent_range	arduino/old/motor_servo_micro_test.cpp	/^int safe_percent_range(int p) {$/;"	f
+safe_pwm_range	arduino/core.cpp	/^int safe_pwm_range(int p) {$/;"	f
+safe_pwm_range	arduino/motor_servo_uno.cpp	/^int safe_pwm_range(int p) {$/;"	f
+safe_pwm_range	arduino/old/motor_servo_micro_test.cpp	/^int safe_pwm_range(int p) {$/;"	f
+satellites	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.h	/^  uint8_t fixquality, satellites;$/;"	m	class:Adafruit_GPS
+save_pub	nodes/rosbag_node.py	/^    save_pub = rospy.Publisher('signals', std_msgs.msg.Int32, queue_size=100)$/;"	v
+save_pub	nodes/rosbag_node_mod.py	/^    save_pub = rospy.Publisher('signals', std_msgs.msg.Int32, queue_size=100)$/;"	v
+seconds	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.h	/^  uint8_t hour, minute, seconds, year, month, day;$/;"	m	class:Adafruit_GPS
+sendCommand	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.cpp	/^void Adafruit_GPS::sendCommand(const char *str) {$/;"	f	class:Adafruit_GPS
+sensor_id	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	/^    int32_t  sensor_id;                       \/**< unique sensor identifier *\/$/;"	m	struct:__anon11
+sensor_id	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	/^    int32_t sensor_id;                        \/**< unique sensor identifier *\/$/;"	m	struct:__anon9
+sensor_t	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	/^} sensor_t;$/;"	t	typeref:struct:__anon11
+sensors_color_t	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	/^} sensors_color_t;$/;"	t	typeref:struct:__anon6
+sensors_event_t	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	/^} sensors_event_t;$/;"	t	typeref:struct:__anon9
+sensors_type_t	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	/^} sensors_type_t;$/;"	t	typeref:enum:__anon1
+sensors_vec_t	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	/^} sensors_vec_t;$/;"	t	typeref:struct:__anon2
+servo	arduino/core.cpp	/^Servo servo;$/;"	v
+servo	arduino/motor_servo_uno.cpp	/^Servo servo;$/;"	v
+servo	arduino/old/motor_servo_micro_test.cpp	/^Servo servo;$/;"	v
+servo_interrupt_service_routine	arduino/core.cpp	/^void servo_interrupt_service_routine(void) {$/;"	f
+servo_interrupt_service_routine	arduino/motor_servo_uno.cpp	/^void servo_interrupt_service_routine(void) {$/;"	f
+servo_interrupt_service_routine	arduino/old/motor_servo_micro_test.cpp	/^void servo_interrupt_service_routine(void) {$/;"	f
+servo_max_pwm_value	arduino/core.cpp	/^volatile int servo_max_pwm_value  = 1600;$/;"	v
+servo_max_pwm_value	arduino/motor_servo_uno.cpp	/^volatile int servo_max_pwm_value  = 1600;$/;"	v
+servo_min_pwm_value	arduino/core.cpp	/^volatile int servo_min_pwm_value  = 1400;$/;"	v
+servo_min_pwm_value	arduino/motor_servo_uno.cpp	/^volatile int servo_min_pwm_value  = 1400;$/;"	v
+servo_null_pwm_value	arduino/core.cpp	/^volatile int servo_null_pwm_value = 1500;$/;"	v
+servo_null_pwm_value	arduino/motor_servo_uno.cpp	/^volatile int servo_null_pwm_value = 1500;$/;"	v
+servo_percent	arduino/core.cpp	/^int servo_percent = 49;$/;"	v
+servo_percent	arduino/motor_servo_uno.cpp	/^int servo_percent = 49;$/;"	v
+servo_prev_interrupt_time	arduino/core.cpp	/^volatile long int servo_prev_interrupt_time  = 0;$/;"	v
+servo_prev_interrupt_time	arduino/motor_servo_uno.cpp	/^volatile unsigned long int servo_prev_interrupt_time  = 0;$/;"	v
+servo_pwm_value	arduino/core.cpp	/^volatile int servo_pwm_value = servo_null_pwm_value;$/;"	v
+servo_pwm_value	arduino/motor_servo_uno.cpp	/^volatile int servo_pwm_value = servo_null_pwm_value;$/;"	v
+setDataRate	arduino/libraries/Adafruit_MMA8451/Adafruit_MMA8451.cpp	/^void Adafruit_MMA8451::setDataRate(mma8451_dataRate_t dataRate)$/;"	f	class:Adafruit_MMA8451
+setGyroSensitivity2000	arduino/core.cpp	/^void setGyroSensitivity2000(void)$/;"	f
+setGyroSensitivity2000	arduino/sensors_uno.cpp	/^void setGyroSensitivity2000(void)$/;"	f
+setGyroSensitivity250	arduino/core.cpp	/^void setGyroSensitivity250(void)$/;"	f
+setGyroSensitivity250	arduino/sensors_uno.cpp	/^void setGyroSensitivity250(void)$/;"	f
+setGyroSensitivity500	arduino/core.cpp	/^void setGyroSensitivity500(void)$/;"	f
+setGyroSensitivity500	arduino/sensors_uno.cpp	/^void setGyroSensitivity500(void)$/;"	f
+setPWM	arduino/libraries/Adafruit_PWM_Servo_Driver_Library/Adafruit_PWMServoDriver.cpp	/^void Adafruit_PWMServoDriver::setPWM(uint8_t num, uint16_t on, uint16_t off) {$/;"	f	class:Adafruit_PWMServoDriver
+setPWMFreq	arduino/libraries/Adafruit_PWM_Servo_Driver_Library/Adafruit_PWMServoDriver.cpp	/^void Adafruit_PWMServoDriver::setPWMFreq(float freq) {$/;"	f	class:Adafruit_PWMServoDriver
+setPeriod	arduino/libraries/TimerOne/TimerOne.h	/^    void setPeriod(unsigned long microseconds) __attribute__((always_inline)) {$/;"	f	class:TimerOne
+setPin	arduino/libraries/Adafruit_PWM_Servo_Driver_Library/Adafruit_PWMServoDriver.cpp	/^void Adafruit_PWMServoDriver::setPin(uint8_t num, uint16_t val, bool invert)$/;"	f	class:Adafruit_PWMServoDriver
+setPwmDuty	arduino/libraries/TimerOne/TimerOne.h	/^    void setPwmDuty(char pin, unsigned int duty) __attribute__((always_inline)) {$/;"	f	class:TimerOne
+setRange	arduino/libraries/Adafruit_MMA8451/Adafruit_MMA8451.cpp	/^void Adafruit_MMA8451::setRange(mma8451_range_t range)$/;"	f	class:Adafruit_MMA8451
+set_motor	src/bair_car/car.py	/^    def set_motor(self, motor):$/;"	m	class:Car
+set_steer	src/bair_car/car.py	/^    def set_steer(self, steer):$/;"	m	class:Car
+setup	arduino/core.cpp	/^void setup() {$/;"	f
+setup	arduino/motor_servo_uno.cpp	/^void setup()$/;"	f
+setup	arduino/old/motor_servo_micro_test.cpp	/^void setup()$/;"	f
+setup	arduino/sensors_uno.cpp	/^void setup() {$/;"	f
+setupGyro	arduino/core.cpp	/^void setupGyro()$/;"	f
+setupGyro	arduino/sensors_uno.cpp	/^void setupGyro()$/;"	f
+setup_args	setup.py	/^setup_args = generate_distutils_setup($/;"	v
+setup_solver	nodes/get_ros_images_live2_z2_color_TX1_14April2017.py	/^	def setup_solver():$/;"	f
+setup_solver	nodes/get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	def setup_solver():$/;"	f
+setup_solver	nodes/get_ros_images_live2_z2_color_TX1_bkp.py	/^	def setup_solver():$/;"	f
+setup_solver	nodes/get_ros_images_live2_z2_color_TX1_temp.py	/^	def setup_solver():$/;"	f
+solver	nodes/get_ros_images_live2_z2_color_TX1_14April2017.py	/^	solver = setup_solver()$/;"	v
+solver	nodes/get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	solver = setup_solver()$/;"	v
+solver	nodes/get_ros_images_live2_z2_color_TX1_bkp.py	/^	solver = setup_solver()$/;"	v
+solver	nodes/get_ros_images_live2_z2_color_TX1_temp.py	/^	solver = setup_solver()$/;"	v
+sonar_loop	arduino/core.cpp	/^void sonar_loop()$/;"	f
+sonar_loop	arduino/sensors_uno.cpp	/^void sonar_loop()$/;"	f
+sonar_setup	arduino/core.cpp	/^void sonar_setup()$/;"	f
+sonar_setup	arduino/sensors_uno.cpp	/^void sonar_setup()$/;"	f
+speed	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.h	/^  float speed, angle, magvariation, HDOP;$/;"	m	class:Adafruit_GPS
+standby	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.cpp	/^boolean Adafruit_GPS::standby(void) {$/;"	f	class:Adafruit_GPS
+start	arduino/libraries/TimerOne/TimerOne.h	/^    void start() __attribute__((always_inline)) {$/;"	f	class:TimerOne
+start	nodes/rosbag_node.py	/^            start = time.time()$/;"	v
+start	nodes/rosbag_node_mod.py	/^            start = time.time()$/;"	v
+state	arduino/core.cpp	/^volatile int state = STATE_LOCK;$/;"	v
+state	arduino/motor_servo_uno.cpp	/^volatile int state = STATE_LOCK;$/;"	v
+state	nodes/get_ros_images_live2_z2_color_TX1.py	/^state = 0$/;"	v
+state	nodes/get_ros_images_live2_z2_color_TX1_14April2017.py	/^	state = 0$/;"	v
+state	nodes/get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	state = 0$/;"	v
+state	nodes/get_ros_images_live2_z2_color_TX1_bkp.py	/^	state = 0$/;"	v
+state	nodes/get_ros_images_live2_z2_color_TX1_temp.py	/^	state = 0$/;"	v
+state_callback	nodes/get_ros_images_live2_z2_color_TX1.py	/^def state_callback(data):$/;"	f
+state_callback	nodes/get_ros_images_live2_z2_color_TX1_14April2017.py	/^	def state_callback(data):$/;"	f
+state_callback	nodes/get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	def state_callback(data):$/;"	f
+state_callback	nodes/get_ros_images_live2_z2_color_TX1_bkp.py	/^	def state_callback(data):$/;"	f
+state_callback	nodes/get_ros_images_live2_z2_color_TX1_temp.py	/^	def state_callback(data):$/;"	f
+state_transition_time_ms	arduino/core.cpp	/^volatile long int state_transition_time_ms = 0;$/;"	v
+state_transition_time_ms	arduino/motor_servo_uno.cpp	/^volatile unsigned long int state_transition_time_ms = 0;$/;"	v
+state_transition_time_s	nodes/get_ros_images_live2_z2_color_TX1.py	/^state_transition_time_s = 0$/;"	v
+state_transition_time_s	nodes/get_ros_images_live2_z2_color_TX1_14April2017.py	/^	state_transition_time_s = 0$/;"	v
+state_transition_time_s	nodes/get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	state_transition_time_s = 0$/;"	v
+state_transition_time_s	nodes/get_ros_images_live2_z2_color_TX1_bkp.py	/^	state_transition_time_s = 0$/;"	v
+state_transition_time_s	nodes/get_ros_images_live2_z2_color_TX1_temp.py	/^	state_transition_time_s = 0$/;"	v
+state_transition_time_s_callback	nodes/get_ros_images_live2_z2_color_TX1.py	/^def state_transition_time_s_callback(data):$/;"	f
+state_transition_time_s_callback	nodes/get_ros_images_live2_z2_color_TX1_14April2017.py	/^	def state_transition_time_s_callback(data):$/;"	f
+state_transition_time_s_callback	nodes/get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	def state_transition_time_s_callback(data):$/;"	f
+state_transition_time_s_callback	nodes/get_ros_images_live2_z2_color_TX1_bkp.py	/^	def state_transition_time_s_callback(data):$/;"	f
+state_transition_time_s_callback	nodes/get_ros_images_live2_z2_color_TX1_temp.py	/^	def state_transition_time_s_callback(data):$/;"	f
+static_vars	nodes/get_ros_images_live2_z2_color_TX1.py	/^def static_vars(**kwargs):$/;"	f
+status	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	/^    int8_t status;$/;"	m	struct:__anon2
+steer_cmd_pub	nodes/get_ros_images_live2_z2_color_TX1.py	/^steer_cmd_pub = rospy.Publisher('cmd\/steer', std_msgs.msg.Int32, queue_size=100)$/;"	v
+steer_cmd_pub	nodes/get_ros_images_live2_z2_color_TX1_14April2017.py	/^	steer_cmd_pub = rospy.Publisher('cmd\/steer', std_msgs.msg.Int32, queue_size=100)$/;"	v
+steer_cmd_pub	nodes/get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	steer_cmd_pub = rospy.Publisher('cmd\/steer', std_msgs.msg.Int32, queue_size=100)$/;"	v
+steer_cmd_pub	nodes/get_ros_images_live2_z2_color_TX1_bkp.py	/^	steer_cmd_pub = rospy.Publisher('cmd\/steer', std_msgs.msg.Int32, queue_size=100)$/;"	v
+steer_cmd_pub	nodes/get_ros_images_live2_z2_color_TX1_temp.py	/^	steer_cmd_pub = rospy.Publisher('cmd\/steer', std_msgs.msg.Int32, queue_size=100)$/;"	v
+steer_gain	nodes/get_ros_images_live2_z2_color_TX1.py	/^steer_gain = 1.0$/;"	v
+stop	arduino/libraries/TimerOne/TimerOne.h	/^    void stop() __attribute__((always_inline)) {$/;"	f	class:TimerOne
+t0	nodes/get_ros_images_live2_z2_color_TX1.py	/^t0 = time.time()$/;"	v
+t0	nodes/get_ros_images_live2_z2_color_TX1_14April2017.py	/^	t0 = time.time()$/;"	v
+t0	nodes/get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	t0 = time.time()$/;"	v
+t0	nodes/get_ros_images_live2_z2_color_TX1_bkp.py	/^	t0 = time.time()$/;"	v
+t0	nodes/get_ros_images_live2_z2_color_TX1_temp.py	/^	t0 = time.time()$/;"	v
+t1	arduino/core.cpp	/^volatile unsigned long int t1 = millis();$/;"	v
+t1	arduino/motor_servo_uno.cpp	/^volatile unsigned long int t1 = millis();$/;"	v
+t1	arduino/sensors_uno.cpp	/^volatile unsigned long int t1 = millis();$/;"	v
+t2	arduino/core.cpp	/^volatile unsigned long int t2 = 0;$/;"	v
+t2	arduino/motor_servo_uno.cpp	/^volatile unsigned long int t2 = 0;$/;"	v
+t2	arduino/sensors_uno.cpp	/^volatile unsigned long int t2 = 0;$/;"	v
+temperature	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	/^        float           temperature;          \/**< temperature is in degrees centigrade (Celsius) *\/$/;"	m	union:__anon9::__anon10
+testCalibration	arduino/core.cpp	/^void testCalibration()$/;"	f
+testCalibration	arduino/sensors_uno.cpp	/^void testCalibration()$/;"	f
+time_step	nodes/get_ros_images_live2_z2_color_TX1.py	/^time_step = Timer(1)$/;"	v
+time_step	nodes/get_ros_images_live2_z2_color_TX1_14April2017.py	/^	time_step = Timer(1)$/;"	v
+time_step	nodes/get_ros_images_live2_z2_color_TX1_before_10April2017.py	/^	time_step = Timer(1)$/;"	v
+time_step	nodes/get_ros_images_live2_z2_color_TX1_bkp.py	/^	time_step = Timer(1)$/;"	v
+time_step	nodes/get_ros_images_live2_z2_color_TX1_temp.py	/^	time_step = Timer(1)$/;"	v
+timer	arduino/core.cpp	/^uint32_t timer = millis();$/;"	v
+timer	arduino/sensors_uno.cpp	/^uint32_t timer = millis();$/;"	v
+timer_ms	arduino/libraries/NewPing/NewPing.cpp	/^void NewPing::timer_ms(unsigned long frequency, void (*userFunc)(void)) {$/;"	f	class:NewPing
+timer_ms_cntdwn	arduino/libraries/NewPing/NewPing.cpp	/^void NewPing::timer_ms_cntdwn() {$/;"	f	class:NewPing
+timer_setup	arduino/libraries/NewPing/NewPing.cpp	/^void NewPing::timer_setup() {$/;"	f	class:NewPing
+timer_stop	arduino/libraries/NewPing/NewPing.cpp	/^void NewPing::timer_stop() { \/\/ Disable timer interrupt.$/;"	f	class:NewPing
+timer_us	arduino/libraries/NewPing/NewPing.cpp	/^void NewPing::timer_us(unsigned int frequency, void (*userFunc)(void)) {$/;"	f	class:NewPing
+timestamp	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	/^    int32_t timestamp;                        \/**< time is in milliseconds *\/$/;"	m	struct:__anon9
+torch_motor	nodes/get_ros_images_live2_z2_color_TX1.py	/^					torch_motor = 49$/;"	v
+torch_motor_previous	nodes/get_ros_images_live2_z2_color_TX1.py	/^torch_motor_previous = 49$/;"	v
+torch_steer	nodes/get_ros_images_live2_z2_color_TX1.py	/^					torch_steer = 49$/;"	v
+torch_steer_previous	nodes/get_ros_images_live2_z2_color_TX1.py	/^torch_steer_previous = 49$/;"	v
+type	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	/^    int32_t  type;                            \/**< this sensor's type (ex. SENSOR_TYPE_LIGHT) *\/$/;"	m	struct:__anon11
+type	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	/^    int32_t type;                             \/**< sensor type *\/$/;"	m	struct:__anon9
+unit_test	nodes/z2color.py	/^def unit_test():$/;"	f
+updateGyroValues	arduino/core.cpp	/^void updateGyroValues() {$/;"	f
+updateGyroValues	arduino/sensors_uno.cpp	/^void updateGyroValues() {$/;"	f
+updateHeadings	arduino/core.cpp	/^void updateHeadings()$/;"	f
+updateHeadings	arduino/sensors_uno.cpp	/^void updateHeadings()$/;"	f
+useInterrupt	arduino/core.cpp	/^void useInterrupt(boolean v) {$/;"	f
+useInterrupt	arduino/sensors_uno.cpp	/^void useInterrupt(boolean v) {$/;"	f
+usingInterrupt	arduino/core.cpp	/^boolean usingInterrupt = true; \/\/ Determine whether or not to use this$/;"	v
+usingInterrupt	arduino/sensors_uno.cpp	/^boolean usingInterrupt = true; \/\/ Determine whether or not to use this$/;"	v
+v	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	/^        float v[3];$/;"	m	union:__anon2::__anon3
+verbose	nodes/get_ros_images_live2_z2_color_TX1.py	/^verbose = True$/;"	v
+version	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	/^    int32_t  version;                         \/**< version of the hardware + driver *\/$/;"	m	struct:__anon11
+version	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	/^    int32_t version;                          \/**< must be sizeof(struct sensors_event_t) *\/$/;"	m	struct:__anon9
+voltage	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	/^        float           voltage;              \/**< voltage in volts (V) *\/$/;"	m	union:__anon9::__anon10
+waitForSentence	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.cpp	/^boolean Adafruit_GPS::waitForSentence(const char *wait4me, uint8_t max) {$/;"	f	class:Adafruit_GPS
+wakeup	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.cpp	/^boolean Adafruit_GPS::wakeup(void) {$/;"	f	class:Adafruit_GPS
+weight_file_path	nodes/get_ros_images_live2_z2_color_TX1.py	/^weight_file_path = '\/home\/nvidia\/catkin_ws\/src\/bair_car\/nodes\/weights'$/;"	v
+write8	arduino/libraries/Adafruit_PWM_Servo_Driver_Library/Adafruit_PWMServoDriver.cpp	/^void Adafruit_PWMServoDriver::write8(uint8_t addr, uint8_t d) {$/;"	f	class:Adafruit_PWMServoDriver
+writeRegister8	arduino/libraries/Adafruit_MMA8451/Adafruit_MMA8451.cpp	/^void Adafruit_MMA8451::writeRegister8(uint8_t reg, uint8_t value) {$/;"	f	class:Adafruit_MMA8451
+written_motor_pwm_value	arduino/motor_servo_uno.cpp	/^volatile int written_motor_pwm_value = motor_null_pwm_value;$/;"	v
+written_servo_pwm_value	arduino/motor_servo_uno.cpp	/^volatile int written_servo_pwm_value = servo_null_pwm_value;$/;"	v
+x	arduino/libraries/Adafruit_MMA8451/Adafruit_MMA8451.h	/^  int16_t x, y, z;$/;"	m	class:Adafruit_MMA8451
+x	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	/^            float x;$/;"	m	struct:__anon2::__anon3::__anon4
+x_g	arduino/libraries/Adafruit_MMA8451/Adafruit_MMA8451.h	/^  float x_g, y_g, z_g;$/;"	m	class:Adafruit_MMA8451
+y	arduino/libraries/Adafruit_MMA8451/Adafruit_MMA8451.h	/^  int16_t x, y, z;$/;"	m	class:Adafruit_MMA8451
+y	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	/^            float y;$/;"	m	struct:__anon2::__anon3::__anon4
+y_g	arduino/libraries/Adafruit_MMA8451/Adafruit_MMA8451.h	/^  float x_g, y_g, z_g;$/;"	m	class:Adafruit_MMA8451
+year	arduino/libraries/Adafruit_GPS_Library/Adafruit_GPS.h	/^  uint8_t hour, minute, seconds, year, month, day;$/;"	m	class:Adafruit_GPS
+z	arduino/libraries/Adafruit_MMA8451/Adafruit_MMA8451.h	/^  int16_t x, y, z;$/;"	m	class:Adafruit_MMA8451
+z	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	/^            float z;$/;"	m	struct:__anon2::__anon3::__anon4
+z_g	arduino/libraries/Adafruit_MMA8451/Adafruit_MMA8451.h	/^  float x_g, y_g, z_g;$/;"	m	class:Adafruit_MMA8451
+~Adafruit_Sensor	arduino/libraries/Adafruit_Sensor/Adafruit_Sensor.h	/^  virtual ~Adafruit_Sensor() {}$/;"	f	class:Adafruit_Sensor
