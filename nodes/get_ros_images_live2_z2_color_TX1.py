@@ -45,9 +45,10 @@ def init_model():
     # Initializes Solver
     solver = Z2Color().cuda()
     solver.load_state_dict(save_data['net'])
+    solver.eval()
 
     # Create scaling layer
-    scale = nn.MaxPool2d(3, stride=2).cuda()
+    scale = nn.AvgPool2d(kernel_size=3, stride=2, padding=1).cuda()
 
 init_model()
 
@@ -106,12 +107,13 @@ def format_camera_data(left_list, right_list):
 			camera_data = torch.cat((torch.from_numpy(side[-i - 1][:, :, c]).float().unsqueeze(2), camera_data), 2)
 
     camera_data = camera_data.cuda()
+    camera_data = camera_data / 255. - 0.5
 
     # Transpose the data so it fits properly into the net
     camera_data = torch.transpose(camera_data, 0, 2)
     camera_data = torch.transpose(camera_data, 1, 2)
     camera_data = camera_data.unsqueeze(0)
-    camera_data = scale(scale(Variable((camera_data/255.) - 0.5)))
+    camera_data = scale(scale(Variable(camera_data)))  # Spatially Scale the Data
     return camera_data
 
 
