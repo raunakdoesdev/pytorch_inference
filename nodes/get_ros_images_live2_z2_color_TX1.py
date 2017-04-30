@@ -7,8 +7,6 @@ roslaunch bair_car bair_car.launch use_zed:=true record:=false
 
 weight_file_path = '/home/nvidia/catkin_ws/src/bair_car/nodes/weights'
 
-first_thing = True
-
 # Labels
 Direct = 1.
 Follow = 0.
@@ -170,8 +168,8 @@ def left_callback(data):
 	global A,B, left_list, right_list
 	B += 1
 	cimg = bridge.imgmsg_to_cv2(data,"bgr8")
-	if len(left_list) > 5:
-		left_list = left_list[-5:]
+	if len(left_list) > nframes + 3:
+		left_list = left_list[-(nframes + 3):]
 	left_list.append(cimg)
 def state_transition_time_s_callback(data):
 	global state_transition_time_s
@@ -292,23 +290,12 @@ while not rospy.is_shutdown():
 			time.sleep(0.1)
 			continue
 		else:
-			if len(left_list) > 4:
-				l0 = left_list[-2]
-				l1 = left_list[-1]
-				r0 = right_list[-2]
-				r1 = right_list[-1]
-				
-
+			if len(left_list) > nframes + 2:
 				camera_data = format_camera_data(left_list, right_list)
-				
-				if first_thing:
-					torch.save(camera_data, 'camera_data.pkl')
-					first_thing = False
 
 				metadata = format_metadata((Racing, 0, Follow, Direct, Play, Furtive))
 
 				torch_motor, torch_steer = run_model(camera_data, metadata)
-
 
 				# if torch_motor > motor_freeze_threshold and np.array(encoder_list[0:3]).mean() > 1 and np.array(encoder_list[-3:]).mean()<0.2 and state_transition_time_s > 1:
 				# 	freeze = True
