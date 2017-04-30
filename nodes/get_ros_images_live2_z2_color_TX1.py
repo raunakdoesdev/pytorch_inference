@@ -22,6 +22,8 @@ steer_gain = 1.0
 
 verbose = True
 
+nframes = 2 
+
 # try:
 from kzpy3.utils import *
 import torch
@@ -94,7 +96,7 @@ def run_model(input, metadata):
     return torch_motor, torch_steer
 
 
-def format_camera_data(l0, l1, r0, r1):
+def format_camera_data(left_list, right_list):
     """
     Formats camera data from raw inputs from camera.
 
@@ -104,16 +106,11 @@ def format_camera_data(l0, l1, r0, r1):
     :param r1: right camera data from time step 0
     :return: formatted camera data ready for input into pytorch z2color
     """
-    l0 = scale(scale(Variable(l0))).data
-    l1 = scale(scale(Variable(l1))).data
-    r0 = scale(scale(Variable(r0))).data
-    r1 = scale(scale(Variable(r1))).data
     camera_data = torch.FloatTensor()
     for c in range(3):
-	camera_data = torch.cat((torch.from_numpy(l0[:, :, c]).float().unsqueeze(2), camera_data), 2)
-	camera_data = torch.cat((torch.from_numpy(l1[:, :, c]).float().unsqueeze(2), camera_data), 2)
-	camera_data = torch.cat((torch.from_numpy(r0[:, :, c]).float().unsqueeze(2), camera_data), 2)
-	camera_data = torch.cat((torch.from_numpy(r1[:, :, c]).float().unsqueeze(2), camera_data), 2)
+	for side in (left_list, right_list):
+		for i in range(nframes): # [0,1,2,... nframes -1]
+			camera_data = torch.cat((torch.from_numpy(side[-i - 1][:, :, c]).float().unsqueeze(2), camera_data), 2)
 
     camera_data = camera_data.cuda()
 
@@ -121,8 +118,8 @@ def format_camera_data(l0, l1, r0, r1):
     camera_data = torch.transpose(camera_data, 0, 2)
     camera_data = torch.transpose(camera_data, 1, 2)
     camera_data = camera_data.unsqueeze(0)
-    # camera_data = scale(scale(Variable(camera_data / 255.)))  # Spatially Scale the Data
-    return Variable(camera_data)
+    camera_data = scale(scale(Variable((camera_data/255.) - 0.5)))
+    return camera_data
 
 
 def format_metadata(raw_metadata):
@@ -309,7 +306,7 @@ while not rospy.is_shutdown():
 				r1 = right_list[-1]
 				
 
-				camera_data = format_camera_data(l0, l1, r0, r1)
+				camera_data = format_camera_data(left_list, right_list)
 				
 				if first_thing:
 					torch.save(camera_data, 'camera_data.pkl')
