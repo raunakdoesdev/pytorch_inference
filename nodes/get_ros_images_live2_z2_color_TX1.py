@@ -44,11 +44,9 @@ def init_model():
     global solver, scale
     # Load PyTorch model
     save_data = torch.load(weight_file_path)
-    print('REACHED SAVE_DATA')
     # Initializes Solver
     solver = Z2Color().cuda()
     solver.load_state_dict(save_data['net'])
-    print('REACHED LOAD_STATE_DICT')
 
     # Create scaling layer
     scale = nn.MaxPool2d(3, stride=2).cuda()
@@ -65,10 +63,7 @@ def run_model(input, metadata):
     :param metadata: Formatted metadata from user input
     :return: Motor and Steering values
     """
-    print(input) 
-    print(metadata)
     output = solver(input, Variable(metadata))  # Run the neural net
-    print(output)
 
     # Get latest prediction
     torch_motor = 100 * output[0][9].data[0]
@@ -297,9 +292,7 @@ while not rospy.is_shutdown():
 			time.sleep(0.1)
 			continue
 		else:
-			print("I'm reaching the else")
 			if len(left_list) > 4:
-				print("I'm reaching the if")
 				l0 = left_list[-2]
 				l1 = left_list[-1]
 				r0 = right_list[-2]
