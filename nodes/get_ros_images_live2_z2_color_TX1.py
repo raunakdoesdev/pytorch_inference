@@ -20,14 +20,14 @@ steer_gain = 1.0
 
 verbose = True
 
-nframes = 2 
+nframes = 2 # default superseded by net
 
 # try:
 from kzpy3.utils import *
 import torch
 import torch.nn as nn
 from torch.autograd import Variable
-from z2color import Z2Color
+from nets.z2_color import Z2Color
 
 def static_vars(**kwargs):
     def decorate(func):
@@ -39,13 +39,14 @@ def static_vars(**kwargs):
 
 
 def init_model():
-    global solver, scale
+    global solver, scale, nframes
     # Load PyTorch model
     save_data = torch.load(weight_file_path)
     # Initializes Solver
     solver = Z2Color().cuda()
     solver.load_state_dict(save_data['net'])
     solver.eval()
+    nframes = solver.N_FRAMES
 
     # Create scaling layer
     scale = nn.AvgPool2d(kernel_size=3, stride=2, padding=1).cuda()
@@ -163,8 +164,8 @@ def right_callback(data):
 	global A,B, left_list, right_list, solver
 	A += 1
 	cimg = bridge.imgmsg_to_cv2(data,"bgr8")
-	if len(right_list) > 5:
-		right_list = right_list[-5:]
+	if len(right_list) > nframes + 3:
+		right_list = right_list[-(nframes + 3):]
 	right_list.append(cimg)
 def left_callback(data):
 	global A,B, left_list, right_list
