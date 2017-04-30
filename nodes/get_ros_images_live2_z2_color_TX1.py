@@ -69,8 +69,9 @@ def run_model(input, metadata):
     torch_motor = 100 * output[0][9].data[0]
     torch_steer = 100 * output[0][19].data[0]
 
-    print('Torch Prescale Motor: ' + str(torch_motor))
-    print('Torch Prescale Steer: ' + str(torch_steer))
+    if verbose:
+        print('Torch Prescale Motor: ' + str(torch_motor))
+        print('Torch Prescale Steer: ' + str(torch_steer))
     
     # Scale Output
     torch_motor = int((torch_motor - 49.) * motor_gain + 49.)
