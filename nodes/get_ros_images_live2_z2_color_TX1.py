@@ -7,8 +7,6 @@ roslaunch bair_car bair_car.launch use_zed:=true record:=false
 
 weight_file_path = '/home/nvidia/catkin_ws/src/bair_car/nodes/weights'
 
-first_thing = True
-
 # Labels
 Direct = 1.
 Follow = 0.
@@ -22,14 +20,14 @@ steer_gain = 1.0
 
 verbose = True
 
-nframes = 2 
+nframes = 2 # default superseded by net
 
 # try:
 from kzpy3.utils import *
 import torch
 import torch.nn as nn
 from torch.autograd import Variable
-from z2color import Z2Color
+from nets.z2_color import Z2Color
 
 def static_vars(**kwargs):
     def decorate(func):
@@ -41,17 +39,17 @@ def static_vars(**kwargs):
 
 
 def init_model():
-    global solver, scale
+    global solver, scale, nframes
     # Load PyTorch model
     save_data = torch.load(weight_file_path)
-    print('REACHED SAVE_DATA')
     # Initializes Solver
     solver = Z2Color().cuda()
     solver.load_state_dict(save_data['net'])
-    print('REACHED LOAD_STATE_DICT')
+    solver.eval()
+    nframes = solver.N_FRAMES
 
     # Create scaling layer
-    scale = nn.MaxPool2d(3, stride=2).cuda()
+    scale = nn.AvgPool2d(kernel_size=3, stride=2, padding=1).cuda()
 
 init_model()
 
@@ -65,17 +63,15 @@ def run_model(input, metadata):
     :param metadata: Formatted metadata from user input
     :return: Motor and Steering values
     """
-    print(input) 
-    print(metadata)
     output = solver(input, Variable(metadata))  # Run the neural net
-    print(output)
 
     # Get latest prediction
     torch_motor = 100 * output[0][9].data[0]
     torch_steer = 100 * output[0][19].data[0]
 
-    print('Torch Prescale Motor: ' + str(torch_motor))
-    print('Torch Prescale Steer: ' + str(torch_steer))
+    if verbose:
+        print('Torch Prescale Motor: ' + str(torch_motor))
+        print('Torch Prescale Steer: ' + str(torch_steer))
     
     # Scale Output
     torch_motor = int((torch_motor - 49.) * motor_gain + 49.)
@@ -113,12 +109,13 @@ def format_camera_data(left_list, right_list):
 			camera_data = torch.cat((torch.from_numpy(side[-i - 1][:, :, c]).float().unsqueeze(2), camera_data), 2)
 
     camera_data = camera_data.cuda()
+    camera_data = camera_data / 255. - 0.5
 
     # Transpose the data so it fits properly into the net
     camera_data = torch.transpose(camera_data, 0, 2)
     camera_data = torch.transpose(camera_data, 1, 2)
     camera_data = camera_data.unsqueeze(0)
-    camera_data = scale(scale(Variable((camera_data/255.) - 0.5)))
+    camera_data = scale(scale(Variable(camera_data)))  # Spatially Scale the Data
     return camera_data
 
 
@@ -168,15 +165,15 @@ def right_callback(data):
 	global A,B, left_list, right_list, solver
 	A += 1
 	cimg = bridge.imgmsg_to_cv2(data,"bgr8")
-	if len(right_list) > 5:
-		right_list = right_list[-5:]
+	if len(right_list) > nframes + 3:
+		right_list = right_list[-(nframes + 3):]
 	right_list.append(cimg)
 def left_callback(data):
 	global A,B, left_list, right_list
 	B += 1
 	cimg = bridge.imgmsg_to_cv2(data,"bgr8")
-	if len(left_list) > 5:
-		left_list = left_list[-5:]
+	if len(left_list) > nframes + 3:
+		left_list = left_list[-(nframes + 3):]
 	left_list.append(cimg)
 def state_transition_time_s_callback(data):
 	global state_transition_time_s
@@ -297,25 +294,12 @@ while not rospy.is_shutdown():
 			time.sleep(0.1)
 			continue
 		else:
-			print("I'm reaching the else")
-			if len(left_list) > 4:
-				print("I'm reaching the if")
-				l0 = left_list[-2]
-				l1 = left_list[-1]
-				r0 = right_list[-2]
-				r1 = right_list[-1]
-				
-
+			if len(left_list) > nframes + 2:
 				camera_data = format_camera_data(left_list, right_list)
-				
-				if first_thing:
-					torch.save(camera_data, 'camera_data.pkl')
-					first_thing = False
 
 				metadata = format_metadata((Racing, 0, Follow, Direct, Play, Furtive))
 
 				torch_motor, torch_steer = run_model(camera_data, metadata)
-
 
 				# if torch_motor > motor_freeze_threshold and np.array(encoder_list[0:3]).mean() > 1 and np.array(encoder_list[-3:]).mean()<0.2 and state_transition_time_s > 1:
 				# 	freeze = True
