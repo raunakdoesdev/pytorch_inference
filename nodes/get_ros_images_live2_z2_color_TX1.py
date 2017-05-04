@@ -66,8 +66,8 @@ def run_model(input, metadata):
     output = solver(input, Variable(metadata))  # Run the neural net
 
     # Get latest prediction
-    torch_motor = 100 * output[0][9].data[0]
-    torch_steer = 100 * output[0][19].data[0]
+    torch_motor = 100 * output[0][19].data[0]
+    torch_steer = 100 * output[0][9].data[0]
 
     if verbose:
         print('Torch Prescale Motor: ' + str(torch_motor))
