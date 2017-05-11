@@ -63,9 +63,10 @@ class Z2ColorGRU10(nn.Module):
 
 
 def unit_test():
-    test_net = Z2ColorGRU10()
-    a = test_net(Variable(torch.randn(5, 6 * test_net.N_FRAMES, 94, 168)), Variable(torch.randn(5, 6, 13, 26)))
+    test_net = Z2ColorGRU10().cuda()
+    a = test_net(Variable(torch.randn(5, 6 * test_net.N_FRAMES, 94, 168)).cuda(), Variable(torch.randn(5, 6, 13, 26)).cuda())
     print (a)
 
 
 unit_test()
+
