@@ -27,7 +27,7 @@ from kzpy3.utils import *
 import torch
 import torch.nn as nn
 from torch.autograd import Variable
-from nets.z2_color import Z2Color
+from nets.z2_color_batchnorm import Z2ColorBatchNorm
 
 def static_vars(**kwargs):
     def decorate(func):
@@ -43,7 +43,7 @@ def init_model():
     # Load PyTorch model
     save_data = torch.load(weight_file_path)
     # Initializes Solver
-    solver = Z2Color().cuda()
+    solver = Z2ColorBatchNorm().cuda()
     solver.load_state_dict(save_data['net'])
     solver.eval()
     nframes = solver.N_FRAMES
@@ -310,10 +310,14 @@ while not rospy.is_shutdown():
 					torch_motor = 49
 
 				freeze_cmd_pub.publish(std_msgs.msg.Int32(freeze))
+				
+					
 
 				print(torch_motor, torch_steer)
 				# steer_cmd_pub.publish(std_msgs.msg.Int32(90))
 				# motor_cmd_pub.publish(std_msgs.msg.Int32(60))
+				
+				print(time.time())
 
 				if state in [3,6]:			
 					steer_cmd_pub.publish(std_msgs.msg.Int32(torch_steer))
