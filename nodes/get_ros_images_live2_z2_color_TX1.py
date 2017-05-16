@@ -18,7 +18,9 @@ Racing = 0.0
 motor_gain = 1.0
 steer_gain = 1.0
 
-verbose = True
+last_time = 0
+
+verbose = False
 
 nframes = 2 # default superseded by net
 
@@ -28,12 +30,13 @@ import torch
 import torch.nn as nn
 from torch.autograd import Variable
 from nets.z2_color_batchnorm import Z2ColorBatchNorm
+from nets.z2_color_batchnorm import *
 
 def static_vars(**kwargs):
     def decorate(func):
-	for k in kwargs:
-	    setattr(func, k, kwargs[k])
-	return func
+        for k in kwargs:
+            setattr(func, k, kwargs[k])
+        return func
 
     return decorate
 
@@ -63,6 +66,7 @@ def run_model(input, metadata):
     :param metadata: Formatted metadata from user input
     :return: Motor and Steering values
     """
+    
     output = solver(input, Variable(metadata))  # Run the neural net
 
     # Get latest prediction
@@ -91,7 +95,6 @@ def run_model(input, metadata):
 
     return torch_motor, torch_steer
 
-
 def format_camera_data(left_list, right_list):
     """
     Formats camera data from raw inputs from camera.
@@ -102,20 +105,23 @@ def format_camera_data(left_list, right_list):
     :param r1: right camera data from time step 0
     :return: formatted camera data ready for input into pytorch z2color
     """
-    camera_data = torch.FloatTensor()
-    for c in range(3):
-	for side in (left_list, right_list):
-		for i in range(nframes): # [0,1,2,... nframes -1]
-			camera_data = torch.cat((torch.from_numpy(side[-i - 1][:, :, c]).float().unsqueeze(2), camera_data), 2)
 
-    camera_data = camera_data.cuda()
-    camera_data = camera_data / 255. - 0.5
+    camera_start = time.clock()
+    
+    listoftensors = []
+    for side in (left_list, right_list):
+        for i in range(nframes):
+            listoftensors.append(torch.from_numpy(side[-i - 1]))
+            
+    camera_data = torch.cat(listoftensors, 2)
 
-    # Transpose the data so it fits properly into the net
+    camera_data = camera_data.cuda().float()/255. - 0.5
     camera_data = torch.transpose(camera_data, 0, 2)
     camera_data = torch.transpose(camera_data, 1, 2)
     camera_data = camera_data.unsqueeze(0)
-    camera_data = scale(scale(Variable(camera_data)))  # Spatially Scale the Data
+    camera_data = scale(Variable(camera_data))
+    camera_data = scale(camera_data)
+
     return camera_data
 
 
@@ -126,7 +132,7 @@ def format_metadata(raw_metadata):
     """
     metadata = torch.FloatTensor()
     for mode in raw_metadata:
-	metadata = torch.cat((torch.FloatTensor(1, 13, 26).fill_(mode), metadata), 0)
+        metadata = torch.cat((torch.FloatTensor(1, 13, 26).fill_(mode), metadata), 0)
     return metadata.cuda().unsqueeze(0)
 
 #
@@ -154,90 +160,35 @@ previous_state = 0
 state_transition_time_s = 0
 
 def state_callback(data):
-	global state, previous_state
-	if state != data.data:
-		if state in [3,5,6,7] and previous_state in [3,5,6,7]:
-			pass
-		else:
-			previous_state = state
-	state = data.data
+    global state, previous_state
+    data.data = 6
+    if state != data.data:
+        if state in [3,5,6,7] and previous_state in [3,5,6,7]:
+            pass
+        else:
+            previous_state = state
+    state = data.data
 def right_callback(data):
-	global A,B, left_list, right_list, solver
-	A += 1
-	cimg = bridge.imgmsg_to_cv2(data,"bgr8")
-	if len(right_list) > nframes + 3:
-		right_list = right_list[-(nframes + 3):]
-	right_list.append(cimg)
+    global A,B, left_list, right_list, solver
+    A += 1
+    cimg = bridge.imgmsg_to_cv2(data,"bgr8")
+    if len(right_list) > nframes + 3:
+        right_list = right_list[-(nframes + 3):]
+    right_list.append(cimg)
 def left_callback(data):
-	global A,B, left_list, right_list
-	B += 1
-	cimg = bridge.imgmsg_to_cv2(data,"bgr8")
-	if len(left_list) > nframes + 3:
-		left_list = left_list[-(nframes + 3):]
-	left_list.append(cimg)
+    global A,B, left_list, right_list
+    B += 1
+    cimg = bridge.imgmsg_to_cv2(data,"bgr8")
+    if len(left_list) > nframes + 3:
+        left_list = left_list[-(nframes + 3):]
+    left_list.append(cimg)
 def state_transition_time_s_callback(data):
-	global state_transition_time_s
-	state_transition_time_s = data.data
+    global state_transition_time_s
+    state_transition_time_s = data.data
 
 
-GPS2_lat = -999.99
-GPS2_long = -999.99
-GPS2_lat_orig = -999.99
-GPS2_long_orig = -999.99
-def GPS2_lat_callback(msg):
-	global GPS2_lat
-	GPS2_lat = msg.data
-def GPS2_long_callback(msg):
-	global GPS2_long
-	GPS2_long = msg.data
-
-camera_heading = 49.0
-def camera_heading_callback(msg):
-	global camera_heading
-	c = msg.data
-	#print camera_heading
-	if c > 90:
-		c = 90
-	if c < -90:
-		c = -90
-	c += 90
-	c /= 180.
-	
-	c *= 99
-
-	if c < 0:
-		c = 0
-	if c > 99:
-		c = 99
-	c = 99-c
-	camera_heading = int(c)
 
 freeze = False
-def gyro_callback(msg):
-	global freeze
-	gyro = msg
-	#if np.abs(gyro.y) > gyro_freeze_threshold:
-	#	freeze = True
-	if np.sqrt(gyro.y**2+gyro.z**2) > gyro_freeze_threshold:
-		freeze = True
-def acc_callback(msg):
-	global freeze
-	acc = msg
-	if np.abs(acc.z) > acc_freeze_threshold_z:
-		freeze = True
-	if acc.y < acc_freeze_threshold_z_neg:
-		freeze = True
-	if np.abs(acc.x) > acc_freeze_threshold_x:
-		freeze = True
-	#if np.abs(acc.y) > acc_freeze_threshold_y:
-	#	freeze = True
-
-encoder_list = []
-def encoder_callback(msg):
-	global encoder_list
-	encoder_list.append(msg.data)
-	if len(encoder_list) > 30:
-		encoder_list = encoder_list[-30:]
 
 ##
 ########################################################
@@ -254,21 +205,9 @@ steer_cmd_pub = rospy.Publisher('cmd/steer', std_msgs.msg.Int32, queue_size=100)
 motor_cmd_pub = rospy.Publisher('cmd/motor', std_msgs.msg.Int32, queue_size=100)
 freeze_cmd_pub = rospy.Publisher('cmd/freeze', std_msgs.msg.Int32, queue_size=100)
 model_name_pub = rospy.Publisher('/bair_car/model_name', std_msgs.msg.String, queue_size=10)
-#rospy.Subscriber('/bair_car/GPS2_lat', std_msgs.msg.Float32, callback=GPS2_lat_callback)
-#rospy.Subscriber('/bair_car/GPS2_long', std_msgs.msg.Float32, callback=GPS2_long_callback)
-#rospy.Subscriber('/bair_car/GPS2_lat_orig', std_msgs.msg.Float32, callback=GPS2_lat_callback)
-#rospy.Subscriber('/bair_car/GPS2_long_orig', std_msgs.msg.Float32, callback=GPS2_long_callback)
-#rospy.Subscriber('/bair_car/camera_heading', std_msgs.msg.Float32, callback=camera_heading_callback)
-rospy.Subscriber('/bair_car/gyro', geometry_msgs.msg.Vector3, callback=gyro_callback)
-rospy.Subscriber('/bair_car/acc', geometry_msgs.msg.Vector3, callback=acc_callback)
-rospy.Subscriber('encoder', std_msgs.msg.Float32, callback=encoder_callback)
 
 ctr = 0
 
-
-#from kzpy3.teg2.global_run_params import *
-
-t0 = time.time()
 time_step = Timer(1)
 caffe_enter_timer = Timer(1)
 folder_display_timer = Timer(30)
@@ -276,86 +215,41 @@ git_pull_timer = Timer(60)
 reload_timer = Timer(10)
 torch_steer_previous = 49
 torch_motor_previous = 49
-#verbose = False
-
 
 while not rospy.is_shutdown():
-	if state in [3,5,6,7]:
-		
-		if (previous_state not in [3,5,6,7]):
-			previous_state = state
-			caffe_enter_timer.reset()
-		# if use_caffe:
-		if not caffe_enter_timer.check():
-			#print caffe_enter_timer.check()
-			print "waiting before entering caffe mode..."
-			steer_cmd_pub.publish(std_msgs.msg.Int32(49))
-			motor_cmd_pub.publish(std_msgs.msg.Int32(49))
-			time.sleep(0.1)
-			continue
-		else:
-			if len(left_list) > nframes + 2:
-				camera_data = format_camera_data(left_list, right_list)
+    if state in [3,5,6,7]:
+        if (previous_state not in [3,5,6,7]):
+            previous_state = state
+            caffe_enter_timer.reset()
+        if not caffe_enter_timer.check():
+            print "waiting before entering caffe mode..."
+            steer_cmd_pub.publish(std_msgs.msg.Int32(49))
+            motor_cmd_pub.publish(std_msgs.msg.Int32(49))
+            time.sleep(0.1)
+            continue
+        else:
+            if len(left_list) > nframes + 2:
+                camera_data = format_camera_data(left_list, right_list)
+                metadata = format_metadata((Racing, 0, Follow, Direct, Play, Furtive))
 
-				metadata = format_metadata((Racing, 0, Follow, Direct, Play, Furtive))
+                torch_motor, torch_steer = run_model(camera_data, metadata)
 
-				torch_motor, torch_steer = run_model(camera_data, metadata)
+                freeze_cmd_pub.publish(std_msgs.msg.Int32(freeze))
+                
+                cur_time = time.time()
+                print(cur_time - last_time)
+                print(str(1./(cur_time - last_time)) + ' Hz')
+                last_time = cur_time
 
-				# if torch_motor > motor_freeze_threshold and np.array(encoder_list[0:3]).mean() > 1 and np.array(encoder_list[-3:]).mean()<0.2 and state_transition_time_s > 1:
-				# 	freeze = True
+                if state in [3,6]:          
+                    steer_cmd_pub.publish(std_msgs.msg.Int32(torch_steer))
+                if state in [6,7]:
+                    motor_cmd_pub.publish(std_msgs.msg.Int32(torch_motor))
+                if verbose:
+                    print torch_motor,torch_steer,motor_gain,steer_gain,state
 
-				if freeze:
-					print "######### FREEZE ###########"
-					torch_steer = 49
-					torch_motor = 49
-
-				freeze_cmd_pub.publish(std_msgs.msg.Int32(freeze))
-				
-					
-
-				print(torch_motor, torch_steer)
-				# steer_cmd_pub.publish(std_msgs.msg.Int32(90))
-				# motor_cmd_pub.publish(std_msgs.msg.Int32(60))
-				
-				print(time.time())
-
-				if state in [3,6]:			
-					steer_cmd_pub.publish(std_msgs.msg.Int32(torch_steer))
-				if state in [6,7]:
-					motor_cmd_pub.publish(std_msgs.msg.Int32(torch_motor))
-				if verbose:
-					print torch_motor,torch_steer,motor_gain,steer_gain,state
-
-	else:
-		caffe_enter_timer.reset()
-		if state == 4:
-			freeze = False
-		if state == 2:
-			freeze = False
-		if state == 1:
-			freeze = False
-		if state == 4 and state_transition_time_s > 30:
-			print("Shutting down because in state 4 for 30+ s")
-			#unix('sudo shutdown -h now')
-	if time_step.check():
-		print(d2s("In state",state,"for",state_transition_time_s,"seconds, previous_state =",previous_state))
-		time_step.reset()
-		# if not folder_display_timer.check():
-		# 	print("*** Data foldername = "+foldername+ '***')
-	if reload_timer.check():
-		#reload(run_params)
-		#from run_params import *
-		# reload(kzpy3.teg2.car_run_params)  # I THINK THIS IS DOING IT
-		from kzpy3.teg2.car_run_params import *
-		model_name_pub.publish(std_msgs.msg.String(weights_file_path))
-		reload_timer.reset()
-
-	if git_pull_timer.check():
-		unix(opjh('kzpy3/kzpy3_git_pull.sh'))
-		git_pull_timer.reset()
-
-# except Exception as e:
-# 	print("********** Exception ***********************",'red')
-# 	print(e.message, e.args)
-# 	rospy.signal_shutdown(d2s(e.message,e.args))
-
+    else:
+        caffe_enter_timer.reset()
+    if time_step.check():
+        print(d2s("In state",state,"for",state_transition_time_s,"seconds, previous_state =",previous_state))
+        time_step.reset()
