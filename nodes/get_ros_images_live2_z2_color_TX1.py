@@ -5,7 +5,7 @@ reed to run roslaunch first, e.g.,
 roslaunch bair_car bair_car.launch use_zed:=true record:=false
 """
 
-weight_file_path = '/home/nvidia/catkin_ws/src/bair_car/nodes/weights'
+weight_file_path = '/home/nvidia/catkin_ws/src/bair_car/nodes/fulldata'
 
 # Labels
 Direct = 1.
@@ -15,8 +15,12 @@ Furtive = 0.
 Caf = 0.0
 Racing = 0.0
 
-motor_gain = 1.0
-steer_gain = 1.0
+
+motor_gain = 0.50
+steer_gain = 4.0
+
+# motor_gain = 1.
+# steer_gain = 1.
 
 last_time = 0
 
@@ -29,8 +33,7 @@ from kzpy3.utils import *
 import torch
 import torch.nn as nn
 from torch.autograd import Variable
-from nets.z2_color_batchnorm import Z2ColorBatchNorm
-from nets.z2_color_batchnorm import *
+from nets.squeezenet import SqueezeNet
 
 def static_vars(**kwargs):
     def decorate(func):
@@ -46,7 +49,7 @@ def init_model():
     # Load PyTorch model
     save_data = torch.load(weight_file_path)
     # Initializes Solver
-    solver = Z2ColorBatchNorm().cuda()
+    solver = SqueezeNet().cuda()
     solver.load_state_dict(save_data['net'])
     solver.eval()
     nframes = solver.N_FRAMES
@@ -68,6 +71,8 @@ def run_model(input, metadata):
     """
     
     output = solver(input, Variable(metadata))  # Run the neural net
+
+    print(output)
 
     # Get latest prediction
     torch_motor = 100 * output[0][19].data[0]
@@ -109,11 +114,16 @@ def format_camera_data(left_list, right_list):
     camera_start = time.clock()
     
     listoftensors = []
-    for side in (left_list, right_list):
-        for i in range(nframes):
+    for i in range(nframes):
+        for side in (left_list, right_list):
             listoftensors.append(torch.from_numpy(side[-i - 1]))
-            
     camera_data = torch.cat(listoftensors, 2)
+
+   # camera_data = torch.FloatTensor()
+   # for c in range(3):
+   #     for side in (left_list, right_list):
+   #         for i in range(nframes): # [0,1,2,... nframes -1]
+   #             camera_data = torch.cat((torch.from_numpy(side[-i - 1][:, :, c]).float().unsqueeze(2), camera_data), 2)
 
     camera_data = camera_data.cuda().float()/255. - 0.5
     camera_data = torch.transpose(camera_data, 0, 2)
@@ -132,7 +142,10 @@ def format_metadata(raw_metadata):
     """
     metadata = torch.FloatTensor()
     for mode in raw_metadata:
-        metadata = torch.cat((torch.FloatTensor(1, 13, 26).fill_(mode), metadata), 0)
+        metadata = torch.cat((torch.FloatTensor(1, 23, 41).fill_(mode), metadata), 0)
+    zero_matrix = torch.FloatTensor(1, 23, 41).zero_()
+    for i in range(122):
+        metadata = torch.cat((zero_matrix, metadata), 0) 
     return metadata.cuda().unsqueeze(0)
 
 #
@@ -161,7 +174,7 @@ state_transition_time_s = 0
 
 def state_callback(data):
     global state, previous_state
-    data.data = 6
+    # data.data = 6
     if state != data.data:
         if state in [3,5,6,7] and previous_state in [3,5,6,7]:
             pass
@@ -237,16 +250,15 @@ while not rospy.is_shutdown():
                 freeze_cmd_pub.publish(std_msgs.msg.Int32(freeze))
                 
                 cur_time = time.time()
-                print(cur_time - last_time)
-                print(str(1./(cur_time - last_time)) + ' Hz')
                 last_time = cur_time
+
+                print torch_motor,torch_steer
 
                 if state in [3,6]:          
                     steer_cmd_pub.publish(std_msgs.msg.Int32(torch_steer))
                 if state in [6,7]:
                     motor_cmd_pub.publish(std_msgs.msg.Int32(torch_motor))
-                if verbose:
-                    print torch_motor,torch_steer,motor_gain,steer_gain,state
+
 
     else:
         caffe_enter_timer.reset()
